@@ -7,7 +7,7 @@
 <title>Dylan From 2045 — Reporting Back From the Future</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#0a1a3c;background-attachment:fixed;color:#eef0ff;font-family:system-ui,-apple-system,sans-serif;font-weight:500;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:32px 16px}
+body{background:#0a1a3c;background-attachment:fixed;color:#eef0ff;font-family:system-ui,-apple-system,sans-serif;font-weight:500;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:40px 16px;line-height:1.5}
 body::before{display:none}
 body::after{display:none}
 .wrap{position:relative;z-index:1;width:100%;max-width:760px;display:flex;flex-direction:column;align-items:center;gap:36px}
@@ -15,18 +15,19 @@ body::after{display:none}
 /* HERO ROW — title left, image right */
 .hero-row{width:100%;display:flex;flex-direction:row;align-items:center;gap:28px;padding:28px 0 8px}
 .title-block{flex:1;display:flex;flex-direction:column;gap:10px}
-h1{font-size:clamp(1.7rem,5.5vw,2.8rem);font-weight:900;letter-spacing:.06em;color:#eafdff;text-shadow:0 0 3px #fff,0 0 8px #00eaff,0 0 18px #00eaff,0 0 36px #00eaffcc,0 0 70px #00eaff66;text-transform:uppercase;animation:neonPulse 3s ease-in-out infinite}
-@keyframes neonPulse{from{text-shadow:0 0 3px #fff,0 0 8px #00eaff,0 0 18px #00eaff,0 0 36px #00eaffcc,0 0 70px #00eaff66}to{text-shadow:0 0 4px #fff,0 0 11px #00eaff,0 0 24px #00eaff,0 0 48px #00eaffcc,0 0 90px #00eaff88}}
+h1{font-size:clamp(1.7rem,5.5vw,2.8rem);font-weight:900;letter-spacing:.06em;color:#eafdff;text-shadow:0 0 3px #fff,0 0 8px #00eaff,0 0 18px #00eaff,0 0 36px #00eaffcc,0 0 70px #00eaff66;text-transform:uppercase}
+@keyframes neonPulse{from{text-shadow:0 0 3px #fff,0 0 8px #00eaff,0 0 18px #00eaff,0 0 36px #00eaffcc,0 0 70px #00eaff66}to{text-shadow:0 0 4px #fff,0 0 11px #00eaff,0 0 24px #00eaff,0 0 48px #00eaffcc,0 0 88px #00eaff99}}
+h1{animation:neonPulse 4s ease-in-out infinite}
 .tagline{font-size:.82rem;font-weight:700;letter-spacing:.28em;color:#ffb3ef;text-transform:uppercase;text-shadow:0 0 4px #fff5fd,0 0 10px #ff2bd6,0 0 22px #ff2bd6}
 
 /* HERO IMAGE — smaller portrait showing full figure */
 .hero-img{width:155px;height:220px;flex-shrink:0;border-radius:12px;overflow:hidden;border:1px solid rgba(0,234,255,.25);box-shadow:0 0 28px rgba(0,234,255,.14),0 0 60px rgba(0,234,255,.06);position:relative}
 .hero-img img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;background:#050a24}
-.hero-img .placeholder{display:none;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,234,255,.05);font-size:.65rem;letter-spacing:.12em;color:rgba(0,234,255,.4);text-transform:uppercase;font-weight:600}
+.hero-img .placeholder{display:none;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,234,255,.05);font-size:.65rem;letter-spacing:.12em;color:rgba(0,234,255,.4);text-transform:uppercase}
 
 /* SECTIONS */
 section{width:100%;display:flex;flex-direction:column;gap:14px}
-.section-label{font-size:.7rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#d9bcff;text-shadow:0 0 8px #9d5bff,0 0 16px #9d5bff66;padding-bottom:2px;border-bottom:1px solid rgba(157,91,255,.3)}
+.section-label{font-size:.7rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#d9bcff;text-shadow:0 0 8px #9d5bff,0 0 16px #9d5bff66;padding-bottom:2px;border-bottom:1px solid rgba(217,188,255,.3)}
 
 /* BUTTONS */
 .btn-row{display:flex;flex-wrap:wrap;gap:10px}
@@ -44,7 +45,7 @@ a.btn-g:hover{background:rgba(0,255,157,.18);box-shadow:0 0 18px rgba(0,255,157,
 .book-card{border:1px solid rgba(157,91,255,.3);border-radius:12px;padding:18px 20px;background:rgba(157,91,255,.05);box-shadow:0 0 18px rgba(157,91,255,.1);display:flex;flex-direction:row;gap:18px;align-items:flex-start}
 
 /* Book covers — real high-res cover images */
-.book-cover{width:96px;height:144px;flex-shrink:0;border-radius:7px;overflow:hidden;border:1px solid rgba(157,91,255,.5);box-shadow:0 0 16px rgba(157,91,255,.3),0 0 44px rgba(157,91,255,.14),inset 0 0 16px rgba(0,0,0,.3)}
+.book-cover{width:96px;height:144px;flex-shrink:0;border-radius:7px;overflow:hidden;border:1px solid rgba(157,91,255,.5);box-shadow:0 0 16px rgba(157,91,255,.3),0 0 44px rgba(157,91,255,.14),inset 0 0 18px rgba(0,0,0,.3)}
 .book-cover img{width:100%;height:100%;object-fit:cover;display:block;background:#0a0520}
 .book-cover svg,.product-thumb svg{filter:drop-shadow(0 0 6px currentColor)}
 
@@ -120,17 +121,17 @@ footer{font-size:.7rem;font-weight:600;letter-spacing:.2em;color:rgba(0,234,255,
 
   <section>
     <div class="section-label">Find Me</div>
-    <div class="info info-m"><strong>X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.<br><strong>Facebook</strong> — community updates, longer reflections, and conversation with followers.<br><strong>Substack</strong> — in-depth essays and newsletters delivered straight to your inbox.</div>
+    <div class="info info-m"><strong>X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.<br><strong>Facebook</strong> — community updates, longer reflections, and direct engagement.<br><strong>Substack</strong> — deep dives, analysis, essays, and subscriber-only insights.</div>
     <div class="btn-row">
       <a class="btn btn-m" href="https://x.com/dylan2045ad" target="_blank" rel="noopener">X / Twitter</a>
-      <a class="btn btn-m" href="https://www.facebook.com/61590758964026" target="_blank" rel="noopener">Facebook</a>
+      <a class="btn btn-m" href="https://www.facebook.com/profile.php?id=61590125290412" target="_blank" rel="noopener">Facebook</a>
       <a class="btn btn-m" href="https://substack.com/@dylan2045" target="_blank" rel="noopener">Substack</a>
     </div>
   </section>
 
   <section>
     <div class="section-label">Live Aggregators</div>
-    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks trending discussions and emerging signals from Reddit communities.<br><strong>NY Updates</strong> — surfaces the latest New York news and local developments as they break.<br><strong>AI Pulse News</strong> — monitors the AI industry for breakthroughs, launches, and shifting trends.</div>
+    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks trending discussions and emerging signals.<br><strong>NY Updates</strong> — New York metro real-time intelligence.<br><strong>AI Pulse News</strong> — AI developments, deployments, and market moves.</div>
     <div class="btn-row">
       <a class="btn btn-c" href="https://osint-aggregator--dylan2045.replit.app/" target="_blank" rel="noopener">OSINT Aggregator</a>
       <a class="btn btn-c" href="https://reddit-aggregator--dylanguu11.replit.app/" target="_blank" rel="noopener">Reddit Aggregator</a>
@@ -149,7 +150,7 @@ footer{font-size:.7rem;font-weight:600;letter-spacing:.2em;color:rgba(0,234,255,
           <span class="post-handle">dylan2045</span>
         </div>
         <a class="post-title-link" href="https://substack.com/@dylan2045" target="_blank" rel="noopener">The Infrastructure Nobody Talks About — But Should</a>
-        <div class="post-text">You see reports about AI, about market swings, about social upheaval. But nobody's mapping the actual infrastructure that's quietly reshaping everything beneath the headlines. That's what I'm doing here.</div>
+        <div class="post-text">You see reports about AI, about market swings, about social upheaval. But nobody's mapping the actual infrastructure that's quietly reshaping everything beneath the headlines. Here's what's really happening.</div>
         <div class="post-meta">Jun 8, 2026 · 12 min read · 847 subscribers</div>
       </div>
 
@@ -158,7 +159,7 @@ footer{font-size:.7rem;font-weight:600;letter-spacing:.2em;color:rgba(0,234,255,
 
   <section>
     <div class="section-label">Listen &amp; Shop</div>
-    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops.<br><strong>Payhip</strong> — ebooks and digital products for instant purchase.<br><strong>Ko-fi</strong> — support the work directly with tips and memberships.<br><strong>Shopify</strong> — the official store for prints, merch, and physical goods.</div>
+    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops.<br><strong>Payhip</strong> — ebooks, courses, and more.<br><strong>Ko-fi</strong> — support the work, get early access.<br><strong>Shopify</strong> — merch and limited edition releases.</div>
     <div class="btn-row">
       <a class="btn btn-g" href="https://suno.com/@dylan2045ad" target="_blank" rel="noopener">Suno Music</a>
       <a class="btn btn-g" href="https://dylan2045ad.gumroad.com/" target="_blank" rel="noopener">Gumroad</a>
