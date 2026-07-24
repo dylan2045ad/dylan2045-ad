@@ -10,34 +10,38 @@
 
 *{box-sizing:border-box;margin:0;padding:0}
 
-/* HYPER-AGGRESSIVE CYBERPUNK VIRAL BACKGROUND */
+/* FUTURISTIC CIRCUIT BOARD BACKGROUND - NO FLASHING */
 body{
   background:#000000;
   background-image:
-    /* Plasma storm layer 1 */
-    radial-gradient(ellipse at 10% 20%, rgba(0,255,255,.15) 0%, transparent 20%),
-    radial-gradient(ellipse at 90% 80%, rgba(255,0,200,.15) 0%, transparent 20%),
-    radial-gradient(ellipse at 50% 50%, rgba(255,100,255,.1) 0%, transparent 25%),
-    /* Aggressive grid */
-    linear-gradient(0deg, rgba(0,255,255,.08) 2px, transparent 2px),
-    linear-gradient(90deg, rgba(255,0,200,.08) 2px, transparent 2px),
-    /* Circuit paths pulsing */
-    linear-gradient(45deg, transparent 0%, rgba(0,255,200,.12) 40%, rgba(0,255,200,.08) 60%, transparent 100%),
-    linear-gradient(-45deg, transparent 0%, rgba(255,0,150,.12) 40%, rgba(255,0,150,.08) 60%, transparent 100%),
-    /* Neon hotspots */
-    radial-gradient(circle at 5% 10%, rgba(0,255,255,.25) 0%, transparent 10%),
-    radial-gradient(circle at 95% 5%, rgba(255,100,255,.25) 0%, transparent 10%),
-    radial-gradient(circle at 15% 90%, rgba(0,255,150,.2) 0%, transparent 12%),
-    radial-gradient(circle at 85% 85%, rgba(255,0,200,.2) 0%, transparent 12%),
-    radial-gradient(circle at 50% 50%, rgba(0,200,255,.08) 0%, transparent 30%),
+    /* Subtle circuit traces */
+    linear-gradient(0deg, transparent 24%, rgba(0,255,200,.08) 25%, rgba(0,255,200,.08) 26%, transparent 27%, transparent 74%, rgba(0,255,200,.08) 75%, rgba(0,255,200,.08) 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, rgba(0,255,200,.08) 25%, rgba(0,255,200,.08) 26%, transparent 27%, transparent 74%, rgba(0,255,200,.08) 75%, rgba(0,255,200,.08) 76%, transparent 77%, transparent),
+    /* Diagonal circuit paths */
+    linear-gradient(45deg, transparent 48%, rgba(0,255,150,.06) 49%, rgba(0,255,150,.06) 51%, transparent 52%),
+    linear-gradient(-45deg, transparent 48%, rgba(255,100,200,.06) 49%, rgba(255,100,200,.06) 51%, transparent 52%),
+    /* Soft node centers */
+    radial-gradient(circle at 3% 5%, rgba(0,255,255,.15) 0%, transparent 8%),
+    radial-gradient(circle at 97% 3%, rgba(255,100,255,.12) 0%, transparent 8%),
+    radial-gradient(circle at 5% 95%, rgba(0,255,150,.1) 0%, transparent 8%),
+    radial-gradient(circle at 95% 97%, rgba(255,0,200,.12) 0%, transparent 8%),
+    /* Mid-field soft nodes */
+    radial-gradient(circle at 25% 30%, rgba(0,255,255,.08) 0%, transparent 5%),
+    radial-gradient(circle at 75% 25%, rgba(255,0,200,.08) 0%, transparent 5%),
+    radial-gradient(circle at 30% 70%, rgba(0,255,150,.07) 0%, transparent 5%),
+    radial-gradient(circle at 70% 65%, rgba(100,200,255,.08) 0%, transparent 5%),
+    /* Soft plasma veins */
+    linear-gradient(110deg, transparent 30%, rgba(0,255,255,.04) 50%, transparent 70%),
+    linear-gradient(-110deg, transparent 30%, rgba(255,0,200,.04) 50%, transparent 70%),
     /* Dark matter base */
     linear-gradient(135deg, #000000 0%, #0a0015 50%, #000000 100%);
   background-size:
+    40px 40px,
+    40px 40px,
     100% 100%,
     100% 100%,
     100% 100%,
-    30px 30px,
-    30px 30px,
+    100% 100%,
     100% 100%,
     100% 100%,
     100% 100%,
@@ -48,11 +52,12 @@ body{
     100% 100%;
   background-attachment:fixed;
   background-blend-mode:
-    lighten,
-    lighten,
-    lighten,
     overlay,
     overlay,
+    screen,
+    screen,
+    screen,
+    screen,
     screen,
     screen,
     screen,
@@ -74,7 +79,7 @@ body{
   overflow-x:hidden;
 }
 
-/* VIRAL OVERLAY EFFECT - SMOOTH GENTLE FADE */
+/* SMOOTH OVERLAY - NO FLASHING */
 body::before{
   content:'';
   position:fixed;
@@ -83,65 +88,39 @@ body::before{
   width:100%;
   height:100%;
   background-image:
-    /* Hyper-nodes */
-    radial-gradient(circle at 3% 5%, rgba(0,255,255,.35) 0%, rgba(0,255,255,.15) 4%, transparent 10%),
-    radial-gradient(circle at 97% 3%, rgba(255,100,255,.35) 0%, rgba(255,100,255,.15) 4%, transparent 10%),
-    radial-gradient(circle at 5% 95%, rgba(0,255,150,.3) 0%, rgba(0,255,150,.12) 4%, transparent 10%),
-    radial-gradient(circle at 95% 97%, rgba(255,0,200,.3) 0%, rgba(255,0,200,.12) 4%, transparent 10%),
-    /* Mid-field chaos */
-    radial-gradient(circle at 25% 30%, rgba(0,255,255,.2) 0%, transparent 8%),
-    radial-gradient(circle at 75% 25%, rgba(255,0,200,.2) 0%, transparent 8%),
-    radial-gradient(circle at 30% 70%, rgba(0,255,150,.18) 0%, transparent 8%),
-    radial-gradient(circle at 70% 65%, rgba(100,200,255,.18) 0%, transparent 8%),
-    /* Plasma vein network */
-    linear-gradient(110deg, transparent 25%, rgba(0,255,255,.1) 50%, transparent 75%),
-    linear-gradient(-110deg, transparent 25%, rgba(255,0,200,.1) 50%, transparent 75%),
-    /* Constant scanlines */
-    linear-gradient(0deg, rgba(0,255,255,.04) 0%, transparent 2%, transparent 98%, rgba(255,0,200,.04) 100%);
+    /* Subtle nodes layer */
+    radial-gradient(circle at 3% 5%, rgba(0,255,255,.2) 0%, rgba(0,255,255,.08) 4%, transparent 10%),
+    radial-gradient(circle at 97% 3%, rgba(255,100,255,.18) 0%, rgba(255,100,255,.08) 4%, transparent 10%),
+    radial-gradient(circle at 5% 95%, rgba(0,255,150,.15) 0%, rgba(0,255,150,.08) 4%, transparent 10%),
+    radial-gradient(circle at 95% 97%, rgba(255,0,200,.18) 0%, rgba(255,0,200,.08) 4%, transparent 10%),
+    /* Mid-field soft glow */
+    radial-gradient(circle at 25% 30%, rgba(0,255,255,.1) 0%, transparent 8%),
+    radial-gradient(circle at 75% 25%, rgba(255,0,200,.1) 0%, transparent 8%),
+    radial-gradient(circle at 30% 70%, rgba(0,255,150,.09) 0%, transparent 8%),
+    radial-gradient(circle at 70% 65%, rgba(100,200,255,.1) 0%, transparent 8%),
+    /* Subtle vein network */
+    linear-gradient(110deg, transparent 30%, rgba(0,255,255,.06) 50%, transparent 70%),
+    linear-gradient(-110deg, transparent 30%, rgba(255,0,200,.06) 50%, transparent 70%);
   background-size:100% 100%;
   pointer-events:none;
   z-index:0;
-  animation:plasmaStorm 8s ease-in-out infinite, scanlineRun 0.15s linear infinite, chromatic 6s ease-in-out infinite;
+  animation:subtleGlow 6s ease-in-out infinite;
   mix-blend-mode:screen;
 }
 
-@keyframes plasmaStorm{
+@keyframes subtleGlow{
   0%{
-    opacity:.9;
-    filter:brightness(1) saturate(1.2) hue-rotate(0deg);
-    transform:scale(1) rotate(0deg);
-  }
-  25%{
-    opacity:.95;
-    filter:brightness(1.1) saturate(1.3) hue-rotate(15deg);
-    transform:scale(1.02) rotate(0.5deg);
+    opacity:0.85;
+    filter:brightness(1) saturate(1);
   }
   50%{
-    opacity:1;
-    filter:brightness(1.15) saturate(1.4) hue-rotate(30deg);
-    transform:scale(1.04) rotate(1deg);
-  }
-  75%{
-    opacity:.95;
-    filter:brightness(1.1) saturate(1.3) hue-rotate(15deg);
-    transform:scale(1.02) rotate(0.5deg);
+    opacity:0.95;
+    filter:brightness(1.05) saturate(1.1);
   }
   100%{
-    opacity:.9;
-    filter:brightness(1) saturate(1.2) hue-rotate(0deg);
-    transform:scale(1) rotate(0deg);
+    opacity:0.85;
+    filter:brightness(1) saturate(1);
   }
-}
-
-@keyframes scanlineRun{
-  0%{transform:translateY(-100%)}
-  100%{transform:translateY(100%)}
-}
-
-@keyframes chromatic{
-  0%{filter:drop-shadow(0 0 2px rgba(0,255,255,.3))}
-  50%{filter:drop-shadow(1px 1px 4px rgba(255,0,200,.4)) drop-shadow(-1px -1px 4px rgba(0,255,255,.4))}
-  100%{filter:drop-shadow(0 0 2px rgba(0,255,255,.3))}
 }
 
 body::after{display:none}
@@ -157,7 +136,7 @@ body::after{display:none}
   gap:40px;
 }
 
-/* HERO SECTION - MAXIMUM IMPACT */
+/* HERO SECTION - SMOOTH GLOW */
 .hero-row{
   width:100%;
   display:flex;
@@ -165,12 +144,12 @@ body::after{display:none}
   align-items:center;
   gap:32px;
   padding:32px 0 12px;
-  animation:heroGlow 4s ease-in-out infinite;
+  animation:smoothHeroGlow 5s ease-in-out infinite;
 }
 
-@keyframes heroGlow{
-  0%,100%{filter:drop-shadow(0 0 15px rgba(0,255,255,.2))}
-  50%{filter:drop-shadow(0 0 30px rgba(255,0,200,.3)) drop-shadow(0 0 40px rgba(0,255,255,.2))}
+@keyframes smoothHeroGlow{
+  0%,100%{filter:drop-shadow(0 0 12px rgba(0,255,255,.15))}
+  50%{filter:drop-shadow(0 0 20px rgba(0,255,255,.2)) drop-shadow(0 0 25px rgba(255,0,200,.12))}
 }
 
 .title-block{
@@ -201,12 +180,12 @@ h1{
     -6px -6px 20px rgba(0,255,255,.7);
   text-transform:uppercase;
   letter-spacing:.1em;
-  animation:titleExplosion 4s ease-in-out infinite;
+  animation:smoothTitleGlow 5s ease-in-out infinite;
   filter:brightness(1.3) saturate(1.5) contrast(1.2);
   line-height:1.1;
 }
 
-@keyframes titleExplosion{
+@keyframes smoothTitleGlow{
   0%{
     text-shadow:
       0 0 5px #fff,
@@ -220,7 +199,7 @@ h1{
       4px 4px 0 #00ffff,
       6px 6px 20px rgba(255,0,255,.7),
       -6px -6px 20px rgba(0,255,255,.7);
-    transform:scale(1) skewX(-0.03deg);
+    transform:scale(1);
   }
   50%{
     text-shadow:
@@ -235,7 +214,7 @@ h1{
       4px 4px 2px #ff00ff,
       8px 8px 30px rgba(0,255,255,.6),
       -8px -8px 30px rgba(255,0,255,.6);
-    transform:scale(1.02) skewX(0.03deg);
+    transform:scale(1.01);
   }
   100%{
     text-shadow:
@@ -250,7 +229,7 @@ h1{
       4px 4px 0 #00ffff,
       6px 6px 20px rgba(255,0,255,.7),
       -6px -6px 20px rgba(0,255,255,.7);
-    transform:scale(1) skewX(-0.03deg);
+    transform:scale(1);
   }
 }
 
@@ -267,11 +246,11 @@ h1{
     0 0 28px #ff00ff,
     0 0 45px #00ffff,
     -3px -3px 0 #ff0080;
-  animation:taglineShift 4s ease-in-out infinite;
+  animation:smoothTaglineShift 5s ease-in-out infinite;
   font-size:clamp(.75rem,2.5vw,1rem);
 }
 
-@keyframes taglineShift{
+@keyframes smoothTaglineShift{
   0%,100%{
     text-shadow:0 0 8px #00ffff,0 0 16px #00ffff,0 0 28px #ff00ff,0 0 45px #00ffff,-3px -3px 0 #ff0080;
     letter-spacing:.35em;
@@ -279,12 +258,12 @@ h1{
   }
   50%{
     text-shadow:0 0 12px #ff00ff,0 0 24px #00ffff,0 0 40px #ff00ff,0 0 60px #00ffff,-3px -3px 2px #00ffff;
-    letter-spacing:.42em;
+    letter-spacing:.38em;
     color:#ff00ff;
   }
 }
 
-/* HERO IMAGE - VIRAL FRAME */
+/* HERO IMAGE - SMOOTH GLOW */
 .hero-img{
   width:180px;
   height:240px;
@@ -301,13 +280,13 @@ h1{
     6px 6px 0 rgba(0,255,200,.5),
     0 0 80px rgba(0,255,255,.25);
   position:relative;
-  animation:frameExplode 4s ease-in-out infinite;
+  animation:smoothFrameGlow 5s ease-in-out infinite;
 }
 
-@keyframes frameExplode{
+@keyframes smoothFrameGlow{
   0%,100%{
     border-color:#00ffff;
-    transform:scale(1) rotate(0deg);
+    transform:scale(1);
     box-shadow:
       0 0 20px rgba(0,255,255,.8),
       0 0 40px rgba(0,255,255,.5),
@@ -317,30 +296,22 @@ h1{
       6px 6px 0 rgba(0,255,200,.5),
       0 0 80px rgba(0,255,255,.25);
   }
-  25%{
-    border-color:#ff00ff;
-    transform:scale(1.02) rotate(0.5deg);
-  }
   50%{
-    border-color:#00ffff;
-    transform:scale(1.04) rotate(0deg);
-    box-shadow:
-      0 0 28px rgba(0,255,255,.9),
-      0 0 50px rgba(0,255,255,.6),
-      0 0 80px rgba(255,0,200,.5),
-      inset 0 0 30px rgba(0,255,255,.4),
-      -7px -7px 0 rgba(255,0,200,.6),
-      7px 7px 0 rgba(0,255,200,.6),
-      0 0 100px rgba(0,255,255,.3);
-  }
-  75%{
     border-color:#ff00ff;
-    transform:scale(1.02) rotate(-0.5deg);
+    transform:scale(1.01);
+    box-shadow:
+      0 0 25px rgba(0,255,255,.85),
+      0 0 45px rgba(0,255,255,.55),
+      0 0 75px rgba(255,0,200,.45),
+      inset 0 0 28px rgba(0,255,255,.35),
+      -6px -6px 0 rgba(255,0,200,.55),
+      6px 6px 0 rgba(0,255,200,.55),
+      0 0 85px rgba(0,255,255,.3);
   }
 }
 
 .hero-img img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;background:#050a24;filter:brightness(1.1) saturate(1.3) contrast(1.1)}
-.hero-img .placeholder{display:none;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,234,255,.08);font-size:.65rem;letter-spacing:.12em;color:rgba(0,234,255,.6);text-transform:uppercase;font-family:'Orbitron',sans-serif;font-weight:900}
+.hero-img .placeholder{display:none;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,234,255,.08);font-size:.65rem;letter-spacing:.12em;color:rgba(0,234,255,.6)}
 
 /* SECTIONS */
 section{width:100%;display:flex;flex-direction:column;gap:16px}
@@ -360,13 +331,13 @@ section{width:100%;display:flex;flex-direction:column;gap:16px}
   padding-bottom:4px;
   border-bottom:3px solid #ff00ff;
   position:relative;
-  animation:labelPulseViral 3.2s ease-in-out infinite;
+  animation:smoothLabelGlow 4s ease-in-out infinite;
   font-size:clamp(.65rem,2vw,.85rem);
 }
 
-@keyframes labelPulseViral{
+@keyframes smoothLabelGlow{
   0%,100%{color:#00ffff;border-bottom-color:#ff00ff;text-shadow:0 0 10px #00ffff,0 0 20px #00ffff,0 0 32px #ff00ff,0 0 8px #0ffff0}
-  50%{color:#ff00ff;border-bottom-color:#00ffff;text-shadow:0 0 15px #ff00ff,0 0 25px #ff00ff,0 0 40px #00ffff,0 0 12px #00ffff}
+  50%{color:#ff00ff;border-bottom-color:#00ffff;text-shadow:0 0 12px #ff00ff,0 0 22px #ff00ff,0 0 35px #00ffff,0 0 10px #00ffff}
 }
 
 /* INFO BOXES */
@@ -379,18 +350,18 @@ section{width:100%;display:flex;flex-direction:column;gap:16px}
   padding:18px 20px;
   font-family:'Orbitron',sans-serif;
   border-width:3px;
-  animation:infoPulseViral 3.6s ease-in-out infinite;
+  animation:smoothInfoGlow 4.5s ease-in-out infinite;
   backdrop-filter:blur(10px);
 }
 
-@keyframes infoPulseViral{
+@keyframes smoothInfoGlow{
   0%,100%{
     box-shadow:0 0 20px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.4);
     transform:scale(1);
   }
   50%{
-    box-shadow:0 0 35px rgba(0,255,255,.3),inset 0 0 15px rgba(0,0,0,.4);
-    transform:scale(1.01);
+    box-shadow:0 0 28px rgba(0,255,255,.25),inset 0 0 15px rgba(0,0,0,.4);
+    transform:scale(1.005);
   }
 }
 
@@ -486,7 +457,7 @@ a.btn-g:hover{
     0 0 60px rgba(0,255,200,.6);
 }
 
-/* BOOK CARDS - MAXIMUM VIRALITY */
+/* BOOK CARDS - SMOOTH GLOW */
 .books-grid{display:flex;flex-direction:column;gap:20px}
 .book-card{
   border:3px solid #ff00ff;
@@ -501,10 +472,10 @@ a.btn-g:hover{
   display:flex;
   flex-direction:row;
   gap:20px;
-  animation:cardExplode 4.8s ease-in-out infinite;
+  animation:smoothCardGlow 5s ease-in-out infinite;
 }
 
-@keyframes cardExplode{
+@keyframes smoothCardGlow{
   0%,100%{
     border-color:#ff00ff;
     transform:scale(1);
@@ -516,12 +487,12 @@ a.btn-g:hover{
   }
   50%{
     border-color:#00ffff;
-    transform:scale(1.02);
+    transform:scale(1.01);
     box-shadow:
-      0 0 40px rgba(255,0,255,.4),
-      inset 0 0 18px rgba(255,0,255,.15),
-      -6px -6px 0 rgba(0,255,255,.45),
-      6px 6px 0 rgba(255,100,200,.35);
+      0 0 32px rgba(255,0,255,.3),
+      inset 0 0 18px rgba(255,0,255,.12),
+      -5px -5px 0 rgba(0,255,255,.42),
+      5px 5px 0 rgba(255,100,200,.32);
   }
 }
 
@@ -537,10 +508,10 @@ a.btn-g:hover{
     0 0 40px rgba(255,0,200,.25),
     inset 0 0 10px rgba(0,255,255,.2),
     -3px -3px 0 rgba(255,0,200,.4);
-  animation:coverShine 3.4s ease-in-out infinite;
+  animation:smoothCoverGlow 4s ease-in-out infinite;
 }
 
-@keyframes coverShine{
+@keyframes smoothCoverGlow{
   0%,100%{
     border-color:#00ffff;
     box-shadow:
@@ -552,10 +523,10 @@ a.btn-g:hover{
   50%{
     border-color:#ff00ff;
     box-shadow:
-      0 0 30px rgba(255,0,255,.6),
-      0 0 55px rgba(0,255,200,.35),
-      inset 0 0 15px rgba(255,0,255,.25),
-      -3px -3px 0 rgba(0,255,255,.5);
+      0 0 25px rgba(255,0,255,.55),
+      0 0 45px rgba(0,255,200,.3),
+      inset 0 0 12px rgba(255,0,255,.22),
+      -3px -3px 0 rgba(0,255,255,.45);
   }
 }
 
@@ -575,13 +546,13 @@ a.btn-g:hover{
   letter-spacing:.05em;
   font-family:'Orbitron',sans-serif;
   text-transform:uppercase;
-  animation:titleCycle 4s ease-in-out infinite;
+  animation:smoothTitleCycle 5s ease-in-out infinite;
   font-size:clamp(.9rem,2.5vw,1.1rem);
 }
 
-@keyframes titleCycle{
+@keyframes smoothTitleCycle{
   0%,100%{color:#00ffff;text-shadow:0 0 10px #00ffff,0 0 20px #00ffff,0 0 32px #ff00ff,-3px -3px 0 #ff0080}
-  50%{color:#ff00ff;text-shadow:0 0 12px #ff00ff,0 0 24px #ff00ff,0 0 40px #00ffff,-3px -3px 2px #00ffff}
+  50%{color:#ff00ff;text-shadow:0 0 11px #ff00ff,0 0 22px #ff00ff,0 0 36px #00ffff,-3px -3px 1px #00ffff}
 }
 
 .book-desc{
@@ -624,23 +595,23 @@ a.btn-p:hover{
   gap:12px;
   border-width:3px;
   backdrop-filter:blur(10px);
-  animation:postShimmer 4s ease-in-out infinite;
+  animation:smoothPostGlow 4.5s ease-in-out infinite;
 }
 
-@keyframes postShimmer{
-  0%,100%{box-shadow:0 0 25px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.5)}
-  50%{box-shadow:0 0 40px rgba(0,255,255,.3),inset 0 0 15px rgba(0,0,0,.5)}
+@keyframes smoothPostGlow{
+  0%,100%{box-shadow:0 0 20px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.5)}
+  50%{box-shadow:0 0 28px rgba(0,255,255,.25),inset 0 0 15px rgba(0,0,0,.5)}
 }
 
 .post-x{
   border:3px solid #00ffff;
   background:rgba(0,255,255,.1);
-  box-shadow:0 0 25px rgba(0,255,255,.2),inset 0 0 15px rgba(0,0,0,.5);
+  box-shadow:0 0 20px rgba(0,255,255,.2),inset 0 0 15px rgba(0,0,0,.5);
 }
 .post-sub{
   border:3px solid #ff00ff;
   background:rgba(255,0,200,.1);
-  box-shadow:0 0 25px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.5);
+  box-shadow:0 0 20px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.5);
 }
 
 .post-header{display:flex;align-items:center;justify-content:space-between;gap:10px}
@@ -733,10 +704,10 @@ a.btn-p:hover{
   display:flex;
   flex-direction:column;
   gap:12px;
-  animation:productPulse 4.2s ease-in-out infinite;
+  animation:smoothProductGlow 4.5s ease-in-out infinite;
 }
 
-@keyframes productPulse{
+@keyframes smoothProductGlow{
   0%,100%{
     border-color:#00ffff;
     transform:scale(1);
@@ -744,8 +715,8 @@ a.btn-p:hover{
   }
   50%{
     border-color:#ff00ff;
-    transform:scale(1.02);
-    box-shadow:0 0 38px rgba(255,0,255,.4),inset 0 0 16px rgba(255,0,255,.15),-4px -4px 0 rgba(0,255,255,.35);
+    transform:scale(1.01);
+    box-shadow:0 0 30px rgba(255,0,255,.32),inset 0 0 14px rgba(255,0,255,.12),-4px -4px 0 rgba(0,255,255,.32);
   }
 }
 
@@ -772,11 +743,11 @@ a.btn-p:hover{
   font-family:'Orbitron',sans-serif;
   text-transform:uppercase;
   letter-spacing:.05em;
-  animation:productShift 3.8s ease-in-out infinite;
+  animation:smoothProductShift 4.5s ease-in-out infinite;
   font-size:clamp(.9rem,2.5vw,1.1rem);
 }
 
-@keyframes productShift{
+@keyframes smoothProductShift{
   0%,100%{color:#00ffff}
   50%{color:#ff00ff}
 }
@@ -800,13 +771,13 @@ a.btn-p:hover{
     0 0 36px #00ffff;
   letter-spacing:.08em;
   font-family:'Audiowide',sans-serif;
-  animation:pricePulseViral 3.4s ease-in-out infinite;
+  animation:smoothPriceGlow 4s ease-in-out infinite;
   font-size:clamp(1rem,2.5vw,1.2rem);
 }
 
-@keyframes pricePulseViral{
+@keyframes smoothPriceGlow{
   0%,100%{color:#00ffff;text-shadow:0 0 12px #00ffff,0 0 24px #ff00ff,0 0 36px #00ffff}
-  50%{color:#ff00ff;text-shadow:0 0 15px #ff00ff,0 0 30px #00ffff,0 0 45px #ff00ff}
+  50%{color:#ff00ff;text-shadow:0 0 14px #ff00ff,0 0 28px #00ffff,0 0 40px #ff00ff}
 }
 
 /* FOOTER */
@@ -854,7 +825,7 @@ footer{
 
   <section>
     <div class="section-label">Find Me</div>
-    <div class="info info-m"><strong>X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.<br><strong>Substack</strong> — long-form analysis, essays, and deep dives into tomorrow's headlines.</div>
+    <div class="info info-m"><strong>X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.<br><strong>Substack</strong> — long-form analysis, essays, and deep dives on tech, society, and what's coming next.</div>
     <div class="btn-row">
       <a class="btn btn-m" href="https://x.com/dylan2045ad" target="_blank" rel="noopener">X / Twitter</a>
       <a class="btn btn-m" href="https://substack.com/@dylan2045" target="_blank" rel="noopener">Substack</a>
@@ -863,7 +834,7 @@ footer{
 
   <section>
     <div class="section-label">Live Aggregators</div>
-    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks trending discussions, breaking stories, and public sentiment across subreddits.</div>
+    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks trending signals from community forums.<br><strong>NY Updates</strong> — real-time data from New York City.</div>
     <div class="btn-row">
       <a class="btn btn-c" href="https://osint-aggregator--dylan2045.replit.app/" target="_blank" rel="noopener">OSINT Aggregator</a>
       <a class="btn btn-c" href="https://reddit-aggregator--dylanguu11.replit.app/" target="_blank" rel="noopener">Reddit Aggregator</a>
@@ -881,7 +852,7 @@ footer{
           <span class="post-handle">dylan2045</span>
         </div>
         <a class="post-title-link" href="https://substack.com/@dylan2045" target="_blank" rel="noopener">The Infrastructure Nobody Talks About — But Should</a>
-        <div class="post-text">You see reports about AI, about market swings, about social upheaval. But nobody's mapping the actual infrastructure that's quietly reshaping everything beneath the surface. From energy grids to satellite networks to computational supply chains — this essay maps the invisible backbone.</div>
+        <div class="post-text">You see reports about AI, about market swings, about social upheaval. But nobody's mapping the actual infrastructure that's quietly reshaping everything beneath the surface. That changes now.</div>
         <div class="post-meta">Jun 8, 2026 · 12 min read · 847 subscribers</div>
       </div>
 
@@ -890,7 +861,7 @@ footer{
 
   <section>
     <div class="section-label">Listen &amp; Shop</div>
-    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops. Choose your own price.</div>
+    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops. <strong>Ko-fi</strong> — support the work directly.</div>
     <div class="btn-row">
       <a class="btn btn-g" href="https://suno.com/@dylan2045ad" target="_blank" rel="noopener">Suno Music</a>
       <a class="btn btn-g" href="https://dylan2045ad.gumroad.com/" target="_blank" rel="noopener">Gumroad</a>
