@@ -74,7 +74,7 @@ body{
   overflow-x:hidden;
 }
 
-/* VIRAL OVERLAY EFFECT - CONSTANT MOTION */
+/* VIRAL OVERLAY EFFECT - SMOOTH GENTLE FADE */
 body::before{
   content:'';
   position:fixed;
@@ -101,33 +101,33 @@ body::before{
   background-size:100% 100%;
   pointer-events:none;
   z-index:0;
-  animation:plasmaStorm 4s ease-in-out infinite, scanlineRun 0.1s linear infinite, chromatic 3s ease-in-out infinite;
+  animation:plasmaStorm 8s ease-in-out infinite, scanlineRun 0.15s linear infinite, chromatic 6s ease-in-out infinite;
   mix-blend-mode:screen;
 }
 
 @keyframes plasmaStorm{
   0%{
-    opacity:.8;
+    opacity:.9;
     filter:brightness(1) saturate(1.2) hue-rotate(0deg);
     transform:scale(1) rotate(0deg);
   }
   25%{
-    opacity:1;
-    filter:brightness(1.2) saturate(1.5) hue-rotate(30deg);
-    transform:scale(1.05) rotate(1deg);
+    opacity:.95;
+    filter:brightness(1.1) saturate(1.3) hue-rotate(15deg);
+    transform:scale(1.02) rotate(0.5deg);
   }
   50%{
-    opacity:1.2;
-    filter:brightness(1.3) saturate(1.7) hue-rotate(60deg);
-    transform:scale(1.1) rotate(2deg);
+    opacity:1;
+    filter:brightness(1.15) saturate(1.4) hue-rotate(30deg);
+    transform:scale(1.04) rotate(1deg);
   }
   75%{
-    opacity:1;
-    filter:brightness(1.2) saturate(1.5) hue-rotate(30deg);
-    transform:scale(1.05) rotate(1deg);
+    opacity:.95;
+    filter:brightness(1.1) saturate(1.3) hue-rotate(15deg);
+    transform:scale(1.02) rotate(0.5deg);
   }
   100%{
-    opacity:.8;
+    opacity:.9;
     filter:brightness(1) saturate(1.2) hue-rotate(0deg);
     transform:scale(1) rotate(0deg);
   }
@@ -139,9 +139,9 @@ body::before{
 }
 
 @keyframes chromatic{
-  0%{filter:drop-shadow(0 0 0px rgba(0,255,255,.5))}
-  50%{filter:drop-shadow(2px 2px 8px rgba(255,0,200,.6)) drop-shadow(-2px -2px 8px rgba(0,255,255,.6))}
-  100%{filter:drop-shadow(0 0 0px rgba(0,255,255,.5))}
+  0%{filter:drop-shadow(0 0 2px rgba(0,255,255,.3))}
+  50%{filter:drop-shadow(1px 1px 4px rgba(255,0,200,.4)) drop-shadow(-1px -1px 4px rgba(0,255,255,.4))}
+  100%{filter:drop-shadow(0 0 2px rgba(0,255,255,.3))}
 }
 
 body::after{display:none}
@@ -165,12 +165,12 @@ body::after{display:none}
   align-items:center;
   gap:32px;
   padding:32px 0 12px;
-  animation:heroGlow 2.5s ease-in-out infinite;
+  animation:heroGlow 4s ease-in-out infinite;
 }
 
 @keyframes heroGlow{
-  0%,100%{filter:drop-shadow(0 0 20px rgba(0,255,255,.3))}
-  50%{filter:drop-shadow(0 0 40px rgba(255,0,200,.5)) drop-shadow(0 0 60px rgba(0,255,255,.3))}
+  0%,100%{filter:drop-shadow(0 0 15px rgba(0,255,255,.2))}
+  50%{filter:drop-shadow(0 0 30px rgba(255,0,200,.3)) drop-shadow(0 0 40px rgba(0,255,255,.2))}
 }
 
 .title-block{
@@ -201,7 +201,7 @@ h1{
     -6px -6px 20px rgba(0,255,255,.7);
   text-transform:uppercase;
   letter-spacing:.1em;
-  animation:titleExplosion 2.5s cubic-bezier(.34, 1.56, .64, 1) infinite;
+  animation:titleExplosion 4s ease-in-out infinite;
   filter:brightness(1.3) saturate(1.5) contrast(1.2);
   line-height:1.1;
 }
@@ -233,9 +233,9 @@ h1{
       0 0 200px #ff00ff,
       -4px -4px 2px #00ffff,
       4px 4px 2px #ff00ff,
-      8px 8px 30px rgba(0,255,255,.9),
-      -8px -8px 30px rgba(255,0,255,.9);
-    transform:scale(1.04) skewX(0.03deg);
+      8px 8px 30px rgba(0,255,255,.6),
+      -8px -8px 30px rgba(255,0,255,.6);
+    transform:scale(1.02) skewX(0.03deg);
   }
   100%{
     text-shadow:
@@ -267,7 +267,7 @@ h1{
     0 0 28px #ff00ff,
     0 0 45px #00ffff,
     -3px -3px 0 #ff0080;
-  animation:taglineShift 2s ease-in-out infinite;
+  animation:taglineShift 4s ease-in-out infinite;
   font-size:clamp(.75rem,2.5vw,1rem);
 }
 
@@ -301,7 +301,7 @@ h1{
     6px 6px 0 rgba(0,255,200,.5),
     0 0 80px rgba(0,255,255,.25);
   position:relative;
-  animation:frameExplode 2.5s ease-in-out infinite;
+  animation:frameExplode 4s ease-in-out infinite;
 }
 
 @keyframes frameExplode{
@@ -319,28 +319,28 @@ h1{
   }
   25%{
     border-color:#ff00ff;
-    transform:scale(1.05) rotate(1deg);
+    transform:scale(1.02) rotate(0.5deg);
   }
   50%{
     border-color:#00ffff;
-    transform:scale(1.1) rotate(0deg);
+    transform:scale(1.04) rotate(0deg);
     box-shadow:
-      0 0 30px rgba(0,255,255,.9),
-      0 0 60px rgba(0,255,255,.6),
-      0 0 100px rgba(255,0,200,.5),
-      inset 0 0 35px rgba(0,255,255,.4),
-      -8px -8px 0 rgba(255,0,200,.6),
-      8px 8px 0 rgba(0,255,200,.6),
-      0 0 120px rgba(0,255,255,.35);
+      0 0 28px rgba(0,255,255,.9),
+      0 0 50px rgba(0,255,255,.6),
+      0 0 80px rgba(255,0,200,.5),
+      inset 0 0 30px rgba(0,255,255,.4),
+      -7px -7px 0 rgba(255,0,200,.6),
+      7px 7px 0 rgba(0,255,200,.6),
+      0 0 100px rgba(0,255,255,.3);
   }
   75%{
     border-color:#ff00ff;
-    transform:scale(1.05) rotate(-1deg);
+    transform:scale(1.02) rotate(-0.5deg);
   }
 }
 
 .hero-img img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;background:#050a24;filter:brightness(1.1) saturate(1.3) contrast(1.1)}
-.hero-img .placeholder{display:none;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,234,255,.08);font-size:.65rem;letter-spacing:.12em;color:rgba(0,234,255,.6);text-transform:uppercase}
+.hero-img .placeholder{display:none;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,234,255,.08);font-size:.65rem;letter-spacing:.12em;color:rgba(0,234,255,.6);text-transform:uppercase;font-family:'Orbitron',sans-serif;font-weight:900}
 
 /* SECTIONS */
 section{width:100%;display:flex;flex-direction:column;gap:16px}
@@ -360,7 +360,7 @@ section{width:100%;display:flex;flex-direction:column;gap:16px}
   padding-bottom:4px;
   border-bottom:3px solid #ff00ff;
   position:relative;
-  animation:labelPulseViral 1.8s ease-in-out infinite;
+  animation:labelPulseViral 3.2s ease-in-out infinite;
   font-size:clamp(.65rem,2vw,.85rem);
 }
 
@@ -379,35 +379,35 @@ section{width:100%;display:flex;flex-direction:column;gap:16px}
   padding:18px 20px;
   font-family:'Orbitron',sans-serif;
   border-width:3px;
-  animation:infoPulseViral 2.2s ease-in-out infinite;
+  animation:infoPulseViral 3.6s ease-in-out infinite;
   backdrop-filter:blur(10px);
 }
 
 @keyframes infoPulseViral{
   0%,100%{
-    box-shadow:0 0 25px rgba(255,0,255,.25),inset 0 0 15px rgba(0,0,0,.4);
+    box-shadow:0 0 20px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.4);
     transform:scale(1);
   }
   50%{
-    box-shadow:0 0 40px rgba(0,255,255,.4),inset 0 0 15px rgba(0,0,0,.4);
-    transform:scale(1.02);
+    box-shadow:0 0 35px rgba(0,255,255,.3),inset 0 0 15px rgba(0,0,0,.4);
+    transform:scale(1.01);
   }
 }
 
 .info-c{
   background:rgba(0,255,255,.12);
   border:3px solid #00ffff;
-  box-shadow:0 0 25px rgba(0,255,255,.3),inset 0 0 15px rgba(0,0,0,.4);
+  box-shadow:0 0 20px rgba(0,255,255,.25),inset 0 0 15px rgba(0,0,0,.4);
 }
 .info-m{
   background:rgba(255,0,200,.12);
   border:3px solid #ff00ff;
-  box-shadow:0 0 25px rgba(255,0,255,.3),inset 0 0 15px rgba(0,0,0,.4);
+  box-shadow:0 0 20px rgba(255,0,255,.25),inset 0 0 15px rgba(0,0,0,.4);
 }
 .info-g{
   background:rgba(0,255,157,.12);
   border:3px solid #00ff9d;
-  box-shadow:0 0 25px rgba(0,255,157,.3),inset 0 0 15px rgba(0,0,0,.4);
+  box-shadow:0 0 20px rgba(0,255,157,.25),inset 0 0 15px rgba(0,0,0,.4);
 }
 
 /* BUTTONS */
@@ -422,7 +422,7 @@ a.btn{
   text-decoration:none;
   text-transform:uppercase;
   border:3px solid;
-  transition:all .15s cubic-bezier(.68, -0.55, .265, 1.55);
+  transition:all .2s ease-out;
   font-family:'Orbitron',sans-serif;
   position:relative;
   filter:brightness(1.2) saturate(1.4);
@@ -494,14 +494,14 @@ a.btn-g:hover{
   padding:20px 24px;
   background:rgba(255,0,200,.1);
   box-shadow:
-    0 0 30px rgba(255,0,255,.3),
+    0 0 25px rgba(255,0,255,.25),
     inset 0 0 15px rgba(255,0,255,.1),
     -5px -5px 0 rgba(0,255,255,.4),
     5px 5px 0 rgba(255,100,200,.3);
   display:flex;
   flex-direction:row;
   gap:20px;
-  animation:cardExplode 3s cubic-bezier(.34, 1.56, .64, 1) infinite;
+  animation:cardExplode 4.8s ease-in-out infinite;
 }
 
 @keyframes cardExplode{
@@ -509,19 +509,19 @@ a.btn-g:hover{
     border-color:#ff00ff;
     transform:scale(1);
     box-shadow:
-      0 0 30px rgba(255,0,255,.3),
+      0 0 25px rgba(255,0,255,.25),
       inset 0 0 15px rgba(255,0,255,.1),
       -5px -5px 0 rgba(0,255,255,.4),
       5px 5px 0 rgba(255,100,200,.3);
   }
   50%{
     border-color:#00ffff;
-    transform:scale(1.03);
+    transform:scale(1.02);
     box-shadow:
-      0 0 50px rgba(255,0,255,.5),
-      inset 0 0 20px rgba(255,0,255,.2),
-      -6px -6px 0 rgba(0,255,255,.5),
-      6px 6px 0 rgba(255,100,200,.4);
+      0 0 40px rgba(255,0,255,.4),
+      inset 0 0 18px rgba(255,0,255,.15),
+      -6px -6px 0 rgba(0,255,255,.45),
+      6px 6px 0 rgba(255,100,200,.35);
   }
 }
 
@@ -533,28 +533,28 @@ a.btn-g:hover{
   overflow:hidden;
   border:3px solid #00ffff;
   box-shadow:
-    0 0 25px rgba(0,255,255,.6),
-    0 0 50px rgba(255,0,200,.3),
+    0 0 20px rgba(0,255,255,.5),
+    0 0 40px rgba(255,0,200,.25),
     inset 0 0 10px rgba(0,255,255,.2),
     -3px -3px 0 rgba(255,0,200,.4);
-  animation:coverShine 2s ease-in-out infinite;
+  animation:coverShine 3.4s ease-in-out infinite;
 }
 
 @keyframes coverShine{
   0%,100%{
     border-color:#00ffff;
     box-shadow:
-      0 0 25px rgba(0,255,255,.6),
-      0 0 50px rgba(255,0,200,.3),
+      0 0 20px rgba(0,255,255,.5),
+      0 0 40px rgba(255,0,200,.25),
       inset 0 0 10px rgba(0,255,255,.2),
       -3px -3px 0 rgba(255,0,200,.4);
   }
   50%{
     border-color:#ff00ff;
     box-shadow:
-      0 0 35px rgba(255,0,255,.7),
-      0 0 70px rgba(0,255,200,.4),
-      inset 0 0 15px rgba(255,0,255,.3),
+      0 0 30px rgba(255,0,255,.6),
+      0 0 55px rgba(0,255,200,.35),
+      inset 0 0 15px rgba(255,0,255,.25),
       -3px -3px 0 rgba(0,255,255,.5);
   }
 }
@@ -575,7 +575,7 @@ a.btn-g:hover{
   letter-spacing:.05em;
   font-family:'Orbitron',sans-serif;
   text-transform:uppercase;
-  animation:titleCycle 2.5s ease-in-out infinite;
+  animation:titleCycle 4s ease-in-out infinite;
   font-size:clamp(.9rem,2.5vw,1.1rem);
 }
 
@@ -624,23 +624,23 @@ a.btn-p:hover{
   gap:12px;
   border-width:3px;
   backdrop-filter:blur(10px);
-  animation:postShimmer 2.5s ease-in-out infinite;
+  animation:postShimmer 4s ease-in-out infinite;
 }
 
 @keyframes postShimmer{
-  0%,100%{box-shadow:0 0 30px rgba(255,0,255,.25),inset 0 0 15px rgba(0,0,0,.5)}
-  50%{box-shadow:0 0 50px rgba(0,255,255,.4),inset 0 0 15px rgba(0,0,0,.5)}
+  0%,100%{box-shadow:0 0 25px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.5)}
+  50%{box-shadow:0 0 40px rgba(0,255,255,.3),inset 0 0 15px rgba(0,0,0,.5)}
 }
 
 .post-x{
   border:3px solid #00ffff;
   background:rgba(0,255,255,.1);
-  box-shadow:0 0 30px rgba(0,255,255,.25),inset 0 0 15px rgba(0,0,0,.5);
+  box-shadow:0 0 25px rgba(0,255,255,.2),inset 0 0 15px rgba(0,0,0,.5);
 }
 .post-sub{
   border:3px solid #ff00ff;
   background:rgba(255,0,200,.1);
-  box-shadow:0 0 30px rgba(255,0,255,.25),inset 0 0 15px rgba(0,0,0,.5);
+  box-shadow:0 0 25px rgba(255,0,255,.2),inset 0 0 15px rgba(0,0,0,.5);
 }
 
 .post-header{display:flex;align-items:center;justify-content:space-between;gap:10px}
@@ -727,25 +727,25 @@ a.btn-p:hover{
   padding:18px;
   background:rgba(0,255,255,.1);
   box-shadow:
-    0 0 28px rgba(0,255,255,.3),
+    0 0 23px rgba(0,255,255,.25),
     inset 0 0 12px rgba(0,255,255,.1),
     -4px -4px 0 rgba(255,0,200,.3);
   display:flex;
   flex-direction:column;
   gap:12px;
-  animation:productPulse 2.5s ease-in-out infinite;
+  animation:productPulse 4.2s ease-in-out infinite;
 }
 
 @keyframes productPulse{
   0%,100%{
     border-color:#00ffff;
     transform:scale(1);
-    box-shadow:0 0 28px rgba(0,255,255,.3),inset 0 0 12px rgba(0,255,255,.1),-4px -4px 0 rgba(255,0,200,.3);
+    box-shadow:0 0 23px rgba(0,255,255,.25),inset 0 0 12px rgba(0,255,255,.1),-4px -4px 0 rgba(255,0,200,.3);
   }
   50%{
     border-color:#ff00ff;
-    transform:scale(1.03);
-    box-shadow:0 0 45px rgba(255,0,255,.5),inset 0 0 18px rgba(255,0,255,.2),-4px -4px 0 rgba(0,255,255,.4);
+    transform:scale(1.02);
+    box-shadow:0 0 38px rgba(255,0,255,.4),inset 0 0 16px rgba(255,0,255,.15),-4px -4px 0 rgba(0,255,255,.35);
   }
 }
 
@@ -757,7 +757,7 @@ a.btn-p:hover{
   overflow:hidden;
   box-shadow:
     inset 0 0 30px rgba(0,0,0,.5),
-    0 0 25px rgba(255,0,255,.3);
+    0 0 20px rgba(255,0,255,.25);
 }
 .product-thumb svg{display:block;width:100%;height:100%;filter:brightness(1.1) saturate(1.2)}
 
@@ -772,7 +772,7 @@ a.btn-p:hover{
   font-family:'Orbitron',sans-serif;
   text-transform:uppercase;
   letter-spacing:.05em;
-  animation:productShift 2.2s ease-in-out infinite;
+  animation:productShift 3.8s ease-in-out infinite;
   font-size:clamp(.9rem,2.5vw,1.1rem);
 }
 
@@ -800,7 +800,7 @@ a.btn-p:hover{
     0 0 36px #00ffff;
   letter-spacing:.08em;
   font-family:'Audiowide',sans-serif;
-  animation:pricePulseViral 2s ease-in-out infinite;
+  animation:pricePulseViral 3.4s ease-in-out infinite;
   font-size:clamp(1rem,2.5vw,1.2rem);
 }
 
@@ -854,7 +854,7 @@ footer{
 
   <section>
     <div class="section-label">Find Me</div>
-    <div class="info info-m"><strong>X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.<br><strong>Substack</strong> — long-form analysis, essays, and deep dives into what's actually reshaping the world.</div>
+    <div class="info info-m"><strong>X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.<br><strong>Substack</strong> — long-form analysis, essays, and deep dives into tomorrow's headlines.</div>
     <div class="btn-row">
       <a class="btn btn-m" href="https://x.com/dylan2045ad" target="_blank" rel="noopener">X / Twitter</a>
       <a class="btn btn-m" href="https://substack.com/@dylan2045" target="_blank" rel="noopener">Substack</a>
@@ -863,7 +863,7 @@ footer{
 
   <section>
     <div class="section-label">Live Aggregators</div>
-    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks, filters, and surfaces signal from the noise of Reddit. <br><strong>NY Updates</strong> — New York City news as it breaks, from all sources.</div>
+    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks trending discussions, breaking stories, and public sentiment across subreddits.</div>
     <div class="btn-row">
       <a class="btn btn-c" href="https://osint-aggregator--dylan2045.replit.app/" target="_blank" rel="noopener">OSINT Aggregator</a>
       <a class="btn btn-c" href="https://reddit-aggregator--dylanguu11.replit.app/" target="_blank" rel="noopener">Reddit Aggregator</a>
@@ -881,7 +881,7 @@ footer{
           <span class="post-handle">dylan2045</span>
         </div>
         <a class="post-title-link" href="https://substack.com/@dylan2045" target="_blank" rel="noopener">The Infrastructure Nobody Talks About — But Should</a>
-        <div class="post-text">You see reports about AI, about market swings, about social upheaval. But nobody's mapping the actual infrastructure that's quietly reshaping everything beneath the headlines. Here's what's actually happening, and why it matters.</div>
+        <div class="post-text">You see reports about AI, about market swings, about social upheaval. But nobody's mapping the actual infrastructure that's quietly reshaping everything beneath the surface. From energy grids to satellite networks to computational supply chains — this essay maps the invisible backbone.</div>
         <div class="post-meta">Jun 8, 2026 · 12 min read · 847 subscribers</div>
       </div>
 
@@ -890,7 +890,7 @@ footer{
 
   <section>
     <div class="section-label">Listen &amp; Shop</div>
-    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops. <br><strong>Payhip</strong>, <strong>Ko-fi</strong>, and <strong>Shopify</strong> — all channels for physical and digital goods.</div>
+    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops. Choose your own price.</div>
     <div class="btn-row">
       <a class="btn btn-g" href="https://suno.com/@dylan2045ad" target="_blank" rel="noopener">Suno Music</a>
       <a class="btn btn-g" href="https://dylan2045ad.gumroad.com/" target="_blank" rel="noopener">Gumroad</a>
