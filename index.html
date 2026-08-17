@@ -15,8 +15,8 @@ body{
   background:#000000;
   background-image:
     /* Subtle circuit traces */
-    linear-gradient(0deg, transparent 24%, rgba(0,255,200,.08) 25%, rgba(0,255,200,.08) 26%, transparent 27%, transparent 74%, rgba(0,255,200,.08) 75%, rgba(0,255,200,.08) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, rgba(0,255,200,.08) 25%, rgba(0,255,200,.08) 26%, transparent 27%, transparent 74%, rgba(0,255,200,.08) 75%, rgba(0,255,200,.08) 76%, transparent 77%, transparent),
+    linear-gradient(0deg, transparent 24%, rgba(0,255,200,.08) 25%, rgba(0,255,200,.08) 26%, transparent 27%, transparent 74%, rgba(0,255,200,.08) 75%, rgba(0,255,200,.08) 76%, transparent 77%, transparent 100%),
+    linear-gradient(90deg, transparent 24%, rgba(0,255,200,.08) 25%, rgba(0,255,200,.08) 26%, transparent 27%, transparent 74%, rgba(0,255,200,.08) 75%, rgba(0,255,200,.08) 76%, transparent 77%, transparent 100%),
     /* Diagonal circuit paths */
     linear-gradient(45deg, transparent 48%, rgba(0,255,150,.06) 49%, rgba(0,255,150,.06) 51%, transparent 52%),
     linear-gradient(-45deg, transparent 48%, rgba(255,100,200,.06) 49%, rgba(255,100,200,.06) 51%, transparent 52%),
@@ -676,96 +676,6 @@ a.btn-p:hover{
   text-shadow:0 0 6px #00ffff;
 }
 
-/* SHOPIFY PRODUCTS */
-.shop-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.shop-card{
-  border:3px solid #00ffff;
-  border-radius:14px;
-  padding:18px;
-  background:rgba(0,255,255,.1);
-  box-shadow:
-    0 0 23px rgba(0,255,255,.25),
-    inset 0 0 12px rgba(0,255,255,.1),
-    -4px -4px 0 rgba(255,0,200,.3);
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-  animation:smoothProductGlow 4.5s ease-in-out infinite;
-}
-
-@keyframes smoothProductGlow{
-  0%,100%{
-    border-color:#00ffff;
-    transform:scale(1);
-    box-shadow:0 0 23px rgba(0,255,255,.25),inset 0 0 12px rgba(0,255,255,.1),-4px -4px 0 rgba(255,0,200,.3);
-  }
-  50%{
-    border-color:#ff00ff;
-    transform:scale(1.01);
-    box-shadow:0 0 30px rgba(255,0,255,.32),inset 0 0 14px rgba(255,0,255,.12),-4px -4px 0 rgba(0,255,255,.32);
-  }
-}
-
-.product-thumb{
-  width:100%;
-  aspect-ratio:1;
-  border-radius:10px;
-  border:2px solid #ff00ff;
-  overflow:hidden;
-  box-shadow:
-    inset 0 0 30px rgba(0,0,0,.5),
-    0 0 20px rgba(255,0,255,.25);
-}
-.product-thumb svg{display:block;width:100%;height:100%;filter:brightness(1.1) saturate(1.2)}
-
-.product-name{
-  font-size:1rem;
-  font-weight:900;
-  color:#00ffff;
-  text-shadow:
-    0 0 10px #00ffff,
-    0 0 20px #00ffff,
-    0 0 32px #ff00ff;
-  font-family:'Orbitron',sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.05em;
-  animation:smoothProductShift 4.5s ease-in-out infinite;
-  font-size:clamp(.9rem,2.5vw,1.1rem);
-}
-
-@keyframes smoothProductShift{
-  0%,100%{color:#00ffff}
-  50%{color:#ff00ff}
-}
-
-.product-desc{
-  font-size:.85rem;
-  font-weight:700;
-  line-height:1.6;
-  color:rgba(238,240,255,.94);
-  flex:1;
-  font-family:'Orbitron',sans-serif;
-}
-
-.product-price{
-  font-size:1.1rem;
-  font-weight:900;
-  color:#00ffff;
-  text-shadow:
-    0 0 12px #00ffff,
-    0 0 24px #ff00ff,
-    0 0 36px #00ffff;
-  letter-spacing:.08em;
-  font-family:'Audiowide',sans-serif;
-  animation:smoothPriceGlow 4s ease-in-out infinite;
-  font-size:clamp(1rem,2.5vw,1.2rem);
-}
-
-@keyframes smoothPriceGlow{
-  0%,100%{color:#00ffff;text-shadow:0 0 12px #00ffff,0 0 24px #ff00ff,0 0 36px #00ffff}
-  50%{color:#ff00ff;text-shadow:0 0 14px #ff00ff,0 0 28px #00ffff,0 0 40px #ff00ff}
-}
-
 /* FOOTER */
 footer{
   font-size:.75rem;
@@ -788,7 +698,6 @@ footer{
   .book-content{align-items:center}
   .book-btns{justify-content:center}
   .book-cover{width:140px;height:210px}
-  .shop-grid{grid-template-columns:1fr}
   section{gap:12px}
   .wrap{gap:32px}
 }
@@ -819,7 +728,7 @@ footer{
 
   <section>
     <div class="section-label">Live Aggregators</div>
-    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks trending signals from community forums.<br><strong>NY Updates</strong> — real-time data from New York City.</div>
+    <div class="info info-c"><strong>OSINT Aggregator</strong> — pulls open-source intelligence from across the public web into one real-time feed.<br><strong>Reddit Aggregator</strong> — tracks conversations and breaking threads from Reddit's main communities.</div>
     <div class="btn-row">
       <a class="btn btn-c" href="https://osint-aggregator--dylan2045.replit.app/" target="_blank" rel="noopener">OSINT Aggregator</a>
       <a class="btn btn-c" href="https://reddit-aggregator--dylanguu11.replit.app/" target="_blank" rel="noopener">Reddit Aggregator</a>
@@ -829,13 +738,12 @@ footer{
 
   <section>
     <div class="section-label">Listen &amp; Shop</div>
-    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops. <strong>Ko-fi</strong> — support the work directly.</div>
+    <div class="info info-g"><strong>Suno Music</strong> — original AI-crafted tracks and soundscapes from 2045.<br><strong>Gumroad</strong> — digital downloads, guides, and exclusive drops.</div>
     <div class="btn-row">
       <a class="btn btn-g" href="https://suno.com/@dylan2045ad" target="_blank" rel="noopener">Suno Music</a>
       <a class="btn btn-g" href="https://dylan2045ad.gumroad.com/" target="_blank" rel="noopener">Gumroad</a>
       <a class="btn btn-g" href="https://payhip.com/Dylan2045ad" target="_blank" rel="noopener">Payhip</a>
       <a class="btn btn-g" href="https://ko-fi.com/dylan2045ad" target="_blank" rel="noopener">Ko-fi</a>
-      <a class="btn btn-g" href="https://dylan2045ad.myshopify.com/" target="_blank" rel="noopener">Shopify</a>
     </div>
   </section>
 
