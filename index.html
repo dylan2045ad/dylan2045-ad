@@ -1,11 +1,21 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="republished-at" content="2026-08-22">
-<meta name="description" content="Dylan From 2045 — cyberpunk fiction, manga adaptations, and digital drops from the future.">
-<title>Dylan From 2045 — Reporting Back From the Future</title>
+<meta name="republished-at" content="2026-08-27">
+<meta name="description" content="Dylan From 2045 â€” The Signal, $3. Field notes for the open-source AI economy: cheaper tokens, agent outcomes, what actually works.">
+<title>Dylan From 2045 â€” The Signal, $3</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dylan From 2045">
+<meta property="og:title" content="Dylan From 2045 â€” The Signal, $3">
+<meta property="og:description" content="For builders in the open-source AI economy â€” cheaper tokens, agent outcomes, what actually works. One file. $3.">
+<meta property="og:image" content="https://dylan2045ad.netlify.app/og-image.png">
+<meta property="og:url" content="https://dylan2045ad.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dylan From 2045 â€” The Signal, $3">
+<meta name="twitter:description" content="For builders in the open-source AI economy â€” cheaper tokens, agent outcomes, what actually works. One file. $3.">
+<meta name="twitter:image" content="https://dylan2045ad.netlify.app/og-image.png">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Audiowide&display=swap');
 
@@ -64,7 +74,7 @@ body::before{
   gap:48px;
 }
 
-/* ——— HERO ——— */
+/* â€”â€”â€” HERO â€”â€”â€” */
 .hero{
   display:grid;
   grid-template-columns:1fr auto;
@@ -174,6 +184,46 @@ h1{
   letter-spacing:.02em;
 }
 
+/* â€”â€”â€” THE SIGNAL â€”â€”â€” */
+.signal-mark{
+  width:140px;height:210px;
+  border-radius:10px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+  border:2px solid var(--cyan);
+  background:linear-gradient(160deg, rgba(0,232,255,.14), rgba(255,43,214,.08));
+  box-shadow:0 8px 28px rgba(0,0,0,.5), 0 0 20px rgba(0,232,255,.2);
+}
+.signal-mark .sig-word{
+  font-family:'Audiowide','Orbitron',sans-serif;
+  font-size:1.02rem;letter-spacing:.12em;line-height:1.35;
+  color:#fff;text-align:center;text-transform:uppercase;
+  text-shadow:0 0 14px rgba(0,232,255,.6);
+}
+.signal-mark .sig-price{
+  font-family:'Audiowide','Orbitron',sans-serif;
+  font-size:2.3rem;color:var(--cyan);
+  text-shadow:0 0 18px rgba(0,232,255,.75);
+}
+
+/* â€”â€”â€” EMAIL CAPTURE â€”â€”â€” */
+.signal-form{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.signal-form input[type=email]{
+  flex:1;min-width:210px;padding:12px 14px;border-radius:10px;
+  border:2px solid rgba(0,232,255,.45);
+  background:rgba(4,10,28,.65);
+  color:var(--text);
+  font-family:'Orbitron',sans-serif;font-size:.85rem;letter-spacing:.03em;
+}
+.signal-form input[type=email]::placeholder{color:rgba(232,234,248,.45)}
+.signal-form input[type=email]:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 16px rgba(0,232,255,.3)}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.micro-note{font-size:.72rem;letter-spacing:.06em;color:rgba(232,234,248,.6)}
+
+/* â€”â€”â€” FOOTER LINKS â€”â€”â€” */
+.footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin-bottom:6px}
+footer a{color:rgba(0,232,255,.85);text-decoration:none;letter-spacing:.14em}
+footer a:hover{color:#fff;text-shadow:0 0 10px rgba(0,232,255,.5)}
+
 .featured-secondary{
   grid-column:1 / -1;
   display:flex;
@@ -208,7 +258,7 @@ h1{
 }
 .featured-secondary-cover img{width:100%;height:100%;object-fit:cover;display:block}
 
-/* ——— SECTIONS ——— */
+/* â€”â€”â€” SECTIONS â€”â€”â€” */
 section{display:flex;flex-direction:column;gap:16px}
 
 .section-label{
@@ -234,7 +284,7 @@ section{display:flex;flex-direction:column;gap:16px}
   border:1px solid var(--border);
 }
 
-/* ——— BUTTONS ——— */
+/* â€”â€”â€” BUTTONS â€”â€”â€” */
 .btn-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 
 a.btn{
@@ -256,7 +306,7 @@ a.btn{
 a.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}
 a.btn:active{transform:translateY(0)}
 
-/* Primary solid CTA — most prominent */
+/* Primary solid CTA â€” most prominent */
 a.btn-primary{
   color:#05050c;
   border-color:transparent;
@@ -318,7 +368,7 @@ a.btn-sm{
   letter-spacing:.1em;
 }
 
-/* ——— BOOK CARDS ——— */
+/* â€”â€”â€” BOOK CARDS â€”â€”â€” */
 .books-grid{display:flex;flex-direction:column;gap:18px}
 
 .book-card{
@@ -416,7 +466,7 @@ footer{
   padding-top:8px;
 }
 
-/* ——— RESPONSIVE ——— */
+/* â€”â€”â€” RESPONSIVE â€”â€”â€” */
 @media(max-width:640px){
   .hero{
     grid-template-columns:1fr;
@@ -458,33 +508,34 @@ footer{
       <img src="header.jpg" alt="Dylan From 2045" width="160" height="214">
     </div>
 
-    <article class="featured" aria-label="Featured book">
-      <div class="featured-cover">
-        <img src="cover-tesla-boyfriend.jpg" alt="My $300 Tesla Boyfriend — book cover" width="140" height="210">
+    <article class="featured" aria-label="The Signal â€” $3">
+      <div class="signal-mark">
+        <span class="sig-word">The<br>Signal</span>
+        <span class="sig-price">$3</span>
       </div>
       <div class="featured-body">
-        <span class="featured-badge">Featured</span>
-        <h2 class="featured-title">My $300 Tesla Boyfriend: Better Than Grindr</h2>
-        <p class="featured-pitch">A razor-sharp satire of modern dating — when the most honest relationship you can find costs $300 a month and runs on electricity. Funny, sharp, and oddly moving.</p>
+        <span class="featured-badge">New Drop</span>
+        <h2 class="featured-title">The Signal â€” $3</h2>
+        <p class="featured-pitch">For builders in the open-source AI economy â€” cheaper tokens, agent outcomes, and what actually works. One file, read in ten minutes, built to change one decision this week. Free sample page included inside.</p>
         <div class="btn-row">
-          <a class="btn btn-primary" href="https://www.barnesandnoble.com/w/my-300-tesla-boyfriend-better-than-grindr-dylan-vaughn/1149528873?ean=2940184912899" target="_blank" rel="noopener">Buy on Barnes &amp; Noble</a>
-          <a class="btn btn-secondary" href="https://books.apple.com/us/book/my-%24300-tesla-boyfriend-better-than-grindr-my-life/id6759536627" target="_blank" rel="noopener">Apple Books</a>
+          <a class="btn btn-primary" href="https://dylan2045ad.gumroad.com/l/the-signal" target="_blank" rel="noopener">Buy The Signal, $3</a>
         </div>
       </div>
     </article>
-
-    <aside class="featured-secondary" aria-label="Also featured">
-      <img class="featured-secondary-cover" src="cover-summer-reset.jpg" alt="" width="48" height="72">
-      <div>
-        <div class="featured-secondary-label">Also featured</div>
-        <div class="featured-secondary-title">The Summer Reset of 2026</div>
-      </div>
-      <div class="btn-row">
-        <a class="btn btn-magenta btn-sm" href="https://www.barnesandnoble.com/w/the-summer-reset-of-2026-dylan-vaughn/1149532976?ean=2940184912912" target="_blank" rel="noopener">Barnes &amp; Noble</a>
-        <a class="btn btn-secondary btn-sm" href="https://books.apple.com/us/book/the-summer-reset-of-2026-the-fall-of-wall/id6759535787" target="_blank" rel="noopener">Apple Books</a>
-      </div>
-    </aside>
   </header>
+
+  <!-- 1b. EMAIL CAPTURE -->
+  <section aria-labelledby="list-label">
+    <h2 class="section-label" id="list-label">Get The Next Signal First</h2>
+    <form class="section-note signal-form" name="signal-list" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="signal-list">
+      <p hidden aria-hidden="true"><label>Leave this field empty: <input name="bot-field"></label></p>
+      <label class="visually-hidden" for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="email">
+      <button class="btn btn-secondary" type="submit">Notify Me</button>
+    </form>
+    <p class="micro-note">One email when a new Signal drops. No spam, unsubscribe anytime.</p>
+  </section>
 
   <!-- 2. BOOKS FOR SALE -->
   <section aria-labelledby="books-label">
@@ -492,10 +543,10 @@ footer{
     <div class="books-grid">
 
       <article class="book-card">
-        <div class="book-cover"><img src="cover-tesla-boyfriend.jpg" alt="My $300 Tesla Boyfriend — book cover" loading="lazy" width="120" height="180"></div>
+        <div class="book-cover"><img src="cover-tesla-boyfriend.jpg" alt="My $300 Tesla Boyfriend â€” book cover" loading="lazy" width="120" height="180"></div>
         <div class="book-content">
           <h3 class="book-title">My $300 Tesla Boyfriend: Better Than Grindr</h3>
-          <p class="book-desc">A razor-sharp satire of modern dating — when the most honest relationship you can find costs $300 a month and runs on electricity. Funny, sharp, and oddly moving.</p>
+          <p class="book-desc">A razor-sharp satire of modern dating â€” when the most honest relationship you can find costs $300 a month and runs on electricity. Funny, sharp, and oddly moving.</p>
           <div class="btn-row book-btns">
             <a class="btn btn-primary btn-sm" href="https://www.barnesandnoble.com/w/my-300-tesla-boyfriend-better-than-grindr-dylan-vaughn/1149528873?ean=2940184912899" target="_blank" rel="noopener">Barnes &amp; Noble</a>
             <a class="btn btn-secondary btn-sm" href="https://books.apple.com/us/book/my-%24300-tesla-boyfriend-better-than-grindr-my-life/id6759536627" target="_blank" rel="noopener">Apple Books</a>
@@ -504,10 +555,10 @@ footer{
       </article>
 
       <article class="book-card">
-        <div class="book-cover"><img src="cover-summer-reset.jpg" alt="The Summer Reset of 2026 — book cover" loading="lazy" width="120" height="180"></div>
+        <div class="book-cover"><img src="cover-summer-reset.jpg" alt="The Summer Reset of 2026 â€” book cover" loading="lazy" width="120" height="180"></div>
         <div class="book-content">
           <h3 class="book-title">The Summer Reset of 2026</h3>
-          <p class="book-desc">A gripping near-future tale of economic collapse and reinvention — as Wall Street's last empire crumbles in a sweltering summer that reshapes civilization.</p>
+          <p class="book-desc">A gripping near-future tale of economic collapse and reinvention â€” as Wall Street's last empire crumbles in a sweltering summer that reshapes civilization.</p>
           <div class="btn-row book-btns">
             <a class="btn btn-primary btn-sm" href="https://www.barnesandnoble.com/w/the-summer-reset-of-2026-dylan-vaughn/1149532976?ean=2940184912912" target="_blank" rel="noopener">Barnes &amp; Noble</a>
             <a class="btn btn-secondary btn-sm" href="https://books.apple.com/us/book/the-summer-reset-of-2026-the-fall-of-wall/id6759535787" target="_blank" rel="noopener">Apple Books</a>
@@ -516,10 +567,10 @@ footer{
       </article>
 
       <article class="book-card">
-        <div class="book-cover"><img src="cover-manga-summer-reset.jpg" alt="Manga — The Summer Reset of 2026 cover" loading="lazy" width="120" height="180"></div>
+        <div class="book-cover"><img src="cover-manga-summer-reset.jpg" alt="Manga â€” The Summer Reset of 2026 cover" loading="lazy" width="120" height="180"></div>
         <div class="book-content">
-          <h3 class="book-title">Manga — The Summer Reset of 2026</h3>
-          <p class="book-desc">The cinematic manga adaptation of the bestselling novel — bold art, electric color, and a dystopian summer brought to vivid life panel by panel.</p>
+          <h3 class="book-title">Manga â€” The Summer Reset of 2026</h3>
+          <p class="book-desc">The cinematic manga adaptation of the bestselling novel â€” bold art, electric color, and a dystopian summer brought to vivid life panel by panel.</p>
           <div class="btn-row book-btns">
             <a class="btn btn-primary btn-sm" href="https://www.barnesandnoble.com/w/manga-the-summer-reset-of-2026-dylan-vaughn/1149542093?ean=2940185004081" target="_blank" rel="noopener">Barnes &amp; Noble</a>
             <a class="btn btn-secondary btn-sm" href="https://books.apple.com/us/book/manga-the-summer-reset-of-2026/id6759538626" target="_blank" rel="noopener">Apple Books</a>
@@ -528,10 +579,10 @@ footer{
       </article>
 
       <article class="book-card">
-        <div class="book-cover"><img src="cover-manga-tesla-boyfriend.jpg" alt="Manga — My $300 Tesla Boyfriend cover" loading="lazy" width="120" height="180"></div>
+        <div class="book-cover"><img src="cover-manga-tesla-boyfriend.jpg" alt="Manga â€” My $300 Tesla Boyfriend cover" loading="lazy" width="120" height="180"></div>
         <div class="book-content">
-          <h3 class="book-title">Manga — My $300 Tesla Boyfriend</h3>
-          <p class="book-desc">The illustrated retelling of the cult favourite — expressive art and dry wit collide in this manga story of AI companionship, loneliness, and late-night drives.</p>
+          <h3 class="book-title">Manga â€” My $300 Tesla Boyfriend</h3>
+          <p class="book-desc">The illustrated retelling of the cult favourite â€” expressive art and dry wit collide in this manga story of AI companionship, loneliness, and late-night drives.</p>
           <div class="btn-row book-btns">
             <a class="btn btn-primary btn-sm" href="https://www.barnesandnoble.com/w/manga-my-tesla-300-boyfriend-dylan-vaughn/1149542098?ean=2940185004111" target="_blank" rel="noopener">Barnes &amp; Noble</a>
             <a class="btn btn-secondary btn-sm" href="https://books.apple.com/us/book/manga-manga-my-%24300-tesla-boyfriend-better-than-grindr/id6759537288" target="_blank" rel="noopener">Apple Books</a>
@@ -542,50 +593,55 @@ footer{
     </div>
   </section>
 
-  <!-- 3. SHOP & SUPPORT -->
+  <!-- 3. SHOP -->
   <section aria-labelledby="shop-label">
-    <h2 class="section-label" id="shop-label">Shop &amp; Support</h2>
+    <h2 class="section-label" id="shop-label">Shop</h2>
     <div class="shop-grid">
       <div class="shop-card primary-shop">
         <div class="shop-card-text">
-          <div class="shop-card-name">Gumroad</div>
-          <div class="shop-card-desc">Digital downloads, guides, and exclusive drops — primary storefront.</div>
+          <div class="shop-card-name">Gumroad â€” Primary Shop</div>
+          <div class="shop-card-desc">The Signal, $3 â€” one file: field notes for the open-source AI economy. Free sample page included inside.</div>
         </div>
-        <a class="btn btn-gumroad" href="https://dylan2045ad.gumroad.com/" target="_blank" rel="noopener">Shop on Gumroad</a>
+        <a class="btn btn-gumroad" href="https://dylan2045ad.gumroad.com/l/the-signal" target="_blank" rel="noopener">The Signal on Gumroad</a>
       </div>
+      <!-- Payhip hidden until a verified Gumroad sale exists (rule A23). Re-enable after first receipt:
       <div class="shop-card">
         <div class="shop-card-text">
-          <div class="shop-card-name">Payhip</div>
+          <div class="shop-card-name">Payhip â€” Backup, idle</div>
           <div class="shop-card-desc">Alternate digital storefront for select releases.</div>
         </div>
         <a class="btn btn-green btn-sm" href="https://payhip.com/Dylan2045ad" target="_blank" rel="noopener">Payhip</a>
       </div>
-      <div class="shop-card">
-        <div class="shop-card-text">
-          <div class="shop-card-name">Suno Music</div>
-          <div class="shop-card-desc">Original AI-crafted tracks and soundscapes from 2045.</div>
-        </div>
-        <a class="btn btn-green btn-sm" href="https://suno.com/@dylan2045ad" target="_blank" rel="noopener">Suno</a>
-      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- 3b. MEDIA (not a shop) -->
+  <section aria-labelledby="media-label">
+    <h2 class="section-label" id="media-label">Media</h2>
+    <p class="section-note"><strong style="color:#fff;font-weight:600">Suno</strong> â€” original AI-crafted tracks and soundscapes from 2045. Listen free. Nothing for sale here.</p>
+    <div class="btn-row">
+      <a class="btn btn-green btn-sm" href="https://suno.com/@dylan2045ad" target="_blank" rel="noopener">Suno</a>
     </div>
   </section>
 
   <!-- 4. FIND ME -->
   <section aria-labelledby="find-label">
     <h2 class="section-label" id="find-label">Find Me</h2>
-    <p class="section-note"><strong style="color:#fff;font-weight:600">X / Twitter</strong> — quick takes, breaking signals, and real-time threads from the future.</p>
+    <p class="section-note"><strong style="color:#fff;font-weight:600">X / Twitter</strong> â€” quick takes, breaking signals, and real-time threads from the future.</p>
     <div class="btn-row">
       <a class="btn btn-magenta" href="https://x.com/dylan2045ad" target="_blank" rel="noopener">X / Twitter</a>
-      <a class="btn btn-secondary" href="https://github.com/dylan2045ad" target="_blank" rel="noopener">GitHub Projects</a>
+      <a class="btn btn-secondary"       <a class="btn btn-secondary" href="https://www.youtube.com/@dylan2045ad" target="_blank" rel="noopener">YouTube</a>
+href="https://github.com/dylan2045ad" target="_blank" rel="noopener">GitHub Projects</a>
     </div>
   </section>
 
-  <!-- 5. LIVE AGGREGATORS -->
+  <!-- 5. LABS -->
   <section aria-labelledby="agg-label">
-    <h2 class="section-label" id="agg-label">Live Aggregators</h2>
-    <p class="section-note"><strong style="color:#fff;font-weight:600">OSINT Aggregator</strong> — open-source intelligence from across the public web.<br>
-    <strong style="color:#fff;font-weight:600">Reddit Aggregator</strong> — conversations and breaking threads from Reddit.<br>
-    <strong style="color:#fff;font-weight:600">NY Updates</strong> — live New York signal feed.</p>
+    <h2 class="section-label" id="agg-label">Labs</h2>
+    <p class="section-note"><strong style="color:#fff;font-weight:600">OSINT Aggregator</strong> â€” open-source intelligence from across the public web.<br>
+    <strong style="color:#fff;font-weight:600">Reddit Aggregator</strong> â€” conversations and breaking threads from Reddit.<br>
+    <strong style="color:#fff;font-weight:600">NY Updates</strong> â€” live New York signal feed.</p>
     <div class="btn-row">
       <a class="btn btn-secondary" href="https://osint-aggregator--dylan2045.replit.app/" target="_blank" rel="noopener">OSINT Aggregator</a>
       <a class="btn btn-secondary" href="https://reddit-aggregator--dylanguu11.replit.app/" target="_blank" rel="noopener">Reddit Aggregator</a>
@@ -593,7 +649,15 @@ footer{
     </div>
   </section>
 
-  <footer>© Dylan2045ad</footer>
+  <footer>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://dylan2045ad.gumroad.com/l/the-signal" target="_blank" rel="noopener">Gumroad</a>
+      <a href="https://ko-fi.com/dylan2045ad" target="_blank" rel="noopener">Ko-fi (Tips)</a>
+      <a href="https://www.youtube.com/@dylan2045ad" target="_blank" rel="noopener">YouTube</a>
+      <a href="/">Site</a>
+    </nav>
+    <div>Â© Dylan2045ad</div>
+  </footer>
 
 </div>
 </body>
