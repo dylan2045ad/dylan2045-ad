@@ -1,5 +1,7 @@
 # Dylan From 2045 — Personal Hub
 
+Free 5-min brief: The Signal — https://payhip.com/b/4tHmb · Site: https://dylan2045-ad.netlify.app
+
 A single-page personal hub for Dylan From 2045, a creator who reports back from the future on AI and tech.
 
 ## Tech
