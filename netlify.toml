@@ -1,5 +1,4 @@
 [build]
-  command = "mkdir -p assets && base64 -d assets/gumroad-cover.b64 > assets/gumroad-cover.jpg && base64 -d assets/payhip-cover.b64 > assets/payhip-cover.jpg && base64 -d assets/kofi-cover.b64 > assets/kofi-cover.jpg"
   publish = "."
 
 [[redirects]]
