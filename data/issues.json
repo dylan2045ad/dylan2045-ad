@@ -1,0 +1,34 @@
+{
+  "canonicalPayhip": "https://payhip.com/b/4tHmb",
+  "fieldKit": {
+    "name": "Field Kit",
+    "priceLabel": "$17",
+    "url": "https://payhip.com/b/V472q"
+  },
+  "issues": [
+    {
+      "number": 5,
+      "title": "Price Floor Week",
+      "date": "2026-09-24",
+      "teaser": "A 5-minute brief. The free issue is the brief; the Field Kit is the $17 decision ZIP (ledger, kill switch, shock drill).",
+      "cover": "signal-cover.jpg",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
+      "number": 3,
+      "title": "The Credit Market",
+      "date": "",
+      "teaser": "Free on Payhip.",
+      "cover": "",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
+      "number": 1,
+      "title": "The Signal",
+      "date": "",
+      "teaser": "Issue 01, free on this site.",
+      "cover": "",
+      "url": "signal.html"
+    }
+  ]
+}

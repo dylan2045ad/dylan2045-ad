@@ -1,22 +1,38 @@
-# Dylan From 2045 — Personal Hub
+# The Signal — Dylan from 2045
 
-Free 5-min brief: The Signal — https://payhip.com/b/4tHmb · Site: https://dylan2045-ad.netlify.app
+Free weekly brief from Dylan from 2045.
 
-A single-page personal hub for Dylan From 2045, a creator who reports back from the future on AI and tech.
+- Landing: https://dylan2045ad.github.io/dylan2045-ad/
+- Free issue: https://payhip.com/b/4tHmb
+- Field Kit ($17): https://payhip.com/b/V472q
 
-## Tech
+The homepage reads [`data/issues.json`](data/issues.json) and features the highest issue number: cover, title, date, and teaser. Older issues stay in the archive. The rest of the creator hub stays at [`hub.html`](hub.html).
 
-- Pure HTML + inline CSS — no build step, no dependencies, no framework
-- Netlify static hosting
+GitHub Pages publishes the `main` branch from the repository root. The same files are what Netlify serves.
 
-## Run Locally
+Do not commit the full issue text. `data/issues.json` stores a short teaser only.
 
-Open `index.html` in any browser, or serve with any static file server:
+## Add Issue 06
 
-```bash
-npx serve .
+1. Add the cover image to the repo.
+2. Edit `data/issues.json` and add an object with the next number:
+
+```json
+{
+  "number": 6,
+  "title": "Issue title",
+  "date": "YYYY-MM-DD",
+  "teaser": "One or two public sentences. Not the full issue.",
+  "cover": "your-cover.jpg",
+  "url": "https://payhip.com/b/4tHmb"
+}
 ```
 
-## Header Image
+3. Commit that change and push to `main`.
+4. [`.github/workflows/signal-release.yml`](.github/workflows/signal-release.yml) runs because `data/issues.json` changed. It creates GitHub Release `signal-issue-06` titled `The Signal — Issue 06: …`. The notes include the teaser (capped at 400 characters), the Payhip link, and the Pages URL. If tag `signal-issue-06` already exists, the workflow does nothing.
 
-Replace `header.jpg` in the project root with your own photo to update the header image area.
+The same push updates the Pages site, so the landing shows Issue 06 without a separate deploy step.
+
+## Get release notifications
+
+Open https://github.com/dylan2045ad/dylan2045-ad and choose **Watch → Custom → Releases**. GitHub notifies you when a new issue ships.

@@ -1,0 +1,21 @@
+name: Signal release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/issues.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the Signal release unless the tag exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/signal_release.py
