@@ -2,432 +2,473 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Dylan From 2045</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Signal — Issue 05: Price Floor Week | Dylan from 2045</title>
+    <meta
+      name="description"
+      content="The Signal, Issue 05: Price Floor Week (2026-09-24). A 5-minute brief. Read it free on Payhip."
+    />
+    <link rel="canonical" href="https://dylan2045ad.github.io/dylan2045-ad/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Signal — Issue 05: Price Floor Week" />
+    <meta
+      property="og:description"
+      content="A 5-minute brief. The free issue is the brief; the Field Kit is the $17 decision ZIP."
+    />
+    <meta
+      property="og:image"
+      content="https://dylan2045ad.github.io/dylan2045-ad/signal-cover.jpg"
+    />
+    <meta property="og:url" content="https://dylan2045ad.github.io/dylan2045-ad/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#050a24" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Audiowide&display=swap");
-      * {
-        box-sizing: border-box;
+      :root {
+        --bg: #050a24;
+        --cyan: #00eaff;
+        --magenta: #ff2bd6;
+        --violet: #9d5bff;
+        --amber: #ffb020;
+        --text: #f4f7ff;
+        --muted: #c9d0ea;
       }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
       body {
         margin: 0;
-        background: #05050c;
-        color: #e8eaf8;
-        font-family: Orbitron, system-ui;
-        padding: 28px 18px;
-        line-height: 1.55;
+        min-height: 100vh;
+        color: var(--text);
+        background: var(--bg);
+        font-family: "Segoe UI", "Avenir Next", "Trebuchet MS", sans-serif;
+        line-height: 1.5;
+      }
+      .mesh {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        overflow: hidden;
+        pointer-events: none;
+        background:
+          radial-gradient(ellipse at 8% 0%, rgba(0, 234, 255, 0.45), transparent 42%),
+          radial-gradient(ellipse at 100% 8%, rgba(255, 43, 214, 0.42), transparent 40%),
+          radial-gradient(ellipse at 78% 100%, rgba(157, 91, 255, 0.5), transparent 46%),
+          radial-gradient(ellipse at 0% 90%, rgba(255, 176, 32, 0.38), transparent 42%),
+          var(--bg);
+      }
+      .mesh span {
+        position: absolute;
+        width: 42vw;
+        height: 42vw;
+        border-radius: 50%;
+        filter: blur(30px);
+        opacity: 0.55;
+        animation: drift 18s ease-in-out infinite alternate;
+      }
+      .mesh .c { background: #00eaff; top: -8%; left: -6%; }
+      .mesh .m { background: #ff2bd6; top: 8%; right: -10%; animation-delay: -6s; }
+      .mesh .v { background: #9d5bff; bottom: -12%; left: 28%; animation-delay: -11s; }
+      .mesh .a { background: #ffb020; bottom: 6%; left: -8%; animation-delay: -3s; }
+      .mesh::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(0, 234, 255, 0.09) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 43, 214, 0.07) 1px, transparent 1px);
+        background-size: 56px 56px;
+        mask-image: radial-gradient(ellipse at center, #000 20%, transparent 78%);
+      }
+      @keyframes drift {
+        from { transform: translate3d(0, 0, 0) scale(1); }
+        to { transform: translate3d(4%, -3%, 0) scale(1.08); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .mesh span { animation: none; }
+        html { scroll-behavior: auto; }
       }
       .wrap {
-        max-width: 900px;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 42px;
+        position: relative;
+        z-index: 1;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 20px 88px;
       }
-      h1 {
-        font-family: Audiowide;
-        color: #fff;
-        text-shadow: 0 0 20px #00e8ff;
-        font-size: clamp(2rem, 6vw, 3.2rem);
-      }
-      .tag,
-      .label {
-        color: #00e8ff;
+      .byline {
+        margin: 0 0 22px;
+        letter-spacing: 0.28em;
         text-transform: uppercase;
-        letter-spacing: 0.22em;
-      }
-      .subhead {
-        max-width: 680px;
-        margin: 14px 0 0;
-        color: #cfd2e5;
-        font-size: 1rem;
+        font-size: 0.74rem;
+        color: var(--cyan);
       }
       .hero {
         display: grid;
-        grid-template-columns: 1fr 160px;
-        gap: 25px;
+        grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+        grid-template-areas:
+          "intro cover"
+          "pitch cover";
+        gap: 18px 40px;
+        align-items: center;
       }
-      .portrait {
-        width: 160px;
-        height: 210px;
-        object-fit: cover;
-        border-radius: 14px;
-        border: 2px solid #00e8ff;
+      .intro { grid-area: intro; }
+      .cover { grid-area: cover; }
+      .pitch { grid-area: pitch; }
+      .kicker, .issue-no {
+        margin: 0;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        font-weight: 700;
       }
-      .card,
-      .product {
-        background: #0b0d1ddd;
-        border: 1px solid #00e8ff66;
-        border-radius: 16px;
-        padding: 20px;
-        box-shadow: 0 10px 30px #0008;
+      .kicker { color: var(--amber); font-size: 0.82rem; }
+      .issue-no {
+        margin-top: 10px;
+        color: var(--cyan);
+        font-size: 0.95rem;
+        text-shadow: 0 0 16px rgba(0, 234, 255, 0.55);
       }
-      .signal {
-        grid-column: 1/-1;
-        display: grid;
-        grid-template-columns: 180px 1fr;
-        gap: 22px;
+      h1 {
+        margin: 8px 0 10px;
+        font-size: clamp(2.6rem, 7vw, 5.4rem);
+        line-height: 0.95;
+        letter-spacing: -0.03em;
+        color: #fff;
+        text-shadow: 0 0 24px rgba(157, 91, 255, 0.45);
       }
-      .signal img {
-        width: 180px;
-        height: 212px;
-        object-fit: cover;
-        border-radius: 10px;
+      @supports ((-webkit-background-clip: text) or (background-clip: text)) {
+        h1 {
+          background: linear-gradient(100deg, #00eaff 0%, #9d5bff 42%, #ff2bd6 72%, #ffb020 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
       }
-      .label {
-        font-size: 0.78rem;
-        border-bottom: 2px solid #ff2bd6;
-        padding-bottom: 8px;
-        margin: 0 0 16px;
+      time {
+        display: inline-block;
+        margin-top: 4px;
+        color: var(--amber);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-shadow: 0 0 14px rgba(255, 176, 32, 0.45);
       }
-      .btns {
+      .teaser {
+        margin: 0 0 22px;
+        max-width: 38rem;
+        font-size: clamp(1.05rem, 2vw, 1.28rem);
+        color: var(--text);
+      }
+      .ctas {
         display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        max-width: 440px;
       }
-      .btn {
+      .btn-m, .btn-c {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
-        padding: 11px 16px;
-        border-radius: 9px;
-        border: 2px solid #00e8ff;
-        color: #00e8ff;
+        justify-content: center;
+        text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: 0.72rem;
+        letter-spacing: 0.06em;
+        border-radius: 16px;
       }
-      .primary {
-        background: #00e8ff;
-        color: #05050c;
+      .btn-m {
+        min-height: 76px;
+        padding: 18px 28px;
+        font-size: clamp(1.15rem, 2.4vw, 1.65rem);
+        color: #140314;
+        background: linear-gradient(100deg, #ff2bd6 0%, #ff6adf 55%, #ffb020 130%);
+        box-shadow: 0 0 28px rgba(255, 43, 214, 0.55), 0 12px 30px rgba(255, 43, 214, 0.28);
       }
-      .pink {
-        border-color: #ff2bd6;
-        color: #ff2bd6;
+      .btn-m:hover, .btn-m:focus-visible {
+        transform: translateY(-2px);
+        box-shadow: 0 0 40px rgba(255, 43, 214, 0.75), 0 16px 36px rgba(255, 176, 32, 0.35);
       }
-      .green {
-        border-color: #00ff9d;
-        color: #00ff9d;
+      .btn-c {
+        min-height: 54px;
+        padding: 12px 20px;
+        font-size: 0.95rem;
+        color: var(--cyan);
+        background: rgba(5, 10, 36, 0.45);
+        border: 2px solid var(--cyan);
+        box-shadow: 0 0 18px rgba(0, 234, 255, 0.28);
       }
-      .purple {
-        border-color: #b58cff;
-        color: #b58cff;
+      .btn-c:hover, .btn-c:focus-visible {
+        background: rgba(0, 234, 255, 0.12);
+        color: #fff;
+      }
+      .cover {
+        margin: 0;
+        padding: 3px;
+        border-radius: 22px;
+        background: linear-gradient(135deg, #00eaff, #9d5bff, #ff2bd6, #ffb020);
+        box-shadow: 0 0 46px rgba(0, 234, 255, 0.28), 0 0 80px rgba(255, 43, 214, 0.22);
+      }
+      .cover img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 19px;
+        background: #050a24;
+      }
+      .archive-wrap { margin-top: 64px; }
+      .archive-wrap h2 {
+        margin: 0 0 16px;
+        font-size: 0.82rem;
+        letter-spacing: 0.26em;
+        text-transform: uppercase;
+        color: var(--violet);
+        text-shadow: 0 0 14px rgba(157, 91, 255, 0.6);
       }
       .archive {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         gap: 14px;
       }
-      .archive a {
-        color: #fff;
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        padding: 16px 16px 18px;
+        border-radius: 16px;
         text-decoration: none;
+        color: var(--text);
+        background: rgba(5, 10, 36, 0.62);
+        border: 1px solid rgba(157, 91, 255, 0.55);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
       }
-      .archive strong {
-        color: #00e8ff;
+      .card:hover, .card:focus-visible {
+        border-color: var(--cyan);
+        box-shadow: 0 0 22px rgba(0, 234, 255, 0.25);
       }
-      .products {
-        display: grid;
-        gap: 20px;
-      }
-      .product {
-        display: grid;
-        grid-template-columns: 220px 1fr;
-        gap: 24px;
-        align-items: center;
-        border-color: #ff2bd688;
-      }
-      .product img {
-        display: block;
-        width: 220px;
-        height: auto;
-        object-fit: contain;
-        border-radius: 12px;
-        border: 2px solid #00e8ff;
-      }
-      .product h3 {
-        font-size: 1.2rem;
-        color: #fff;
-        margin: 4px 0;
-      }
-      .store {
-        color: #ff2bd6;
+      .card strong { font-size: 1.05rem; }
+      .card .meta {
+        color: var(--cyan);
+        font-size: 0.75rem;
+        letter-spacing: 0.14em;
         text-transform: uppercase;
-        font-size: 0.7rem;
-        letter-spacing: 0.18em;
-        font-weight: 800;
       }
-      .note {
-        color: #cfd2e5;
-        font-size: 0.86rem;
-      }
-      .micro-note {
-        color: #9da3c2;
-        font-size: 0.76rem;
-        margin: 10px 0 0;
-      }
-      section {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-      }
-      .socials {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-      }
-      .socials .btn {
-        min-width: 190px;
-        justify-content: flex-start;
-      }
-      .socials svg {
-        width: 22px;
-        height: 22px;
-        fill: currentColor;
-        flex: none;
-      }
+      .card p { margin: 0; color: var(--muted); font-size: 0.92rem; }
       footer {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        justify-content: center;
+        padding: 10px 20px 28px;
+        color: var(--muted);
+        font-size: 0.85rem;
         text-align: center;
-        color: #00e8ff88;
-        font-size: 0.7rem;
       }
-      @media (max-width: 650px) {
+      footer a { color: var(--cyan); }
+      @media (max-width: 800px) {
         .hero {
           grid-template-columns: 1fr;
-          justify-items: center;
-          text-align: center;
+          grid-template-areas:
+            "intro"
+            "cover"
+            "pitch";
         }
-        .portrait {
-          order: -1;
-        }
-        .signal,
-        .product {
-          grid-template-columns: 1fr;
-          text-align: center;
-          justify-items: center;
-        }
-        .btns {
-          justify-content: center;
-        }
-        .archive {
-          grid-template-columns: 1fr;
-        }
-        .product img {
-          width: min(300px, 85vw);
-          height: auto;
-        }
-        .socials {
-          align-items: stretch;
-        }
-        .socials .btn {
-          width: 100%;
-          justify-content: flex-start;
-        }
+        .cover { justify-self: center; width: min(100%, 320px); }
+        .cover img { max-height: 42vh; object-fit: contain; }
+        .ctas { max-width: none; }
       }
     </style>
   </head>
   <body>
+    <div class="mesh" aria-hidden="true">
+      <span class="c"></span>
+      <span class="m"></span>
+      <span class="v"></span>
+      <span class="a"></span>
+    </div>
     <div class="wrap">
+      <p class="byline">Dylan from 2045</p>
       <header class="hero">
-        <div>
-          <h1>Dylan From 2045</h1>
-          <div class="tag">Reporting Back From the Future</div>
-          <p class="subhead">
-            AI-native creator tools, practical field kits, and clear signals for
-            people building what comes next.
+        <div class="intro">
+          <p class="kicker">The Signal</p>
+          <p class="issue-no" id="issue-no">Issue 05</p>
+          <h1 id="issue-title">Price Floor Week</h1>
+          <time id="issue-date" datetime="2026-09-24">September 24, 2026</time>
+        </div>
+        <figure class="cover">
+          <img
+            id="issue-cover"
+            src="signal-cover.jpg"
+            alt="The Signal Issue 05 cover: Price Floor Week"
+          />
+        </figure>
+        <div class="pitch">
+          <p class="teaser" id="issue-teaser">
+            A 5-minute brief. The free issue is the brief; the Field Kit is the
+            $17 decision ZIP (ledger, kill switch, shock drill).
           </p>
-        </div>
-        <img class="portrait" src="header.jpg" alt="Dylan From 2045" />
-        <article class="card signal">
-          <img src="signal-cover.jpg" alt="The Signal cover" />
-          <div>
-            <div class="tag">Issue #05 — Latest free</div>
-            <h2>The Signal</h2>
-            <p class="note">
-              Issue #05 — Price Floor Week. The free issue is the brief; the
-              Field Kit is the $17 decision ZIP (ledger, kill switch, shock
-              drill).
-            </p>
-            <div class="btns">
-              <a class="btn primary" href="https://payhip.com/b/4tHmb"
-                >Read The Signal free</a
-              ><a class="btn" href="https://payhip.com/b/V472q"
-                >Get the Field Kit — $17</a
-              >
-            </div>
-            <p class="micro-note">Free issue first. Paid kit for the deeper decision tools.</p>
-          </div>
-        </article>
-      </header>
-      <section class="card">
-        <h2 class="label">Start here</h2>
-        <h3>Get the next Signal in your inbox.</h3>
-        <p class="note">
-          A concise weekly brief on the agent economy, creator systems, and the
-          decisions worth making before the crowd arrives.
-        </p>
-        <div class="btns">
-          <a class="btn primary" href="https://payhip.com/b/4tHmb">Get The Signal free</a>
-          <a class="btn" href="mailto:dylanvfrancis000@gmail.com?subject=The%20Signal%20subscription">Email me the next issue</a>
-        </div>
-      </section>
-      <section class="card">
-        <h2 class="label">About the operator</h2>
-        <p class="note">
-          Dylan From 2045 builds and tests AI-native creator tools, digital
-          products, and publishing systems. Everything here is designed to be
-          useful on a Monday morning—not just interesting in a browser tab.
-        </p>
-        <p class="micro-note">Questions, support, or delivery issues? Email Dylan directly.</p>
-      </section>
-      <section>
-        <h2 class="label">The Signal Archive</h2>
-        <div class="archive">
-          <a class="card" href="https://payhip.com/b/4tHmb"
-            ><strong>Issue #05</strong><br /><span class="note"
-              >Price Floor Week — free on Payhip</span
-            ></a
-          ><a class="card" href="signal.html"
-            ><strong>Issue #01</strong><br /><span class="note"
-              >The Signal — Issue #01</span
-            ></a
-          ><a class="card" href="https://payhip.com/b/4tHmb"
-            ><strong>Issue #03</strong><br /><span class="note"
-              >The Credit Market — free on Payhip</span
-            ></a
-          >
-        </div>
-      </section>
-      <section>
-        <h2 class="label">Products &amp; AI Resources</h2>
-        <div class="products">
-          <article class="product">
+          <div class="ctas">
             <a
-              href="https://dylan2045ad.gumroad.com/l/Viralprompt?layout=profile"
-              ><img
-                src="assets/gumroad-cover.jpg"
-                alt="AI Gold Cyberpunk Prompt cover"
-            /></a>
-            <div>
-              <div class="store">Gumroad</div>
-              <h3>AI Gold Cyberpunk Prompt</h3>
-              <p class="note">
-                Create anything. Automate anything. Hack reality. Command AI.
-              </p>
-              <a
-                class="btn primary"
-                href="https://dylan2045ad.gumroad.com/l/Viralprompt?layout=profile"
-                >Get the prompt pack</a
-              >
-            </div>
-          </article>
-          <article class="product">
-            <a href="https://payhip.com/b/r3LpS"
-              ><img
-                src="assets/payhip-cover.jpg"
-                alt="AI Gold 25 High-Impact Prompts cover"
-            /></a>
-            <div>
-              <div class="store">Payhip</div>
-              <h3>AI Gold: 25 High-Impact Prompts</h3>
-              <p class="note">
-                25 high-impact AI prompts built to unlock clarity, amplify
-                output and drive results.
-              </p>
-              <a class="btn pink" href="https://payhip.com/b/r3LpS"
-                >Get the prompt pack</a
-              >
-            </div>
-          </article>
-          <article class="product">
-            <a href="https://ko-fi.com/s/dd78e2e56d"
-              ><img
-                src="assets/kofi-cover.jpg"
-                alt="Paid Traffic Readiness Checklist cover"
-            /></a>
-            <div>
-              <div class="store">Ko-fi</div>
-              <h3>Paid Traffic Readiness Checklist (Free)</h3>
-              <p class="note">
-                12 essential checks to make paid traffic more profitable before
-                you spend.
-              </p>
-              <a class="btn green" href="https://ko-fi.com/s/dd78e2e56d"
-                >Get the checklist free</a
-              >
-            </div>
-          </article>
-          <article class="product">
-            <a
-              href="https://dylan2045ad.gumroad.com/l/SummerReset2026"
+              class="btn-m"
+              id="cta-free"
+              href="https://payhip.com/b/4tHmb"
               target="_blank"
               rel="noopener"
-              ><img
-                src="assets/summer-reset-audiobook-cover.png"
-                alt="The Summer Reset of 2026 audiobook cover"
-            /></a>
-            <div>
-              <div class="store">Gumroad · Free audio book</div>
-              <h3>free audio🎧📔 book | The Summer Reset of 2026</h3>
-              <p class="note">
-                A free audio book based on the Barnes &amp; Noble physical
-                paperback book by Dylan Vaughn.
-              </p>
-              <a
-                class="btn purple"
-                href="https://dylan2045ad.gumroad.com/l/SummerReset2026"
-                target="_blank"
-                rel="noopener"
-                >Listen to the audiobook free</a
-              >
-            </div>
-            <p class="micro-note">Digital delivery is immediate after checkout. Contact Dylan for support or refund questions.</p>
-          </article>
+              >Read Issue 05 free</a
+            >
+            <a
+              class="btn-c"
+              id="cta-kit"
+              href="https://payhip.com/b/V472q"
+              target="_blank"
+              rel="noopener"
+              >Field Kit — $17</a
+            >
+          </div>
+        </div>
+      </header>
+      <section class="archive-wrap" aria-labelledby="archive-label">
+        <h2 id="archive-label">Archive</h2>
+        <div class="archive" id="archive">
+          <a class="card" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">
+            <span class="meta">Issue 05 · 2026-09-24</span>
+            <strong>Price Floor Week</strong>
+            <p>
+              A 5-minute brief. The free issue is the brief; the Field Kit is the
+              $17 decision ZIP (ledger, kill switch, shock drill).
+            </p>
+          </a>
+          <a class="card" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">
+            <span class="meta">Issue 03</span>
+            <strong>The Credit Market</strong>
+            <p>Free on Payhip.</p>
+          </a>
+          <a class="card" href="signal.html">
+            <span class="meta">Issue 01</span>
+            <strong>The Signal</strong>
+            <p>Issue 01, free on this site.</p>
+          </a>
         </div>
       </section>
-      <section>
-        <h2 class="label">Find Me</h2>
-        <div class="socials">
-          <a class="btn pink" href="https://x.com/dylan2045ad" aria-label="X"
-            ><svg viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.967 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"
-              /></svg
-            ><span>X / Twitter</span></a
-          ><a
-            class="btn"
-            href="https://www.youtube.com/@dylan2045ad"
-            aria-label="YouTube"
-            ><svg viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"
-              /></svg
-            ><span>YouTube</span></a
-          ><a
-            class="btn"
-            href="https://github.com/dylan2045ad"
-            aria-label="GitHub"
-            ><svg viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M12 .7A11.5 11.5 0 0 0 8.4 23c.6.1.8-.3.8-.6v-2.2c-3.4.7-4.1-1.4-4.1-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C16.8 4.6 17.8 5 17.8 5c.6 1.6.2 2.9.1 3.2.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .7Z"
-              /></svg
-          ><span>GitHub</span></a
-          >
-          <a
-            class="btn"
-            href="https://reddit.com/dylan2045adguy"
-            aria-label="Reddit"
-            ><span>Reddit</span></a
-          ><a
-            class="btn"
-            href="https://instagram.com/dylan2045ad"
-            aria-label="Instagram"
-            ><span>Instagram</span></a
-          >
-        </div>
-      </section>
-      <footer>© Dylan2045ad</footer>
     </div>
+    <footer>
+      <a href="hub.html">Creator hub</a>
+      <a href="https://github.com/dylan2045ad/dylan2045-ad" target="_blank" rel="noopener">GitHub</a>
+      <span>Watch → Custom → Releases for each new issue.</span>
+    </footer>
+    <script>
+      const MONTHS = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+      ];
+
+      function formatDate(iso) {
+        const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+        if (!match) return "";
+        const month = MONTHS[Number(match[2]) - 1];
+        if (!month) return "";
+        return month + " " + Number(match[3]) + ", " + match[1];
+      }
+
+      function safeUrl(url) {
+        const value = String(url || "").trim();
+        if (value.startsWith("https://")) return value;
+        if (/^[A-Za-z0-9._/-]+$/.test(value) && !value.includes("..")) return value;
+        return "";
+      }
+
+      function external(url) {
+        return url.startsWith("https://");
+      }
+
+      function fillLink(anchor, url, label) {
+        const href = safeUrl(url);
+        if (!anchor || !href) return;
+        anchor.href = href;
+        anchor.textContent = label;
+        if (external(href)) {
+          anchor.target = "_blank";
+          anchor.rel = "noopener";
+        } else {
+          anchor.removeAttribute("target");
+          anchor.removeAttribute("rel");
+        }
+      }
+
+      function render(data) {
+        const issues = (data.issues || [])
+          .slice()
+          .sort((a, b) => Number(b.number) - Number(a.number));
+        if (!issues.length) return;
+        const latest = issues[0];
+        const number = String(Number(latest.number)).padStart(2, "0");
+        const title = latest.title || "";
+        const prettyDate = formatDate(latest.date);
+        const teaser = latest.teaser || "";
+        const kit = data.fieldKit || {};
+
+        document.getElementById("issue-no").textContent = "Issue " + number;
+        document.getElementById("issue-title").textContent = title;
+        const dateNode = document.getElementById("issue-date");
+        dateNode.textContent = prettyDate;
+        dateNode.dateTime = latest.date || "";
+        dateNode.hidden = !prettyDate;
+        document.getElementById("issue-teaser").textContent = teaser;
+
+        const cover = safeUrl(latest.cover);
+        const image = document.getElementById("issue-cover");
+        if (cover) {
+          image.src = cover;
+          image.alt = "The Signal Issue " + number + " cover: " + title;
+        }
+
+        fillLink(
+          document.getElementById("cta-free"),
+          latest.url || data.canonicalPayhip,
+          "Read Issue " + number + " free"
+        );
+        const price = kit.priceLabel || "$17";
+        fillLink(
+          document.getElementById("cta-kit"),
+          kit.url,
+          (kit.name || "Field Kit") + " — " + price
+        );
+
+        document.title = "The Signal — Issue " + number + ": " + title + " | Dylan from 2045";
+
+        const archive = document.getElementById("archive");
+        archive.replaceChildren();
+        issues.forEach((issue) => {
+          const href = safeUrl(issue.url);
+          if (!href) return;
+          const card = document.createElement("a");
+          card.className = "card";
+          card.href = href;
+          if (external(href)) {
+            card.target = "_blank";
+            card.rel = "noopener";
+          }
+          const meta = document.createElement("span");
+          meta.className = "meta";
+          const bits = ["Issue " + String(Number(issue.number)).padStart(2, "0")];
+          if (issue.date) bits.push(issue.date);
+          meta.textContent = bits.join(" · ");
+          const strong = document.createElement("strong");
+          strong.textContent = issue.title || "";
+          const copy = document.createElement("p");
+          copy.textContent = issue.teaser || "";
+          card.append(meta, strong, copy);
+          archive.append(card);
+        });
+      }
+
+      fetch("data/issues.json")
+        .then((response) => {
+          if (!response.ok) throw new Error(String(response.status));
+          return response.json();
+        })
+        .then(render)
+        .catch(() => {});
+    </script>
   </body>
 </html>
