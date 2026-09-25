@@ -252,6 +252,101 @@
         text-transform: uppercase;
       }
       .card p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+      .shop { margin-top: 56px; }
+      .shop h2 {
+        margin: 0 0 8px;
+        font-size: 0.82rem;
+        letter-spacing: 0.26em;
+        text-transform: uppercase;
+        color: var(--magenta);
+        text-shadow: 0 0 14px rgba(255, 43, 214, 0.55);
+      }
+      .shop-lead {
+        margin: 0 0 18px;
+        max-width: 40rem;
+        color: var(--muted);
+      }
+      .shop-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+        gap: 14px;
+      }
+      .dollar-card {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        min-width: 0;
+        padding: 16px 16px 18px;
+        border-radius: 16px;
+        background: rgba(5, 10, 36, 0.62);
+        border: 1px solid rgba(255, 43, 214, 0.45);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+      }
+      .dollar-card h3 {
+        margin: 0;
+        font-size: 1.05rem;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        overflow-wrap: anywhere;
+      }
+      .dollar-card .hook {
+        margin: 0;
+        flex: 1;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .dollar {
+        margin: 0;
+        color: var(--amber);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-shadow: 0 0 12px rgba(255, 176, 32, 0.4);
+      }
+      .btn-s {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        margin-top: 4px;
+        padding: 10px 14px;
+        border-radius: 12px;
+        border: 2px solid var(--cyan);
+        color: var(--cyan);
+        background: rgba(5, 10, 36, 0.45);
+        box-shadow: 0 0 16px rgba(0, 234, 255, 0.22);
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        font-size: 0.82rem;
+      }
+      .btn-s:hover, .btn-s:focus-visible {
+        background: rgba(0, 234, 255, 0.12);
+        color: #fff;
+      }
+      .btn-s:focus-visible, .shop-more a:focus-visible, .shop-signal .btn-c:focus-visible {
+        outline: 2px solid var(--amber);
+        outline-offset: 3px;
+      }
+      .shop-more {
+        margin: 18px 0 0;
+        text-align: center;
+      }
+      .shop-more a {
+        display: inline-block;
+        max-width: 40rem;
+        padding: 8px 4px;
+        color: var(--cyan);
+        text-underline-offset: 3px;
+      }
+      .shop-signal {
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+      }
+      .shop-signal .btn-c { width: min(100%, 440px); }
       footer {
         position: relative;
         z-index: 1;
@@ -327,6 +422,62 @@
           </div>
         </div>
       </header>
+      <section class="shop" id="dollar-shop" aria-labelledby="shop-label">
+        <h2 id="shop-label">$1 shop</h2>
+        <p class="shop-lead">
+          Seven small things, a dollar each. Look through them and open any that feel like yours.
+        </p>
+        <div class="shop-grid">
+          <article class="dollar-card">
+            <h3>JEV vs CHATGPT</h3>
+            <p class="hook">A short manga-style showdown between two AIs.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/taCxL" target="_blank" rel="noopener" aria-label="Take a look at JEV vs CHATGPT">Take a look</a>
+          </article>
+          <article class="dollar-card">
+            <h3>PROMPT CARDS: VISUAL</h3>
+            <p class="hook">Printable prompt cards for image generation.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/zx9nV" target="_blank" rel="noopener" aria-label="Take a look at PROMPT CARDS: VISUAL">Take a look</a>
+          </article>
+          <article class="dollar-card">
+            <h3>WHY YOUR AI AGENT FORGETS</h3>
+            <p class="hook">The 4 ways context gets lost, plus a copy-paste State Capsule prompt.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/TCFOa" target="_blank" rel="noopener" aria-label="Take a look at WHY YOUR AI AGENT FORGETS">Take a look</a>
+          </article>
+          <article class="dollar-card">
+            <h3>CHIEF CHARLIE DEPLOY SHEET</h3>
+            <p class="hook">A one-page, 12-check GO/HOLD sheet for shipping AI-written code.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/HA8Ik" target="_blank" rel="noopener" aria-label="Take a look at CHIEF CHARLIE DEPLOY SHEET">Take a look</a>
+          </article>
+          <article class="dollar-card">
+            <h3>TOKYO 2026 MATCHA ROBOT</h3>
+            <p class="hook">A short illustrated sci-fi vignette.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/GWvRo" target="_blank" rel="noopener" aria-label="Take a look at TOKYO 2026 MATCHA ROBOT">Take a look</a>
+          </article>
+          <article class="dollar-card">
+            <h3>AI INTERVIEW KIT</h3>
+            <p class="hook">Prep kit for AI-era job interviews.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/YJh08" target="_blank" rel="noopener" aria-label="Take a look at AI INTERVIEW KIT">Take a look</a>
+          </article>
+          <article class="dollar-card">
+            <h3>THE DYLAN BOUNCE PLAN</h3>
+            <p class="hook">A comeback plan, one page at a time.</p>
+            <p class="dollar">$1</p>
+            <a class="btn-s" href="https://payhip.com/b/NdEZX" target="_blank" rel="noopener" aria-label="Take a look at THE DYLAN BOUNCE PLAN">Take a look</a>
+          </article>
+        </div>
+        <p class="shop-more">
+          <a href="https://payhip.com/Dylan2045ad" target="_blank" rel="noopener">More $1 micro-products in the shop — come see what's new, you're invited.</a>
+        </p>
+        <div class="shop-signal">
+          <a class="btn-c" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Read The Signal free</a>
+        </div>
+      </section>
       <section class="archive-wrap" aria-labelledby="archive-label">
         <h2 id="archive-label">Archive</h2>
         <div class="archive" id="archive">
