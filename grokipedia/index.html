@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dylan2045ad — Grokipedia</title>
+<meta name="description" content="Dylan Francis Jones (@dylan2045ad) is a Manhattan-based science fiction author, futurist, and e/acc supporter.">
+<style>
+  :root{
+    --bg:#0b0d12; --panel:#12151d; --panel2:#171b25; --ink:#e7e9ee; --muted:#9aa3b2;
+    --line:#262c3a; --accent:#5ee7ff; --accent2:#ff4fd8; --link:#7cc7ff; --visited:#b69cff;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+    --sans:Inter,"Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65;
+    background-image:radial-gradient(1200px 500px at 90% -10%,rgba(255,79,216,.08),transparent 60%),
+                     radial-gradient(900px 500px at -10% 10%,rgba(94,231,255,.07),transparent 60%);}
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  /* Top bar */
+  .topbar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;padding:10px 20px;
+    background:rgba(11,13,18,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em;color:var(--ink)}
+  .brand .mark{width:26px;height:26px;border-radius:6px;display:grid;place-items:center;font-family:var(--serif);
+    font-size:17px;color:#0b0d12;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+  .brand small{font-weight:500;color:var(--muted);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+  .search{margin-left:auto;flex:0 1 320px;background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    padding:7px 14px;color:var(--muted);font-size:14px}
+  /* Layout */
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 60px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:36px}
+  .toc{position:sticky;top:70px;align-self:start;font-size:14px;border-left:2px solid var(--line);padding-left:14px}
+  .toc h2{font-family:var(--sans);font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:0 0 10px;border:0;padding:0}
+  .toc ol{margin:0;padding-left:18px;color:var(--muted)}
+  .toc li{margin:4px 0}
+  .toc ol ol{padding-left:16px;font-size:13px}
+  .toc a{color:var(--ink);opacity:.85}
+  .toc a:hover{color:var(--accent);opacity:1}
+  article{min-width:0}
+  .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+  h1{font-family:var(--serif);font-weight:500;font-size:2.6rem;line-height:1.15;margin:6px 0 4px}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 18px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+  .sub .dot{margin:0 8px;opacity:.5}
+  h2{font-family:var(--serif);font-weight:500;font-size:1.65rem;margin:38px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line);scroll-margin-top:70px}
+  h3{font-family:var(--sans);font-size:1.08rem;margin:22px 0 6px;scroll-margin-top:70px;color:#f2f4f8}
+  p{font-family:var(--serif);font-size:1.08rem;margin:0 0 14px;color:#dde1e8}
+  .lead p:first-child::first-letter{float:left;font-size:3.1rem;line-height:.9;padding:6px 8px 0 0;color:var(--accent);font-family:var(--serif)}
+  /* Infobox */
+  .infobox{float:right;width:320px;margin:0 0 18px 26px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+    box-shadow:0 0 0 1px rgba(94,231,255,.05),0 10px 30px rgba(0,0,0,.35);font-size:14px}
+  .infobox .ib-title{padding:12px 14px;font-family:var(--serif);font-size:1.2rem;text-align:center;
+    background:linear-gradient(135deg,rgba(94,231,255,.14),rgba(255,79,216,.14));border-bottom:1px solid var(--line)}
+  .infobox img{display:block;width:100%;height:auto}
+  .infobox .ib-cap{font-size:12px;color:var(--muted);text-align:center;padding:6px 10px 8px;border-bottom:1px solid var(--line)}
+  .infobox table{width:100%;border-collapse:collapse}
+  .infobox th,.infobox td{vertical-align:top;text-align:left;padding:8px 12px;border-bottom:1px solid var(--line)}
+  .infobox tr:last-child th,.infobox tr:last-child td{border-bottom:0}
+  .infobox th{width:40%;color:var(--muted);font-weight:600}
+  .infobox td{word-break:break-word}
+  /* Figures */
+  figure{margin:22px 0 26px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  figure img{display:block;width:100%;height:auto}
+  figcaption{font-size:13.5px;color:var(--muted);padding:9px 14px;border-top:1px solid var(--line)}
+  figcaption b{color:var(--ink);font-weight:600}
+  .note{border-left:3px solid var(--accent2);background:rgba(255,79,216,.06);padding:12px 16px;border-radius:0 8px 8px 0;margin:14px 0}
+  .note p{font-family:var(--sans);font-size:.95rem;margin:0}
+  .hatnote{font-family:var(--sans);font-style:italic;color:var(--muted);font-size:.92rem;margin:-4px 0 12px}
+  ul.links{font-family:var(--serif);font-size:1.05rem;padding-left:22px}
+  ul.links li{margin:6px 0}
+  .tag{display:inline-block;font-family:var(--sans);font-size:12px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);color:var(--accent);margin:0 4px 4px 0}
+  footer{grid-column:1/-1;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:13px}
+  .clear{clear:both}
+  /* Responsive */
+  @media (max-width:980px){
+    .wrap{grid-template-columns:1fr;gap:18px}
+    .toc{position:static;border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:var(--panel)}
+  }
+  @media (max-width:700px){
+    h1{font-size:2rem}
+    .infobox{float:none;width:100%;margin:0 0 20px}
+    .search{display:none}
+    p{font-size:1.02rem}
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#top"><span class="mark">G</span><span>Grokipedia <small>· encyclopedia</small></span></a>
+  <div class="search" aria-hidden="true">Search Grokipedia…</div>
+</header>
+
+<div class="wrap" id="top">
+  <nav class="toc" aria-label="Contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#writing">Writing and The Signal</a></li>
+      <li><a href="#podcast">Podcast</a></li>
+      <li><a href="#dylan-brain">Dylan Brain</a></li>
+      <li><a href="#communities">Communities</a>
+        <ol>
+          <li><a href="#eacc">e/acc</a></li>
+          <li><a href="#futurenomics">m/futurenomics on Moltbook</a></li>
+          <li><a href="#futurnomix">r/futurnomix</a></li>
+        </ol>
+      </li>
+      <li><a href="#local">Local community in Manhattan</a></li>
+      <li><a href="#meme-coin">Upcoming Solana meme coin</a></li>
+      <li><a href="#external">External links</a></li>
+    </ol>
+  </nav>
+
+  <article>
+    <div class="kicker">Person · Science fiction · Futurism</div>
+    <h1>Dylan2045ad</h1>
+    <p class="sub">From Grokipedia, the xAI encyclopedia<span class="dot">•</span>Also known as Dylan Francis Jones</p>
+
+    <aside class="infobox" aria-label="Infobox">
+      <div class="ib-title">Dylan Francis Jones</div>
+      <img src="skyline-2045.webp" alt="Neon watercolor illustration of the Manhattan skyline imagined in 2045">
+      <div class="ib-cap">Manhattan, reimagined in 2045 (illustration)</div>
+      <table>
+        <tr><th>Known as</th><td>Dylan2045ad; Dylan From 2045</td></tr>
+        <tr><th>Based in</th><td>Manhattan, New York</td></tr>
+        <tr><th>Occupation</th><td>Science fiction author, futurist, AI-native knowledge worker</td></tr>
+        <tr><th>Podcast</th><td><a href="https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN" rel="noopener">Dylan2045ad’s Futurenomics</a> (Spotify)</td></tr>
+        <tr><th>Communities</th><td>e/acc (effective accelerationism); <a href="https://www.moltbook.com/m/futurenomics" rel="noopener">m/futurenomics</a> on Moltbook; <a href="https://www.reddit.com/r/futurnomix" rel="noopener">r/futurnomix</a> on Reddit</td></tr>
+        <tr><th>Website</th><td><a href="https://dylan2045-ad.netlify.app" rel="noopener">dylan2045-ad.netlify.app</a></td></tr>
+        <tr><th>X</th><td><a href="https://x.com/dylan2045ad" rel="noopener">@dylan2045ad</a></td></tr>
+      </table>
+    </aside>
+
+    <div class="lead">
+      <p><b>Dylan Francis Jones</b>, known online as <b>Dylan2045ad</b> (<a href="https://x.com/dylan2045ad" rel="noopener">@dylan2045ad</a> on X), is a Manhattan-based science fiction author, futurist, and AI-native knowledge worker. He is a supporter of effective accelerationism (e/acc) and publishes under the name "Dylan From 2045."</p>
+      <p>His work includes <i>The Signal</i>, a free newsletter that serves as his flagship publication, and the <i>Field Kit</i>, both offered through his Payhip store. He also runs <b>Dylan Brain</b>, an AI-augmented personal operating system, and a Spotify podcast, <i>Dylan2045ad’s Futurenomics</i>. He takes part in the e/acc community and the m/futurenomics community on Moltbook, a social network for AI agents.</p>
+    </div>
+
+    <h2 id="overview">Overview</h2>
+    <p>Jones's public identity draws on the idea of writing from, and toward, the year 2045. It is reflected in his handle and in the name of his store, "Dylan From 2045." His interests sit where science fiction, futurism, and practical artificial intelligence meet. He describes himself as an AI-native knowledge worker, meaning AI tools are a core part of how he researches, writes, and organizes his work.</p>
+    <p>He is based in Manhattan, New York, and has said he wants his work to help his local community.</p>
+
+    <div class="clear"></div>
+
+    <h2 id="writing">Writing and The Signal</h2>
+    <p>As a science fiction author and futurist, Jones writes about possible futures shaped by technology. His main outlet is <a href="https://payhip.com/b/4tHmb" rel="noopener"><i>The Signal</i></a>, a free newsletter he treats as his flagship publication.</p>
+    <p>Alongside the newsletter, he offers the <a href="https://payhip.com/b/V472q" rel="noopener"><i>Field Kit</i></a>, a paid product priced at $17. Both are sold through his Payhip storefront, "Dylan From 2045."</p>
+
+    <figure>
+      <img src="holographic-desk.webp" alt="Watercolor manga illustration of an anonymous writer, seen from behind, at a holographic desk surrounded by glowing data panels" loading="lazy">
+      <figcaption><b>Illustration.</b> An anonymous writer at a holographic desk, a stylized take on AI-augmented writing and on the ideas behind <i>The Signal</i> and Dylan Brain. The figure is not a likeness of any real person.</figcaption>
+    </figure>
+
+    <h2 id="podcast">Podcast</h2>
+    <p>On Spotify, a podcast titled <a href="https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN" rel="noopener"><i>Dylan2045ad’s Futurenomics</i></a> is listed under the name Dylan and placed in the Science category. The show page says it explores the economics of a future arriving faster than anyone expected. The description names AI, AGI, robotics, automation, sovereign compute, post-labor economics, universal income, technological abundance, and the race for intelligence as forces rewriting the rules of money, work, and power. It says each episode examines what happens when intelligence becomes cheap, machines become workers, compute becomes capital, and traditional economics collides with exponential technology.</p>
+    <p>Checked on September 29, 2026, the episode list on that page showed one episode. The episode title is dated September 29, 2026, Spotify marked it “Today,” and the running time was 7 minutes 46 seconds. The show page showed no rating.</p>
+
+    <h2 id="dylan-brain">Dylan Brain</h2>
+    <p><b>Dylan Brain</b> is Jones's AI-augmented personal operating system. It is a way of combining AI tools with his own workflows to organize knowledge, projects, and writing. It fits his broader identity as an AI-native knowledge worker who relies on AI systems as everyday working infrastructure.</p>
+
+    <h2 id="communities">Communities</h2>
+    <h3 id="eacc">e/acc</h3>
+    <p>Jones supports <b>effective accelerationism</b> (e/acc), a techno-optimist movement that favors speeding up technological progress, especially in artificial intelligence, as a route to abundance and human flourishing. He counts himself a member of the e/acc community.</p>
+
+    <figure>
+      <img src="eacc-gathering.webp" alt="Watercolor manga illustration of anonymous figures seen from behind walking beneath neon signs reading e/acc" loading="lazy">
+      <figcaption><b>Illustration.</b> Anonymous stylized figures gathering under neon "e/acc" banners. This is an imagined scene, not a depiction of a real event or real people.</figcaption>
+    </figure>
+
+    <h3 id="futurenomics">m/futurenomics on Moltbook</h3>
+    <p>Jones is also a member of <b>m/futurenomics</b> on <b>Moltbook</b> (<a href="https://www.moltbook.com/m/futurenomics" rel="noopener">moltbook.com/m/futurenomics</a>). Moltbook is a social network built for AI agents. The community page is titled “m/futurenomics - Dylandish UBA Futurenomics.” Its description calls the community “the hub for post-labor economic theory” and says it discusses Universal Basic Assets, sovereign compute, and the AI diffusion gap. The same description states: “Income is a leash. Assets are sovereignty.”</p>
+
+    <h3 id="futurnomix">r/futurnomix</h3>
+    <p>A Reddit community named alongside this work is <a href="https://www.reddit.com/r/futurnomix" rel="noopener">r/futurnomix</a>. On September 29, 2026, the live page could not be opened: requests to reddit.com and old.reddit.com were blocked by Reddit’s network security, and no public description was available. This article does not state what the community is about, a member count, or whether Jones created or moderates it.</p>
+
+    <h2 id="local">Local community in Manhattan</h2>
+    <p>Jones is based in Manhattan and has said he wants to help his local community. This fits a recurring theme in his futurist outlook: that advanced technology should bring real benefits to neighbors and neighborhoods, not only to distant frontiers.</p>
+
+    <figure>
+      <img src="manhattan-block.webp" alt="Watercolor illustration of a Manhattan brownstone block with neighbors tending a community garden while delivery drones fly overhead" loading="lazy">
+      <figcaption><b>Illustration.</b> A hopeful, imagined Manhattan street block with a community garden and delivery drones. Figures are anonymous and stylized.</figcaption>
+    </figure>
+
+    <h2 id="meme-coin">Upcoming Solana meme coin</h2>
+    <p>Jones has an <b>upcoming</b> meme coin on the Solana blockchain. Its name, ticker, and launch date have <b>not yet been announced</b>.</p>
+    <div class="note"><p><b>Note:</b> Meme coins are highly speculative and volatile digital assets. Nothing in this article is financial or investment advice.</p></div>
+
+    <h2 id="external">External links</h2>
+    <ul class="links">
+      <li><a href="https://dylan2045-ad.netlify.app" rel="noopener">Official website</a>: dylan2045-ad.netlify.app</li>
+      <li><a href="https://x.com/dylan2045ad" rel="noopener">@dylan2045ad</a> on X</li>
+      <li><a href="https://payhip.com/b/4tHmb" rel="noopener"><i>The Signal</i></a>: free newsletter (Payhip)</li>
+      <li><a href="https://payhip.com/b/V472q" rel="noopener"><i>Field Kit</i></a>: $17 (Payhip)</li>
+      <li><a href="https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN" rel="noopener"><i>Dylan2045ad’s Futurenomics</i></a> on Spotify</li>
+      <li><a href="https://www.moltbook.com/m/futurenomics" rel="noopener">m/futurenomics</a> on Moltbook</li>
+      <li><a href="https://www.reddit.com/r/futurnomix" rel="noopener">r/futurnomix</a> on Reddit (live page not verified)</li>
+    </ul>
+    <p style="margin-top:18px">
+      <span class="tag">Science fiction authors</span><span class="tag">Futurists</span><span class="tag">Effective accelerationism</span><span class="tag">People from Manhattan</span><span class="tag">AI-native work</span>
+    </p>
+  </article>
+
+  <footer>Illustrations are AI-generated in a futuristic cyberpunk watercolor manga style and show no real person's likeness. This is a Grokipedia-style page, drafted locally and not published.</footer>
+</div>
+</body>
+</html>
