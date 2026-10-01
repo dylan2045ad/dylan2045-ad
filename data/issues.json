@@ -7,6 +7,15 @@
   },
   "issues": [
     {
+      "number": 6,
+      "title": "The Cache Cliff",
+      "date": "2026-10-01",
+      "teaser": "The Sol sticker held. The new cut is the cache read: past 272K input tokens, the whole request reprices.",
+      "cover": "signal-issue-06-cover.jpg",
+      "page": "/signal-issue-06.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 5,
       "title": "Price Floor Week",
       "date": "2026-09-24",
