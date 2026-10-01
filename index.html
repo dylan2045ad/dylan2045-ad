@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>The Signal — Issue 05: Price Floor Week | Dylan from 2045</title>
+    <title>The Signal — Issue 06: The Cache Cliff | Dylan from 2045</title>
     <meta
       name="description"
-      content="The Signal, Issue 05: Price Floor Week (2026-09-24). A 5-minute brief. Read it free on Payhip."
+      content="The Signal, Issue 06: The Cache Cliff (2026-10-01). The Sol sticker held. The new cut is the cache read. Read it free on this site, and on Payhip."
     />
     <link rel="canonical" href="https://dylan2045ad.github.io/dylan2045-ad/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="The Signal — Issue 05: Price Floor Week" />
+    <meta property="og:title" content="The Signal — Issue 06: The Cache Cliff" />
     <meta
       property="og:description"
-      content="A 5-minute brief. The free issue is the brief; the Field Kit is the $17 decision ZIP."
+      content="The Sol sticker held. The new cut is the cache read: past 272K input tokens, the whole request reprices."
     />
     <meta
       property="og:image"
@@ -347,6 +347,13 @@
         margin-top: 8px;
       }
       .shop-signal .btn-c { width: min(100%, 440px); }
+      .cta-also {
+        color: var(--cyan);
+        font-weight: 700;
+        text-align: center;
+        text-underline-offset: 3px;
+      }
+      .cta-also:hover, .cta-also:focus-visible { color: #fff; }
       footer {
         position: relative;
         z-index: 1;
@@ -386,30 +393,25 @@
       <header class="hero">
         <div class="intro">
           <p class="kicker">The Signal</p>
-          <p class="issue-no" id="issue-no">Issue 05</p>
-          <h1 id="issue-title">Price Floor Week</h1>
-          <time id="issue-date" datetime="2026-09-24">September 24, 2026</time>
+          <p class="issue-no" id="issue-no">Issue 06</p>
+          <h1 id="issue-title">The Cache Cliff</h1>
+          <time id="issue-date" datetime="2026-10-01">October 1, 2026</time>
         </div>
         <figure class="cover">
           <img
             id="issue-cover"
-            src="signal-cover.jpg"
-            alt="The Signal Issue 05 cover: Price Floor Week"
+            src="signal-issue-06-cover.jpg"
+            alt="The Signal Issue 06 cover: The Cache Cliff"
           />
         </figure>
         <div class="pitch">
           <p class="teaser" id="issue-teaser">
-            A 5-minute brief. The free issue is the brief; the Field Kit is the
-            $17 decision ZIP (ledger, kill switch, shock drill).
+            The Sol sticker held. The new cut is the cache read: past 272K
+            input tokens, the whole request reprices.
           </p>
           <div class="ctas">
-            <a
-              class="btn-m"
-              id="cta-free"
-              href="https://payhip.com/b/4tHmb"
-              target="_blank"
-              rel="noopener"
-              >Read Issue 05 free</a
+            <a class="btn-m" id="cta-free" href="/signal-issue-06.html"
+              >Read Issue 06 free</a
             >
             <a
               class="btn-c"
@@ -418,6 +420,14 @@
               target="_blank"
               rel="noopener"
               >Field Kit — $17</a
+            >
+            <a
+              class="cta-also"
+              id="cta-payhip"
+              href="https://payhip.com/b/4tHmb"
+              target="_blank"
+              rel="noopener"
+              >Also on Payhip</a
             >
           </div>
         </div>
@@ -481,6 +491,14 @@
       <section class="archive-wrap" aria-labelledby="archive-label">
         <h2 id="archive-label">Archive</h2>
         <div class="archive" id="archive">
+          <a class="card" href="/signal-issue-06.html">
+            <span class="meta">Issue 06 · 2026-10-01</span>
+            <strong>The Cache Cliff</strong>
+            <p>
+              The Sol sticker held. The new cut is the cache read: past 272K
+              input tokens, the whole request reprices.
+            </p>
+          </a>
           <a class="card" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">
             <span class="meta">Issue 05 · 2026-09-24</span>
             <strong>Price Floor Week</strong>
@@ -575,8 +593,13 @@
 
         fillLink(
           document.getElementById("cta-free"),
-          latest.url || data.canonicalPayhip,
+          safeUrl(latest.page) || latest.url || data.canonicalPayhip,
           "Read Issue " + number + " free"
+        );
+        fillLink(
+          document.getElementById("cta-payhip"),
+          latest.url || data.canonicalPayhip,
+          "Also on Payhip"
         );
         const price = kit.priceLabel || "$17";
         fillLink(
@@ -590,7 +613,7 @@
         const archive = document.getElementById("archive");
         archive.replaceChildren();
         issues.forEach((issue) => {
-          const href = safeUrl(issue.url);
+          const href = safeUrl(issue.page) || safeUrl(issue.url);
           if (!href) return;
           const card = document.createElement("a");
           card.className = "card";
