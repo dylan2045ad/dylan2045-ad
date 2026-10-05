@@ -1,0 +1,18 @@
+{
+  "name": "dylan2045-ad",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/products.test.mjs"
+  },
+  "dependencies": {
+    "@x402/core": "2.24.0",
+    "@x402/evm": "2.24.0",
+    "@x402/extensions": "2.24.0",
+    "@x402/hono": "2.24.0",
+    "hono": "4.13.13"
+  }
+}

@@ -1,5 +1,12 @@
 [build]
   publish = "."
+  # Install dependencies and bundle netlify/functions on the existing Git deploy.
+  # The command only loads the product function; static pages stay the publish root.
+  command = "node --input-type=module -e \"import './netlify/functions/products.mjs'\""
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
 
 [[redirects]]
   from = "/signal"
@@ -10,3 +17,10 @@
   from = "/thanks"
   to = "/thanks.html"
   status = 200
+
+# Function source lives under the publish root. Do not serve it as a static file.
+[[redirects]]
+  from = "/netlify/*"
+  to = "/"
+  status = 404
+  force = true
