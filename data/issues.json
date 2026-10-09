@@ -7,6 +7,15 @@
   },
   "issues": [
     {
+      "number": 7,
+      "title": "The Speed Surcharge",
+      "date": "2026-10-08",
+      "teaser": "Last week the Signal was which line on the Sol card you actually pay. This week OpenAI added a new line you can ask for by name: Ultrafast. Same model id. Different bill.",
+      "cover": "signal-issue-07-cover.jpg",
+      "page": "/signal-issue-07.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 6,
       "title": "The Cache Cliff",
       "date": "2026-10-01",
