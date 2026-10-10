@@ -653,7 +653,20 @@
           const copy = document.createElement("p");
           copy.textContent = issue.teaser || "";
           card.append(meta, strong, copy);
-          archive.append(card);
+          if (Number(issue.number) === 7) {
+            const wrap = document.createElement("div");
+            const nippon = document.createElement("a");
+            nippon.href = "/signal-issue-07-nippon.html";
+            nippon.textContent = "日本語版 (07-Nippon)";
+            nippon.style.display = "inline-block";
+            nippon.style.marginTop = "8px";
+            nippon.style.color = "#00eaff";
+            nippon.style.fontSize = "0.9rem";
+            wrap.append(card, nippon);
+            archive.append(wrap);
+          } else {
+            archive.append(card);
+          }
         });
       }
 
