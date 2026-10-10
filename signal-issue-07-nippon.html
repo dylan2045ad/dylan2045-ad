@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Signal #07-Nippon：スピード・サーチャージ</title>
+<meta name="description" content="OpenAIのUltrafastは、どの列もStandardの6倍。同じモデルIDで請求額は別物。The Signal 第07号の日本語版。">
+<link rel="canonical" href="https://dylan2045-ad.netlify.app/signal-issue-07-nippon.html">
+<link rel="alternate" hreflang="en" href="https://dylan2045-ad.netlify.app/signal-issue-07.html">
+<meta property="og:title" content="The Signal #07-Nippon：スピード・サーチャージ">
+<meta property="og:description" content="OpenAIのUltrafastは、どの列もStandardの6倍。同じモデルIDで請求額は別物。The Signal 第07号の日本語版。">
+<meta property="og:url" content="https://dylan2045-ad.netlify.app/signal-issue-07-nippon.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://dylan2045-ad.netlify.app/signal-07-nippon-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@dylan2045ad">
+<meta name="twitter:title" content="The Signal #07-Nippon：スピード・サーチャージ">
+<meta name="twitter:description" content="OpenAIのUltrafastは、どの列もStandardの6倍。同じモデルIDで請求額は別物。The Signal 第07号の日本語版。">
+<meta name="twitter:image" content="https://dylan2045-ad.netlify.app/signal-07-nippon-cover.jpg">
+<style>
+:root{--bg:#061018;--ink:#e7f4ff;--cyan:#3ad7ff;--line:#163044}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.8 "Hiragino Mincho ProN","Noto Serif JP","Yu Mincho",serif}
+a{color:var(--cyan);word-break:break-all}.wrap{max-width:820px;margin:0 auto;padding:28px 22px 80px}
+img{width:100%;height:auto;border-radius:6px}h1{font:800 34px/1.25 system-ui,"Noto Sans JP",sans-serif}
+h2{font:700 19px/1.4 system-ui,"Noto Sans JP",sans-serif;color:var(--cyan);border-top:1px solid var(--line);padding-top:22px}
+.cta{margin-top:28px;padding:16px;border:1px solid var(--cyan)}
+</style>
+</head>
+<body><div class="wrap">
+<img src="/signal-07-nippon-cover.jpg" alt="The Signal #07-Nippon：スピード・サーチャージ" width="1200" height="630">
+<h1>The Signal #07-Nippon：スピード・サーチャージ</h1>
+<p>THE SIGNAL · 第07号 · 2026年10月8日 · 無料</p>
+<p>先週のSignalのテーマは「Solの料金表で、実際に払っているのはどの行か」でした。今週、OpenAIはその表に名前で指定できる新しい行を加えました。Ultrafast（ウルトラファスト）です。モデルIDは同じ。請求額は別物です。</p>
+<h2>ページ1 · 表示価格は今も $2 / $10。高速レーンは違う。</h2>
+<p>OpenAIの公開料金表では、GPT-6.1 Sol Standard（短いコンテキスト）は今も100万トークンあたり入力 $2.00、キャッシュ入力 $0.10、キャッシュ書き込み $2.50、出力 $10.00 と記載されています。同じページのUltrafastの行は $12.00 / $0.60 / $15.00 / $60.00。どの列もStandardのちょうど6倍です。
+出典: <a href="https://developers.openai.com/api/docs/pricing">https://developers.openai.com/api/docs/pricing</a> [検証済み]</p>
+<p>Ultrafastモードのガイドによれば、gpt-6.1-sol または gpt-6-astra で service_tier を ultrafast に設定します。Ultrafastは最速のサービスティアで、高いコストに見合うだけ速度が重要な場面向けとされています。この2モデルについては、APIで広く利用可能です。
+出典: <a href="https://developers.openai.com/api/docs/guides/ultrafast-mode">https://developers.openai.com/api/docs/guides/ultrafast-mode</a> [検証済み]</p>
+<p>2026年10月8日、OpenAI自身の開発者コミュニティでの告知では、UltrafastはGPT-6.1 Sol向けにAPI、Codex、ChatGPT Workで本日から順次提供開始とされています。「Sol Standardより最大8倍高速で、Astraに迫る知能」をうたい、API価格は100万トークンあたり $12 / $60、「Astraのわずか1.2倍のコスト」と明記しています。CodexとChatGPT Workでの利用は、Pro 500、対象となる従量課金制Enterprise、クレジット制Eduプランに限られ、Enterpriseでは管理者による有効化が必要です。
+出典: <a href="https://community.openai.com/t/ultrafast-is-rolling-out-today-for-gpt-6-1-sol-in-the-api-codex-and-chatgpt-work/1404475">https://community.openai.com/t/ultrafast-is-rolling-out-today-for-gpt-6-1-sol-in-the-api-codex-and-chatgpt-work/1404475</a> [OpenAIスタッフの投稿として検証済み。独立したレイテンシ計測：未計測]</p>
+<p>論点：第5の価格という見出しの数字は動いていません。Ultrafastは同じSKUに乗った割増レーンです。エージェントのデフォルトが高速ティアなら、請求書は先週スクショした表示価格とは別物になります。</p>
+<h2>ページ2 · 紙の上の価格は、呼び出せることを意味しない</h2>
+<p>Googleが9月30日に発表したGemini 4 Argonは、Solと同じ導入価格を掲げました。100万入力トークンあたり $2、100万出力トークンあたり $10、キャッシュ入力は95%オフ。導入期間後は $4 / $20 になるとGoogleは説明しています。同じ投稿によると、ArgonはFairwind Programを通じて信頼できるサイバー防御担当者向けに提供が始まっており、開発者・企業・一般向けの幅広い提供は「できるだけ早く」、まず有料APIの顧客とGoogle AI Ultraの契約者から、とのことです。
+出典: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/</a> [検証済み]</p>
+<p>2026年10月8日にGemini Developer APIの料金ページを取得したところ、現行のFlashとProのSKU（2026年12月31日までの導入価格 $0.75 / $3.75 のGemini 3.8 Flashを含む）が掲載されていました。今回の確認では、Gemini 4 Argonは呼び出し可能なモデルとしてその公開料金表に載っていません。
+出典: <a href="https://ai.google.dev/gemini-api/docs/pricing">https://ai.google.dev/gemini-api/docs/pricing</a> [ページの掲載内容について検証済み。今週の公開Argon API呼び出し：その料金表では利用不可]</p>
+<p>論点：紙の上の価格が同じでも、呼び出せるかどうかは同じではありません。Sol Ultrafastは、組織が条件を満たせば押せるボタンです。Argonはまだゲートの向こう側です。</p>
+<h2>ページ3 · 見出しの数字で予算を組む前に、ひとつだけ</h2>
+<p>Standard、Fast、UltrafastをひとつのSolの数字にまとめないこと。Fairwindのモデルを、自分のAPIキーで使えるかのように予算に入れないこと。</p>
+<p>24時間以内にやることはひとつ：
+1. 昨日のSolトラフィックを service_tier 別に出す。すでにUltrafastがオンなら、$2 / $10 ではなく $12 / $60（短いコンテキスト）で見積もる。[料金は検証済み。あなたの利用比率：確認するまで未計測]
+2. チームにUltrafastを約束する前に、組織のCodexやChatGPT WorkがPro 500か、対象のEnterprise/Eduプランかを確認する。アクセス制限はOpenAIの投稿で検証済み。あなたの席：未計測。
+3. Argonは、実際に呼び出せる公開開発者料金ページに載るまで、本番のフォールバック表に入れない。紙の上の $2 / $10 は在庫ではありません。</p>
+<p>The Signalが追うのは、ローンチ画像の表示価格ではなく、リクエストが実際に通ったレーンです。</p>
+<p>Field Kit（$17）: <a href="https://payhip.com/b/V472q">https://payhip.com/b/V472q</a>
+英語版（無料・テキストで開けます）: <a href="https://payhip.com/b/4tHmb">https://payhip.com/b/4tHmb</a></p>
+<h2>今回の情報源メモ</h2>
+<p>ニュースフィード <a href="https://dzn-news-feed--dylanad2045.replit.app/">https://dzn-news-feed--dylanad2045.replit.app/</a> はReplitの「このアプリはまだ公開されていません」ページを返しました。利用不可。
+<a href="https://dylan2045ad.github.io/dyl-nawful/">https://dylan2045ad.github.io/dyl-nawful/</a> の data/posts.json は404を返しました。利用不可。
+本日の @dylan2045ad の投稿は閲覧できましたが、上で使ったUltrafastやArgonの料金に関する記述はありませんでした。それらの投稿から数値は作っていません。
+この公開号にClaudeやAnthropicは登場しません。</p>
+<div class="cta">英語版（無料）はこちら → <a href="https://payhip.com/b/4tHmb">https://payhip.com/b/4tHmb</a></div>
+</div></body></html>
