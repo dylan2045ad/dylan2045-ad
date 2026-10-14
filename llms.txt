@@ -1,0 +1,41 @@
+# Dylan From 2045
+> AI-native creator tools, $1 micro-products, the Futurenomics AI news podcast, and The Signal newsletter — run by Dylan Francis Jones with his AI agent Chief Charlie.
+
+## Brand
+- Name: Dylan From 2045 (Dylan2045ad)
+- Founder: Dylan Francis Jones, sci-fi author and futurist, New York
+- Tagline: AI-native creator tools, from 2045
+
+## Stores
+- Shopify (primary, 19 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Gumroad: https://dylan2045ad.gumroad.com
+- Ko-fi: https://ko-fi.com/dylan2045ad
+- Payhip: https://payhip.com/Dylan2045ad
+
+## Key products (Shopify, verified 2026-10-14)
+- The AI Creator Field Kit — $17
+- AI Workflow Starter Pack — From Raw Research to a Publishable Brief — $10
+- Agent Output Acceptance Cards — Check Any AI Deliverable in Minutes — $1
+- Content Repurposing Map — Turn One Good Idea Into Five Finished Posts — $1
+- Prompt Cards: Visual — $1
+- Chief Charlie Deploy Sheet — $1
+- Why Your AI Agent Forgets — $1
+- AI Interview Kit — $1
+- The Dylan Bounce Plan — $1
+- Full catalog: https://dylan2045ad-store.myshopify.com/products.json
+
+## Podcast
+- Futurenomics — AI news podcast, Tue-Fri, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+
+## Newsletter
+- The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
+- Substack: https://dylan2045ad.substack.com
+
+## Site
+- Homepage: https://dylan2045-ad.netlify.app/
+- AI Tools Directory (by use case): https://dylan2045-ad.netlify.app/tools
+
+## Social
+- Instagram: https://www.instagram.com/dylan2045ad
+- YouTube: https://www.youtube.com/@dylan2045ad
+- Suno: https://suno.com/@dylan2045ad
