@@ -2,7 +2,7 @@
 
 Free weekly brief from Dylan from 2045.
 
-- Landing: https://dylan2045ad.github.io/dylan2045-ad/
+- Canonical landing page: https://dylan2045-ad.netlify.app/
 - Free issue: https://payhip.com/b/4tHmb
 - Field Kit ($17): https://payhip.com/b/V472q
 

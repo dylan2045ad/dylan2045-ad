@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dylan2045ad.github.io/dylan2045-ad/</loc>
+    <loc>https://dylan2045-ad.netlify.app/</loc>
   </url>
   <url>
-    <loc>https://dylan2045ad.github.io/dylan2045-ad/blue-stone-ranch-eternal-flame.html</loc>
+    <loc>https://dylan2045-ad.netlify.app/blue-stone-ranch-eternal-flame.html</loc>
   </url>
   <url>
-    <loc>https://dylan2045ad.github.io/dylan2045-ad/signal.html</loc>
+    <loc>https://dylan2045-ad.netlify.app/signal.html</loc>
   </url>
   <url>
-    <loc>https://dylan2045ad.github.io/dylan2045-ad/hub.html</loc>
+    <loc>https://dylan2045-ad.netlify.app/hub.html</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045-ad.netlify.app/signal-issue-06.html</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045-ad.netlify.app/signal-issue-07.html</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045-ad.netlify.app/signal-issue-07-nippon.html</loc>
   </url>
 </urlset>
