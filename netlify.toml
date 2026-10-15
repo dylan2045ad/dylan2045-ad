@@ -25,13 +25,13 @@
   status = 404
   force = true
 
-# Route to the existing Signal Stack directory.
+# Route permanently to the existing Signal Stack directory.
 [[redirects]]
   from = "/tools"
   to = "https://signal-stack-dylan2045ad.vercel.app/"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/tools/"
   to = "https://signal-stack-dylan2045ad.vercel.app/"
-  status = 302
+  status = 301
