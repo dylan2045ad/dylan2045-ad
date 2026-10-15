@@ -29,7 +29,6 @@
 
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
-- Substack: https://dylan2045ad.substack.com
 
 ## Site
 - Homepage: https://dylan2045-ad.netlify.app/
