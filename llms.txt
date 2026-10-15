@@ -7,7 +7,7 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 19 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 20 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
@@ -22,11 +22,25 @@
 - Why Your AI Agent Forgets — $1
 - A Khaleeji's Guide to Manhattan — NYC × Dubai — $1
 - The Agent Task Brief Card — $1
+- The Idea-to-Outline Card — $1
+- False Friends: Words That Look the Same in English, Norwegian, German & Dutch (Watercolor Mini-Manga) — $4
+- Same Ink, Different Voice: 12 Characters Japanese and Mandarin Write the Same but Say Differently (Watercolor Mini-Manga) — $4
+- Two Scripts, Two Sounds: A Manga Guide to Chinese — $2
+- New York English: Quirky New York Words & Icons (Cyberpunk Watercolor Mini-Manga) — $2
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json
 
 ## Podcast
 - Futurenomics — AI news podcast, Tue-Fri, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 15, 2026 episode — A Thirty-Five Billion Parameter Brain in Three Gigabytes (MiniCPM-V 4.7): https://open.spotify.com/episode/4HJa8ySNkBudsUZAZ9rkV6
 - October 14, 2026 episode — Research With Receipts: https://open.spotify.com/episode/2PJ3qU3pjaKsk9vNSEDQUc
+
+## Articles
+- Long-form articles by Dylan From 2045, first published on X:
+- CiYuan or AI tokens — https://x.com/dylan2045ad/article/2079042264823930956
+- Apple Just Accused OpenAI of Building Its Hardware Edge Node Future on Apple's Trade Secrets — https://x.com/dylan2045ad/article/2075970597780078794
+- Your Company Is Building Your $1000 per/yr Replacement With Your Own Keystrokes — https://x.com/dylan2045ad/article/2073793335156781057
+- The coding interface is collapsing into command + oversight, without humans — https://x.com/dylan2045ad/article/2057503018459754585
+- By 2030, your passport will mean nothing — https://x.com/dylan2045ad/article/2057121588860854515
 
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
