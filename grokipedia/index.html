@@ -82,9 +82,19 @@
     .search{display:none}
     p{font-size:1.02rem}
   }
+
+/* The Signal signup stays visible without JavaScript. */
+.signal-subscribe-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:18px;position:relative;z-index:1;font:600 16px/1.5 system-ui,sans-serif;text-align:center}
+.signal-subscribe-link,.signal-newsletter-details{color:#00eaff;text-decoration:underline;text-underline-offset:3px}
+.signal-subscribe-link:focus-visible,.signal-newsletter-details:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.signal-subscribe-footer{padding:24px 18px;text-align:center;font:600 16px/1.5 system-ui,sans-serif}
 </style>
 </head>
 <body>
+<nav class="signal-subscribe-nav" aria-label="Newsletter">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+  <a class="signal-newsletter-details" href="../newsletter.html">About the newsletter</a>
+</nav>
 <header class="topbar">
   <a class="brand" href="#top"><span class="mark">G</span><span>Grokipedia <small>· encyclopedia</small></span></a>
   <div class="search" aria-hidden="true">Search Grokipedia…</div>
@@ -195,7 +205,9 @@
     </p>
   </article>
 
-  <footer>Illustrations are AI-generated in a futuristic cyberpunk watercolor manga style and show no real person's likeness. This is a Grokipedia-style page, drafted locally and not published.</footer>
+  <footer>
+      <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+Illustrations are AI-generated in a futuristic cyberpunk watercolor manga style and show no real person's likeness. This is a Grokipedia-style page, drafted locally and not published.</footer>
 </div>
 </body>
 </html>

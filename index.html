@@ -390,9 +390,19 @@
       .first-sale p { margin: 0 0 14px; color: var(--muted); }
       .first-sale ol { margin: 0 0 14px; padding-left: 20px; color: var(--muted); }
       .first-sale .btn-m { min-height: 58px; font-size: 1.05rem; }
-    </style>
+
+/* The Signal signup stays visible without JavaScript. */
+.signal-subscribe-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:18px;position:relative;z-index:1;font:600 16px/1.5 system-ui,sans-serif;text-align:center}
+.signal-subscribe-link,.signal-newsletter-details{color:#00eaff;text-decoration:underline;text-underline-offset:3px}
+.signal-subscribe-link:focus-visible,.signal-newsletter-details:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.signal-subscribe-footer{padding:24px 18px;text-align:center;font:600 16px/1.5 system-ui,sans-serif}
+</style>
   </head>
   <body>
+<nav class="signal-subscribe-nav" aria-label="Newsletter">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+  <a class="signal-newsletter-details" href="newsletter.html">About the newsletter</a>
+</nav>
     <div class="mesh" aria-hidden="true">
       <span class="c"></span>
       <span class="m"></span>
@@ -595,6 +605,8 @@
       </section>
     </div>
     <footer>
+      <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+
       <a href="hub.html">Creator hub</a>
       <a href="https://dylan2045ad-store.myshopify.com" target="_blank" rel="noopener">Shopify</a>
       <a href="https://dylan2045ad.gumroad.com" target="_blank" rel="noopener">Gumroad</a>
