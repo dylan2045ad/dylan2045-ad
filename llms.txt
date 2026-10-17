@@ -60,8 +60,8 @@
 - Field Kit — $17 (Payhip): https://payhip.com/b/V472q — $12 with code LAUNCH5 through October 25 (first 20)
 
 ## Site
-- Homepage: https://dylan2045ad.github.io/dylan2045-ad/
-- AI Tools Directory (by use case): https://dylan2045ad.github.io/dylan2045-ad/tools
+- Homepage: https://dylan2045-ad.netlify.app/
+- AI Tools Directory (by use case): https://dylan2045-ad.netlify.app/tools
 
 ## Social
 - Instagram: https://www.instagram.com/dylan2045ad
