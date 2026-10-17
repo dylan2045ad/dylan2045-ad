@@ -1,0 +1,69 @@
+# Dylan From 2045
+> AI-native creator tools, $1 micro-products, the Futurenomics AI news podcast, and The Signal newsletter — run by Dylan Francis Jones with his AI agent Chief Charlie.
+
+## Brand
+- Name: Dylan From 2045 (Dylan2045ad)
+- Founder: Dylan Francis Jones, sci-fi author and futurist, New York
+- Tagline: AI-native creator tools, from 2045
+
+## Stores
+- Shopify (primary, 25 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Gumroad: https://dylan2045ad.gumroad.com
+- Ko-fi: https://ko-fi.com/dylan2045ad
+- Payhip: https://payhip.com/Dylan2045ad
+
+## Key products (Shopify, verified 2026-10-16)
+- The AI Creator Field Kit — $17
+- AI Workflow Starter Pack — From Raw Research to a Publishable Brief — $10
+- Agent Output Acceptance Cards — Check Any AI Deliverable in Minutes — $1
+- Content Repurposing Map — Turn One Good Idea Into Five Finished Posts — $1
+- Prompt Cards: Visual — $1
+- Chief Charlie Deploy Sheet — $1
+- Why Your AI Agent Forgets — $1
+- A Khaleeji's Guide to Manhattan — NYC × Dubai — $1
+- The Agent Task Brief Card — $1
+- The Idea-to-Outline Card — $1
+- False Friends: Words That Look the Same in English, Norwegian, German & Dutch (Watercolor Mini-Manga) — $4
+- Same Ink, Different Voice: 12 Characters Japanese and Mandarin Write the Same but Say Differently (Watercolor Mini-Manga) — $4
+- Two Scripts, Two Sounds: A Manga Guide to Chinese — $2
+- New York English: Quirky New York Words & Icons (Cyberpunk Watercolor Mini-Manga) — $2
+- The Prompt Repair Card — $1
+- Agent Handoff Packet — Pass Work Between AI Agents Without Losing the Thread — $1
+- Unusual Artifacts #001 — Six Objects That Shouldn't Exist — $1
+- Unusual Artifacts #002 — Six More Objects That Shouldn't Exist — $1
+- False Friends ES & PT — 40 Spanish & Portuguese Lookalikes That Lie — $1
+- Maya & Arjun Learn English: A Watercolor Manga for Hindi Speakers — $1
+- Stop Re-Explaining Your Style: The AI Voice Lock Card — $1
+- JEV vs CHATGPT — $1
+- The Source Check Card — Verify an AI Claim Before You Share It — $1
+- Norwegian First Week — 60 Everyday Phrases in Bokmål (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/norwegian-first-week
+- The AI Image Crop-Safe Card — One Scene, Three Formats — $1
+- Full catalog: https://dylan2045ad-store.myshopify.com/products.json
+
+## Podcast
+- Futurenomics — AI news podcast, Tue-Fri, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 16, 2026 episode — Meta Opens the Weights Again (Muse Spark Open): https://open.spotify.com/episode/028VDWsCjaC5FgztSHdnYF
+- October 15, 2026 episode — A Thirty-Five Billion Parameter Brain in Three Gigabytes (MiniCPM-V 4.7): https://open.spotify.com/episode/4HJa8ySNkBudsUZAZ9rkV6
+- October 14, 2026 episode — Research With Receipts: https://open.spotify.com/episode/2PJ3qU3pjaKsk9vNSEDQUc
+
+## Articles
+- Long-form articles by Dylan From 2045, first published on X:
+- CiYuan or AI tokens — https://x.com/dylan2045ad/article/2079042264823930956
+- Apple Just Accused OpenAI of Building Its Hardware Edge Node Future on Apple's Trade Secrets — https://x.com/dylan2045ad/article/2075970597780078794
+- Your Company Is Building Your $1000 per/yr Replacement With Your Own Keystrokes — https://x.com/dylan2045ad/article/2073793335156781057
+- The coding interface is collapsing into command + oversight, without humans — https://x.com/dylan2045ad/article/2057503018459754585
+- By 2030, your passport will mean nothing — https://x.com/dylan2045ad/article/2057121588860854515
+
+## Newsletter
+- The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
+- Latest issue: Issue 08, The Tier Reshuffle (October 15, 2026)
+- Field Kit — $17 (Shopify): https://dylan2045ad-store.myshopify.com/products/the-ai-creator-field-kit — also on Payhip: https://payhip.com/b/V472q — $12 with code LAUNCH5 through October 25 (first 20)
+
+## Site
+- Homepage: https://dylan2045-ad.netlify.app/
+- AI Tools Directory (by use case): https://dylan2045-ad.netlify.app/tools
+
+## Social
+- Instagram: https://www.instagram.com/dylan2045ad
+- YouTube: https://www.youtube.com/@dylan2045ad
+- Suno: https://suno.com/@dylan2045ad
