@@ -59,8 +59,8 @@
 - Latest issue: Issue 08, The Tier Reshuffle (October 15, 2026)
 
 ## Site
-- Homepage: https://dylan2045-ad.netlify.app/
-- AI Tools Directory (by use case): https://dylan2045-ad.netlify.app/tools
+- Homepage: https://dylan2045ad.github.io/dylan2045-ad/
+- AI Tools Directory (by use case): https://dylan2045ad.github.io/dylan2045-ad/tools
 
 ## Social
 - Instagram: https://www.instagram.com/dylan2045ad
