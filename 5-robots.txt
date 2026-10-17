@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://dylan2045-ad.netlify.app/sitemap.xml
