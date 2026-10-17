@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://dylan2045ad.github.io/dylan2045-ad/sitemap.xml
+
+Sitemap: https://dylan2045-ad.netlify.app/sitemap.xml
