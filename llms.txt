@@ -7,7 +7,7 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 22 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 25 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
@@ -35,6 +35,9 @@
 - Maya & Arjun Learn English: A Watercolor Manga for Hindi Speakers — $1
 - Stop Re-Explaining Your Style: The AI Voice Lock Card — $1
 - JEV vs CHATGPT — $1
+- The Source Check Card — Verify an AI Claim Before You Share It — $1
+- Norwegian First Week — 60 Everyday Phrases in Bokmål (PDF) — $1
+- The AI Image Crop-Safe Card — One Scene, Three Formats — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json
 
 ## Podcast
