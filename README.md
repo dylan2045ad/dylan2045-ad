@@ -2,9 +2,11 @@
 
 Free weekly brief from Dylan from 2045.
 
-- Landing: https://dylan2045ad.github.io/dylan2045-ad/
+- Canonical landing: https://dylan2045-ad.netlify.app/
+- GitHub Pages mirror: https://dylan2045ad.github.io/dylan2045-ad/ (redirects to the canonical site)
 - Free issue: https://payhip.com/b/4tHmb
-- Field Kit ($17): https://payhip.com/b/V472q
+- The AI Creator Field Kit ($17): https://dylan2045ad-store.myshopify.com/products/the-ai-creator-field-kit
+- Field Kit alternative: https://payhip.com/b/V472q
 
 The homepage reads [`data/issues.json`](data/issues.json) and features the highest issue number: cover, title, date, and teaser. Older issues stay in the archive. The rest of the creator hub stays at [`hub.html`](hub.html).
 
