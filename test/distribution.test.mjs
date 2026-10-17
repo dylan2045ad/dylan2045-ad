@@ -4,7 +4,7 @@ import { join, relative } from "node:path";
 import { describe, it } from "node:test";
 
 const ROOT = new URL("../", import.meta.url).pathname;
-const BASE = "https://dylan2045ad.github.io/dylan2045-ad";
+const BASE = "https://dylan2045-ad.netlify.app";
 const SHOP = "https://dylan2045ad-store.myshopify.com";
 const COLLECTION = `${SHOP}/collections/the-1-shop`;
 const FIELD_KIT = `${SHOP}/products/the-ai-creator-field-kit`;
@@ -12,12 +12,22 @@ const PAYHIP_KIT = "https://payhip.com/b/V472q";
 
 const canonicalPages = [
   ["index.html", `${BASE}/`],
-  ["hub.html", `${BASE}/hub.html`],
-  ["signal.html", `${BASE}/signal.html`],
   ["blue-stone-ranch-eternal-flame.html", `${BASE}/blue-stone-ranch-eternal-flame.html`],
+  ["signal.html", `${BASE}/signal.html`],
+  ["hub.html", `${BASE}/hub.html`],
   ["signal-issue-06.html", `${BASE}/signal-issue-06.html`],
   ["signal-issue-07.html", `${BASE}/signal-issue-07.html`],
   ["signal-issue-07-nippon.html", `${BASE}/signal-issue-07-nippon.html`],
+];
+
+// Pages where Dylan confirmed the LAUNCH5 launch offer stays (2026-10-17).
+const promoPages = [
+  "index.html",
+  "hub.html",
+  "signal.html",
+  "thanks.html",
+  "signal-issue-06.html",
+  "signal-issue-07-nippon.html",
 ];
 
 function readText(path) {
@@ -59,18 +69,17 @@ function htmlFiles(dir = ROOT) {
   });
 }
 
-describe("GitHub Pages distribution", () => {
-  it("uses one GitHub Pages canonical and matching Open Graph URL per sitemap page", () => {
+describe("Netlify distribution", () => {
+  it("uses one Netlify canonical and matching Open Graph URL per sitemap page", () => {
     for (const [file, expected] of canonicalPages) {
       const html = readText(file);
       const canonicalTags = tags(html, "link").filter((tag) => attr(tag, "rel") === "canonical");
       assert.equal(canonicalTags.length, 1, `${file} should have exactly one canonical`);
       assert.equal(attr(canonicalTags[0], "href"), expected, `${file} canonical`);
       assert.equal(metaValue(html, "og:url"), expected, `${file} Open Graph URL`);
-      assert.doesNotMatch(canonicalTags[0], /netlify\.app/i);
-      assert.doesNotMatch(metaValue(html, "og:url"), /netlify\.app/i);
+      assert.doesNotMatch(attr(canonicalTags[0], "href"), /github\.io/i, `${file} canonical host`);
       const image = metaValue(html, "og:image");
-      if (image) assert.ok(image.startsWith(`${BASE}/`), `${file} share image should use GitHub Pages`);
+      if (image) assert.ok(image.startsWith(`${BASE}/`), `${file} share image should use the Netlify host`);
     }
   });
 
@@ -81,10 +90,10 @@ describe("GitHub Pages distribution", () => {
     const robots = readText("robots.txt");
     const sitemapLines = robots.split(/\r?\n/).filter((line) => /^\s*Sitemap:/i.test(line));
     assert.deepEqual(sitemapLines, [`Sitemap: ${BASE}/sitemap.xml`]);
-    assert.doesNotMatch(robots, /netlify\.app/i);
+    assert.doesNotMatch(robots, /github\.io/i);
   });
 
-  it("keeps local HTML links relative so they work under the repository project path", () => {
+  it("keeps local HTML links relative so they work under any host or project path", () => {
     for (const file of htmlFiles()) {
       const html = readFileSync(file, "utf8");
       for (const tag of html.match(/<(?:a|img|link|script|source|form|iframe)\b[^>]*>/gi) ?? []) {
@@ -98,13 +107,11 @@ describe("GitHub Pages distribution", () => {
     for (const issue of manifest.issues) {
       if (!issue.page) continue;
       assert.ok(!issue.page.startsWith("/"), `issue ${issue.number} page path should be relative`);
-      const resolved = new URL(issue.page, `${BASE}/`);
-      assert.ok(resolved.pathname.startsWith("/dylan2045-ad/"));
       assert.ok(existsSync(join(ROOT, issue.page)), `missing local issue page ${issue.page}`);
     }
   });
 
-  it("makes the verified Shopify products primary while keeping Payhip and other stores visible", () => {
+  it("makes Shopify the primary Field Kit and $1 Shop destination while keeping other stores visible", () => {
     const home = readText("index.html");
     assert.match(home, /id="start-here"/, "first-sale section remains present");
     assert.match(home, /id="archive"/, "issue archive remains present");
@@ -116,7 +123,7 @@ describe("GitHub Pages distribution", () => {
     assert.match(heroKit.text, /AI Creator Field Kit/);
     assert.match(heroKit.text, /\$17/);
     assert.match(heroKit.text, /Shopify/);
-    assert.ok(homeLinks.filter((link) => link.href === COLLECTION).length >= 3, "hero and shop-section CTAs point to the Shopify $1 collection");
+    assert.ok(homeLinks.filter((link) => link.href === COLLECTION).length >= 2, "hero and shop-section CTAs point to the Shopify $1 collection");
     assert.ok(homeLinks.some((link) => link.href === PAYHIP_KIT && /also on Payhip/i.test(link.text)), "Payhip remains a Field Kit alternative");
 
     const manifest = JSON.parse(readText("data/issues.json"));
@@ -126,31 +133,24 @@ describe("GitHub Pages distribution", () => {
     assert.match(home, /price \+ " on Shopify"/);
 
     const hubLinks = anchorRecords(readText("hub.html"));
-    assert.ok(hubLinks.some((link) => link.href === FIELD_KIT && /Shopify/.test(link.text)));
+    assert.ok(hubLinks.some((link) => link.href === FIELD_KIT && /Shopify/.test(link.text)), "hub Field Kit CTA points to Shopify");
     const visibleStores = home + readText("hub.html");
     assert.match(visibleStores, /payhip\.com/);
     assert.match(visibleStores, /gumroad\.com/);
     assert.match(visibleStores, /ko-fi\.com/);
   });
 
-  it("does not add an unconfirmed signup provider, email form, or unverified promo claim", () => {
-    const home = readText("index.html");
-    const promoCheckedPages = [
-      "index.html",
-      "hub.html",
-      "signal.html",
-      "thanks.html",
-      "signal-issue-06.html",
-      "signal-issue-07.html",
-      "signal-issue-07-nippon.html",
-    ];
-    for (const file of promoCheckedPages) {
-      const html = readFileSync(file, "utf8");
-      assert.doesNotMatch(html, /LAUNCH5|Payhip launch offer/i, `${file} must not contain an unverified launch offer`);
+  it("keeps the approved LAUNCH5 launch offer and adds no new signup provider", () => {
+    for (const file of promoPages) {
+      const html = readText(file);
+      assert.match(html, /LAUNCH5/, `${file} keeps the approved LAUNCH5 offer`);
     }
-    assert.doesNotMatch(home, /id=["']cta-subscribe["']/i);
-    assert.doesNotMatch(home, /<form\b/i);
-    assert.doesNotMatch(home, /type=["']email["']/i);
-    assert.doesNotMatch(home, /LAUNCH5|Payhip launch offer/i);
+    const home = readText("index.html");
+    assert.doesNotMatch(home, /<form\b/i, "homepage itself stays free of inline email forms");
+    assert.doesNotMatch(home, /type=["']email["']/i, "homepage has no email input");
+    for (const file of htmlFiles()) {
+      const html = readFileSync(file, "utf8");
+      assert.doesNotMatch(html, /substack|buttondown|mailchimp|convertkit|beehiiv/i, `${relative(ROOT, file)} must not add an unapproved newsletter provider`);
+    }
   });
 });
