@@ -6,7 +6,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "node --test test/products.test.mjs"
+    "test": "node --test test/products.test.mjs test/distribution.test.mjs"
   },
   "dependencies": {
     "@x402/core": "2.24.0",

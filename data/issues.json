@@ -1,9 +1,9 @@
 {
   "canonicalPayhip": "https://payhip.com/b/4tHmb",
   "fieldKit": {
-    "name": "Field Kit",
+    "name": "The AI Creator Field Kit",
     "priceLabel": "$17",
-    "url": "https://payhip.com/b/V472q"
+    "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-creator-field-kit"
   },
   "issues": [
     {
@@ -20,7 +20,7 @@
       "date": "2026-10-08",
       "teaser": "Last week the Signal was which line on the Sol card you actually pay. This week OpenAI added a new line you can ask for by name: Ultrafast. Same model id. Different bill.",
       "cover": "signal-issue-07-cover.jpg",
-      "page": "/signal-issue-07.html",
+      "page": "signal-issue-07.html",
       "url": "https://payhip.com/b/4tHmb"
     },
     {
@@ -29,7 +29,7 @@
       "date": "2026-10-01",
       "teaser": "The Sol sticker held. The new cut is the cache read: past 272K input tokens, the whole request reprices.",
       "cover": "signal-issue-06-cover.jpg",
-      "page": "/signal-issue-06.html",
+      "page": "signal-issue-06.html",
       "url": "https://payhip.com/b/4tHmb"
     },
     {
