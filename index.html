@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      // GitHub Pages mirror: send visitors to the canonical Netlify site.
+      if (location.hostname === 'dylan2045ad.github.io') {
+        location.replace('https://dylan2045-ad.netlify.app' + location.pathname.replace(/^\/dylan2045-ad/, '') + location.search + location.hash);
+      }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Signal — Issue 08: The Tier Reshuffle | Dylan from 2045</title>
@@ -8,18 +14,18 @@
       name="description"
       content="AI-native creator tools, watercolor manga language guides, the Futurenomics AI news podcast, long-form articles, and The Signal newsletter — Dylan From 2045."
     />
-        <link rel="canonical" href="https://dylan2045ad.github.io/dylan2045-ad/" />
+        <link rel="canonical" href="https://dylan2045-ad.netlify.app/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="The Signal — Issue 08: The Tier Reshuffle" />
     <meta
       property="og:description"
       content="Last week was the speed surcharge: same model, different bill. This week the bill didn't move — your limits did. Set per-project caps and write a fallback for every workflow."
     />
-    <meta--text: #e9edf7;
+    <meta
       property="og:image"
-      content="https://dylan2045ad.github.io/dylan2045-ad/signal-cover.jpg"
+      content="https://dylan2045-ad.netlify.app/signal-cover.jpg"
     />
-        <meta property="og:url" content="https://dylan2045ad.github.io/dylan2045-ad/" />
+        <meta property="og:url" content="https://dylan2045-ad.netlify.app/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#050a24" />
     <style>
@@ -422,9 +428,11 @@
             caps and write a fallback for every workflow.
           </p>
           <div class="ctas">
-            <a class="btn-m" href="https://dylan2045ad-store.myshopify.com/collections/the-1-shop" target="_blank" rel="noopener" aria-label="Shop the $1 collection on Shopify">Shop the $1 Shop on Shopify</a>
-            <a class="btn-c" id="cta-free" href="signal-issue-07.html"
-              >Read Issue 07 free</a
+            <a class="btn-m" href="https://dylan2045ad-store.myshopify.com/collections/the-1-shop" target="_blank" rel="noopener">Shop the $1 Shop on Shopify</a>
+            <a class="btn-c" href="newsletter/">Get The Signal free</a>
+            <a class="btn-c" id="cta-free" href="https://payhip.com/b/4tHmb"
+              target="_blank" rel="noopener"
+              >Read Issue 08 free</a
             >
             <a
               class="btn-c"
@@ -434,6 +442,7 @@
               rel="noopener"
               >The AI Creator Field Kit — $17 on Shopify</a
             >
+            <span>Launch price: $12 with code LAUNCH5 through Oct 25 (first 20).</span>
             <a class="cta-also" href="https://payhip.com/b/V472q" target="_blank" rel="noopener">Field Kit also on Payhip</a>
             <a
               class="cta-also"
@@ -452,7 +461,7 @@
         <ol>
           <li><strong>Free:</strong> read <a href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">The Signal</a> (no card needed).</li>
           <li><strong>Free:</strong> listen to <a href="https://payhip.com/b/NrLQ4" target="_blank" rel="noopener">Abundance by 2045</a>, the free audiobook (~38 min MP3).</li>
-          <li><strong>$1:</strong> choose a $1 tool for one specific job.</li>
+          <li><strong>$1:</strong> pick one of seven small tools for one specific job.</li>
           <li><strong>$17:</strong> the <a href="#access-cut-kit">Access-Cut Planning Kit</a>, eight fill-in files for your full AI fallback plan.</li>
         </ol>
         <a class="btn-m" href="https://dylan2045ad-store.myshopify.com/collections/the-1-shop" target="_blank" rel="noopener">Browse the $1 Shop on Shopify</a>
@@ -515,6 +524,7 @@
         <p>The AI API Access-Cut Planning Kit includes eight fill-in planning files: portability ledger, permissions map, fallback matrix, kill-switch card, outcome-cost sheet, worksheets, a weekly decision page and an illustrative access-cut drill.</p>
         <p>Start with one dependency in the ledger. These are manual planning templates, not software or a guarantee of savings, security or uninterrupted access.</p>
         <a class="cta-also" href="https://dylan2045ad-store.myshopify.com/products/the-ai-creator-field-kit" target="_blank" rel="noopener">View The AI Creator Field Kit — $17 on Shopify</a> <a class="cta-also" href="https://payhip.com/b/V472q" target="_blank" rel="noopener">Also on Payhip</a>
+        <span style="display:block;margin-top:8px">Launch price: $12 with code LAUNCH5 through Oct 25 (first 20).</span>
         <p style="font-size:.9rem">Applicable taxes shown at checkout. Free Signal reading is optional; no free order required.</p>
       </section>
 
@@ -715,7 +725,7 @@
           if (Number(issue.number) === 7) {
             const wrap = document.createElement("div");
             const nippon = document.createElement("a");
-            nippon.href = "/signal-issue-07-nippon.html";
+            nippon.href = "signal-issue-07-nippon.html";
             nippon.textContent = "日本語版 (07-Nippon)";
             nippon.style.display = "inline-block";
             nippon.style.marginTop = "8px";
