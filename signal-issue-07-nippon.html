@@ -27,9 +27,19 @@ a{color:var(--cyan);word-break:break-all}.wrap{max-width:820px;margin:0 auto;pad
 img{width:100%;height:auto;border-radius:6px}h1{font:800 34px/1.25 system-ui,"Noto Sans JP",sans-serif}
 h2{font:700 19px/1.4 system-ui,"Noto Sans JP",sans-serif;color:var(--cyan);border-top:1px solid var(--line);padding-top:22px}
 .cta{margin-top:28px;padding:16px;border:1px solid var(--cyan)}
+
+/* The Signal signup stays visible without JavaScript. */
+.signal-subscribe-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:18px;position:relative;z-index:1;font:600 16px/1.5 system-ui,sans-serif;text-align:center}
+.signal-subscribe-link,.signal-newsletter-details{color:#00eaff;text-decoration:underline;text-underline-offset:3px}
+.signal-subscribe-link:focus-visible,.signal-newsletter-details:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.signal-subscribe-footer{padding:24px 18px;text-align:center;font:600 16px/1.5 system-ui,sans-serif}
 </style>
 </head>
-<body><div class="wrap">
+<body>
+<nav class="signal-subscribe-nav" aria-label="Newsletter">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+  <a class="signal-newsletter-details" href="newsletter.html">About the newsletter</a>
+</nav><div class="wrap">
 <img src="/signal-07-nippon-cover.jpg" alt="The Signal #07-Nippon：スピード・サーチャージ" width="1200" height="630">
 <h1>The Signal #07-Nippon：スピード・サーチャージ</h1>
 <p>THE SIGNAL · 第07号 · 2026年10月8日 · 無料</p>
@@ -63,4 +73,7 @@ h2{font:700 19px/1.4 system-ui,"Noto Sans JP",sans-serif;color:var(--cyan);borde
 本日の @dylan2045ad の投稿は閲覧できましたが、上で使ったUltrafastやArgonの料金に関する記述はありませんでした。それらの投稿から数値は作っていません。
 この公開号にClaudeやAnthropicは登場しません。</p>
 <div class="cta">英語版（無料）はこちら → <a href="https://payhip.com/b/4tHmb">https://payhip.com/b/4tHmb</a></div>
-</div></body></html>
+</div><footer class="signal-subscribe-footer">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+</footer>
+</body></html>

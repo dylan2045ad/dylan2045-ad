@@ -34,9 +34,19 @@ a.btn-sec{background:linear-gradient(135deg,#00ff9d 0%,#5affc0 100%);box-shadow:
 .expansion ul{list-style:none;display:flex;flex-direction:column;gap:8px;font-size:.88rem;font-weight:400;color:var(--muted);margin:12px 0}
 .expansion li::before{content:'\25B8 ';color:var(--magenta)}
 .fine{font-size:.72rem;letter-spacing:.04em;color:rgba(232,234,248,.6);line-height:1.7}
+
+/* The Signal signup stays visible without JavaScript. */
+.signal-subscribe-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:18px;position:relative;z-index:1;font:600 16px/1.5 system-ui,sans-serif;text-align:center}
+.signal-subscribe-link,.signal-newsletter-details{color:#00eaff;text-decoration:underline;text-underline-offset:3px}
+.signal-subscribe-link:focus-visible,.signal-newsletter-details:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.signal-subscribe-footer{padding:24px 18px;text-align:center;font:600 16px/1.5 system-ui,sans-serif}
 </style>
 </head>
 <body>
+<nav class="signal-subscribe-nav" aria-label="Newsletter">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+  <a class="signal-newsletter-details" href="newsletter.html">About the newsletter</a>
+</nav>
 <div class="wrap">
   <a class="back" href="index.html">&larr; The Signal</a>
   <header>
@@ -75,5 +85,8 @@ a.btn-sec{background:linear-gradient(135deg,#00ff9d 0%,#5affc0 100%);box-shadow:
   </div>
   <p class="fine">Refunds: if a paid file doesn't deliver what's listed above, reply to your receipt within 14 days for a full refund.</p>
 </div>
+<footer class="signal-subscribe-footer">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+</footer>
 </body>
 </html>

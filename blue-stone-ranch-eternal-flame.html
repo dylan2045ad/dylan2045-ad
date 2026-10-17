@@ -106,9 +106,19 @@
       }
       footer { margin-top: 44px; font-size: 0.9rem; }
       footer a { color: var(--cyan); }
-    </style>
+
+/* The Signal signup stays visible without JavaScript. */
+.signal-subscribe-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:18px;position:relative;z-index:1;font:600 16px/1.5 system-ui,sans-serif;text-align:center}
+.signal-subscribe-link,.signal-newsletter-details{color:#00eaff;text-decoration:underline;text-underline-offset:3px}
+.signal-subscribe-link:focus-visible,.signal-newsletter-details:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.signal-subscribe-footer{padding:24px 18px;text-align:center;font:600 16px/1.5 system-ui,sans-serif}
+</style>
   </head>
   <body>
+<nav class="signal-subscribe-nav" aria-label="Newsletter">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+  <a class="signal-newsletter-details" href="newsletter.html">About the newsletter</a>
+</nav>
     <main>
       <p class="kicker">Dylan2045ad · Music</p>
       <h1>Blue Stone Ranch - Eternal Flame</h1>
@@ -182,6 +192,8 @@
       </script>
 
       <footer>
+      <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+
         <a href="index.html">← Dylan from 2045 — home</a>
       </footer>
     </main>

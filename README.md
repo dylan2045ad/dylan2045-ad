@@ -2,6 +2,10 @@
 
 Free weekly brief from Dylan from 2045.
 
+Subscribe to **The Signal** at https://payhip.com/b/4tHmb. Claiming the free
+Payhip product joins the Payhip mailing list. Every HTML page includes this
+signup link in its navigation and footer; `/newsletter` explains the signup.
+
 - Landing: https://dylan2045ad.github.io/dylan2045-ad/
 - Free issue: https://payhip.com/b/4tHmb
 - Field Kit ($17): https://payhip.com/b/V472q

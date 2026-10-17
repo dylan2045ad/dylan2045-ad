@@ -17,9 +17,19 @@ a.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px
 a.btn:hover{transform:translateY(-2px)}
 a.home{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cyan);text-decoration:none}
 a.home:hover{color:#fff}
+
+/* The Signal signup stays visible without JavaScript. */
+.signal-subscribe-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:18px;position:relative;z-index:1;font:600 16px/1.5 system-ui,sans-serif;text-align:center}
+.signal-subscribe-link,.signal-newsletter-details{color:#00eaff;text-decoration:underline;text-underline-offset:3px}
+.signal-subscribe-link:focus-visible,.signal-newsletter-details:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.signal-subscribe-footer{padding:24px 18px;text-align:center;font:600 16px/1.5 system-ui,sans-serif}
 </style>
 </head>
 <body>
+<nav class="signal-subscribe-nav" aria-label="Newsletter">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+  <a class="signal-newsletter-details" href="newsletter.html">About the newsletter</a>
+</nav>
 <div class="wrap">
   <h1>Signal Locked In</h1>
   <p>You're on the list. The next Signal lands in your inbox the day it drops.</p>
@@ -29,5 +39,8 @@ a.home:hover{color:#fff}
   <span>Launch price: $12 with code LAUNCH5 through Oct 25 (first 20).</span>
   <a class="home" href="index.html">&larr; Back to The Signal</a>
 </div>
+<footer class="signal-subscribe-footer">
+  <a class="signal-subscribe-link" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Subscribe to The Signal</a>
+</footer>
 </body>
 </html>
