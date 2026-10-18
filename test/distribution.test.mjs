@@ -70,6 +70,21 @@ function htmlFiles(dir = ROOT) {
 }
 
 describe("Netlify distribution", () => {
+  it("keeps the $1 catalog copy independent of a stale inventory count", () => {
+    const home = readText("index.html");
+    assert.doesNotMatch(home, /one of seven small tools/i);
+    assert.match(home, /pick a small tool for one specific job/i);
+  });
+
+  it("continues the free to $1 to $17 Shopify ladder after signup", () => {
+    const links = anchorRecords(readText("newsletter/thanks/index.html"));
+    const dollarIndex = links.findIndex((link) => link.href === COLLECTION);
+    const kitIndex = links.findIndex((link) => link.href === FIELD_KIT);
+    assert.ok(dollarIndex >= 0, "signup confirmation needs a $1 Shopify step");
+    assert.ok(kitIndex > dollarIndex, "$1 Shopify step precedes the $17 kit");
+    assert.ok(links.some((link) => link.href === PAYHIP_KIT && /also on Payhip/i.test(link.text)));
+  });
+
   it("uses one Netlify canonical and matching Open Graph URL per sitemap page", () => {
     for (const [file, expected] of canonicalPages) {
       const html = readText(file);
