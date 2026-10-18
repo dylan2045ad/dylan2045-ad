@@ -7,7 +7,7 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 25 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 28 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
@@ -60,8 +60,8 @@
 - Field Kit — $17 (Payhip): https://payhip.com/b/V472q — $12 with code LAUNCH5 through October 25 (first 20)
 
 ## Site
-- Homepage: https://dylan2045-ad.netlify.app/
-- AI Tools Directory (by use case): https://dylan2045-ad.netlify.app/tools
+- Homepage: https://dylan2045ad.github.io/dylan2045-ad/
+- AI Tools Directory (by use case): https://dylan2045ad.github.io/dylan2045-ad/tools
 
 ## Social
 - Instagram: https://www.instagram.com/dylan2045ad
