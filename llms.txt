@@ -7,13 +7,15 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 30 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 33 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 
-## Key products (Shopify, verified 2026-10-18)
-- The AI Creator Field Kit — $17 (Payhip: https://payhip.com/b/V472q)
+## Key products (Shopify, verified 2026-10-19)
+- Counting Bears Around the World — $1
+- The Screenshot-to-Bug Report Card — $1
+- The AI Creator Field Kit — $17
 - Polyglot Starter Bundle: False Friends (NO/DE/NL + ES/PT) + Kanji/Hanzi Manga — $9
 - AI Workflow Starter Pack — From Raw Research to a Publishable Brief — $10
 - False Friends: Words That Look the Same in English, Norwegian, German & Dutch — and Mean Something Else (Watercolor Mini-Manga) — $4
@@ -44,10 +46,10 @@
 - PROMPT CARDS: VISUAL — $1
 - WHY YOUR AI AGENT FORGETS — $1
 - CHIEF CHARLIE DEPLOY SHEET — $1
-- Full catalog: https://dylan2045ad-store.myshopify.com/products.json
+- Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
 
 ## Podcast
-- Futurenomics — AI news podcast, Tue-Fri, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
 - October 18, 2026 episode — Three Aurora Alphas Spotted — OpenAI's Mystery Red, Green and Blue Models: https://open.spotify.com/episode/6BvbipAx2xj86J34hv15Ss
 - October 16, 2026 episode — Meta Opens the Weights Again (Muse Spark Open): https://open.spotify.com/episode/028VDWsCjaC5FgztSHdnYF
 - October 15, 2026 episode — A Thirty-Five Billion Parameter Brain in Three Gigabytes (MiniCPM-V 4.7): https://open.spotify.com/episode/4HJa8ySNkBudsUZAZ9rkV6
