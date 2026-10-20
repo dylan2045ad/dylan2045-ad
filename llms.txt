@@ -7,12 +7,12 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 33 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 36 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 
-## Key products (Shopify, verified 2026-10-19)
+## Key products (Shopify, verified 2026-10-20)
 - Counting Bears Around the World — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
@@ -46,6 +46,9 @@
 - PROMPT CARDS: VISUAL — $1
 - WHY YOUR AI AGENT FORGETS — $1
 - CHIEF CHARLIE DEPLOY SHEET — $1
+- The Decision Log Card — $1
+- Describe the Image, Not the Vibe: The AI Alt Text Card — $1
+- Spanish First Week — 60 Everyday Phrases (PDF) — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
 
 ## Podcast
@@ -63,7 +66,7 @@
 - Sponsor bundle (all of the above) — $49/month
 - Audience: AI builders, creators and agent-economy readers. The Signal Issue 08 had 636 Payhip views as of October 16, 2026 (free newsletter, early stage).
 - Honest scale note: Dylan From 2045 is an early, independent one-person business; sponsorship prices reflect its current size. Sponsorship never buys editorial verdicts, tool rankings, or review outcomes.
-- Book a sponsorship: email dylanvfrancis000@gmail.com
+- Book a sponsorship: email dylan2045ad@agentmail.to
 
 ## Articles
 - Long-form articles by Dylan From 2045, first published on X:
