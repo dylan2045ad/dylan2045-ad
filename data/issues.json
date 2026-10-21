@@ -7,11 +7,20 @@
   },
   "issues": [
     {
+      "number": 9,
+      "title": "The Agent Wallet",
+      "date": "2026-10-21",
+      "teaser": "Give the system a small, auditable job and keep the handoff visible.",
+      "cover": "signal-issue-09-cover.jpg",
+      "page": "/signal-issue-09.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 8,
       "title": "The Tier Reshuffle",
       "date": "2026-10-15",
       "teaser": "Last week was the speed surcharge: same model, different bill. This week the bill didn't move — your limits did. Set per-project caps and write a fallback for every workflow.",
-      "cover": "",
+      "cover": "1-signal-issue-08-cover.jpg",
       "url": "https://payhip.com/b/4tHmb"
     },
     {
