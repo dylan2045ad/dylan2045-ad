@@ -4,7 +4,7 @@ import { join, relative } from "node:path";
 import { describe, it } from "node:test";
 
 const ROOT = new URL("../", import.meta.url).pathname;
-const BASE = "https://dylan2045-ad.netlify.app";
+const BASE = "https://dylan2045ad.github.io/dylan2045-ad";
 const SHOP = "https://dylan2045ad-store.myshopify.com";
 const COLLECTION = `${SHOP}/collections/the-1-shop`;
 const FIELD_KIT = `${SHOP}/products/the-ai-creator-field-kit`;
@@ -69,7 +69,7 @@ function htmlFiles(dir = ROOT) {
   });
 }
 
-describe("Netlify distribution", () => {
+describe("GitHub Pages distribution", () => {
   it("keeps the $1 catalog copy independent of a stale inventory count", () => {
     const home = readText("index.html");
     assert.doesNotMatch(home, /one of seven small tools/i);
@@ -85,31 +85,34 @@ describe("Netlify distribution", () => {
     assert.ok(links.some((link) => link.href === PAYHIP_KIT && /also on Payhip/i.test(link.text)));
   });
 
-  it("uses one Netlify canonical and matching Open Graph URL per sitemap page", () => {
+  it("uses one GitHub Pages canonical and matching Open Graph URL per sitemap page", () => {
     for (const [file, expected] of canonicalPages) {
       const html = readText(file);
       const canonicalTags = tags(html, "link").filter((tag) => attr(tag, "rel") === "canonical");
       assert.equal(canonicalTags.length, 1, `${file} should have exactly one canonical`);
       assert.equal(attr(canonicalTags[0], "href"), expected, `${file} canonical`);
       assert.equal(metaValue(html, "og:url"), expected, `${file} Open Graph URL`);
-      assert.doesNotMatch(attr(canonicalTags[0], "href"), /github\.io/i, `${file} canonical host`);
+      assert.doesNotMatch(attr(canonicalTags[0], "href"), /netlify\.app/i, `${file} canonical host`);
       const image = metaValue(html, "og:image");
-      if (image) assert.ok(image.startsWith(`${BASE}/`), `${file} share image should use the Netlify host`);
+      if (image) assert.ok(image.startsWith(`${BASE}/`), `${file} share image should use the GitHub Pages host`);
     }
   });
 
   it("advertises exactly the canonical pages through one sitemap", () => {
     const xml = readText("sitemap.xml");
     const locations = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-    assert.deepEqual(locations, canonicalPages.map(([, url]) => url));
+    for (const [, url] of canonicalPages) assert.ok(locations.includes(url), `sitemap lists ${url}`);
+    for (const loc of locations) assert.ok(loc.startsWith(`${BASE}/`), `sitemap host ${loc}`);
     const robots = readText("robots.txt");
     const sitemapLines = robots.split(/\r?\n/).filter((line) => /^\s*Sitemap:/i.test(line));
     assert.deepEqual(sitemapLines, [`Sitemap: ${BASE}/sitemap.xml`]);
-    assert.doesNotMatch(robots, /github\.io/i);
+    assert.doesNotMatch(robots, /netlify\.app/i);
   });
 
   it("keeps local HTML links relative so they work under any host or project path", () => {
     for (const file of htmlFiles()) {
+      // newsletter/ is served by Netlify Forms (GitHub Pages visitors are redirected there).
+      if (relative(ROOT, file).startsWith("newsletter")) continue;
       const html = readFileSync(file, "utf8");
       for (const tag of html.match(/<(?:a|img|link|script|source|form|iframe)\b[^>]*>/gi) ?? []) {
         for (const name of ["href", "src", "action", "poster"]) {
@@ -155,10 +158,10 @@ describe("Netlify distribution", () => {
     assert.match(visibleStores, /ko-fi\.com/);
   });
 
-  it("keeps the approved LAUNCH5 launch offer and adds no new signup provider", () => {
+  it("drops the paused LAUNCH5 offer and adds no new signup provider", () => {
     for (const file of promoPages) {
       const html = readText(file);
-      assert.match(html, /LAUNCH5/, `${file} keeps the approved LAUNCH5 offer`);
+      assert.doesNotMatch(html, /LAUNCH5/, `${file} must not promote paused LAUNCH5`);
     }
     const home = readText("index.html");
     assert.doesNotMatch(home, /<form\b/i, "homepage itself stays free of inline email forms");

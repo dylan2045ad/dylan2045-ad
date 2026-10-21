@@ -2,7 +2,7 @@
 
 Free weekly brief from Dylan from 2045.
 
-- Canonical landing: https://dylan2045-ad.netlify.app/
+- Canonical landing: https://dylan2045ad.github.io/dylan2045-ad/
 - GitHub Pages mirror: https://dylan2045ad.github.io/dylan2045-ad/ (redirects to the canonical site)
 - Free issue: https://payhip.com/b/4tHmb
 - The AI Creator Field Kit ($17): https://dylan2045ad-store.myshopify.com/products/the-ai-creator-field-kit

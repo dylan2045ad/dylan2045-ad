@@ -3,7 +3,7 @@ import { describe, it } from "node:test";
 import { decodePaymentRequiredHeader } from "@x402/core/http";
 import handler from "../netlify/functions/products.mjs";
 
-const ORIGIN = "https://dylan2045-ad.netlify.app";
+const ORIGIN = "https://dylan2045ad.github.io/dylan2045-ad/";
 const PAY_TO = "0x0c7DF03a4c5be953386654F5C565f94D790147C7";
 const USDC_BASE = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
