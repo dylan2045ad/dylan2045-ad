@@ -6,7 +6,7 @@ import { it } from "node:test";
 
 const h = readFileSync("index.html", "utf8");
 
-const I = "https://dylan2045-ad.netlify.app/1-signal-issue-08-cover.jpg";
+const I = "https://dylan2045ad.github.io/dylan2045-ad/1-signal-issue-08-cover.jpg";
 
 it("share image tags", () => {
   
