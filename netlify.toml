@@ -9,11 +9,6 @@
   node_bundler = "esbuild"
 
 [[redirects]]
-  from = "/newsletter"
-  to = "/newsletter.html"
-  status = 200
-
-[[redirects]]
   from = "/signal"
   to = "/signal.html"
   status = 200

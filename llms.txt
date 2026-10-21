@@ -7,33 +7,89 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 19 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 39 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 
-## Key products (Shopify, verified 2026-10-15)
+## Key products (Shopify, verified 2026-10-21)
+- Counting Bears Around the World — $1
+- The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
+- Polyglot Starter Bundle: False Friends (NO/DE/NL + ES/PT) + Kanji/Hanzi Manga — $9
 - AI Workflow Starter Pack — From Raw Research to a Publishable Brief — $10
+- False Friends: Words That Look the Same in English, Norwegian, German & Dutch — and Mean Something Else (Watercolor Mini-Manga) — $4
+- Same Ink, Different Voice: 12 Characters Japanese and Mandarin Write the Same but Say Differently (Watercolor Mini-Manga) — $4
+- Two Scripts, Two Sounds: A Manga Guide to Chinese — $2
+- New York English: Quirky New York Words & Icons in Japanese, Korean and Mandarin (Cyberpunk Watercolor Mini-Manga) — $2
+- The Clear Email Card — Turn a Blunt Draft Into a Message That Lands — $1
+- Dutch First Week — 60 Everyday Phrases (PDF) — $1
+- German First Week — 60 Everyday Phrases (PDF) — $1
+- Norwegian First Week — 60 Everyday Phrases in Bokmål (PDF) — $1
+- The AI Image Revision Card — Change One Thing, Keep the Rest — $1
+- The Meeting-to-Action Card — Turn Messy Notes Into Owners, Deadlines, and Next Steps — $1
+- The AI Image Crop-Safe Card — One Scene, Three Formats — $1
+- The Source Check Card — Verify an AI Claim Before You Share It — $1
+- The Prompt Repair Card — Fix a Bad AI Answer Instead of Starting Over — $1
+- Agent Handoff Packet — Pass Work Between AI Agents Without Losing the Thread — $1
+- The Idea-to-Outline Card — Turn a Rough Idea Into a Working Outline in 15 Minutes — $1
+- Stop Re-Explaining Your Style: The AI Voice Lock Card — $1
+- The Agent Task Brief Card — Tell Any AI Agent Exactly What Done Looks Like — $1
 - Agent Output Acceptance Cards — Check Any AI Deliverable in Minutes — $1
 - Content Repurposing Map — Turn One Good Idea Into Five Finished Posts — $1
-- Prompt Cards: Visual — $1
-- Chief Charlie Deploy Sheet — $1
-- Why Your AI Agent Forgets — $1
-- A Khaleeji's Guide to Manhattan — NYC × Dubai — $1
-- The Agent Task Brief Card — $1
-- Full catalog: https://dylan2045ad-store.myshopify.com/products.json
+- Unusual Artifacts #001 — Six Objects That Shouldn't Exist — $1
+- Unusual Artifacts #002 — Six More Objects That Shouldn't Exist — $1
+- A Khaleeji's Guide to Manhattan: New York × Dubai in English, Arabic, Hindi & Urdu (Watercolor Mini-Manga) — $1
+- Maya & Arjun Learn English: A Watercolor Manga for Hindi Speakers — $1
+- False Friends ES & PT — 40 Spanish & Portuguese Lookalikes That Lie — $1
+- JEV vs CHATGPT — $1
+- PROMPT CARDS: VISUAL — $1
+- WHY YOUR AI AGENT FORGETS — $1
+- CHIEF CHARLIE DEPLOY SHEET — $1
+- The Decision Log Card — $1
+- Describe the Image, Not the Vibe: The AI Alt Text Card — $1
+- Spanish First Week — 60 Everyday Phrases (PDF) — $1
+- The Sponsor Outreach Mini-Kit — Pitch a Tiny Sponsorship Honestly — $1
+- The AI Context Budget Card: What to Paste, What to Leave Out — $1
+- Portuguese First Week — 60 Everyday Phrases (PDF) — $1
+- Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
 
 ## Podcast
-- Futurenomics — AI news podcast, Tue-Fri, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
-- October 14, 2026 episode — Research With Receipts: https://open.spotify.com/episode/2PJ3qU3pjaKsk9vNSEDQUc
+- Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 20, 2026 episode — One Line of Code Against the CUDA Moat — AWS TorchNeuron Opens Trainium to Every PyTorch Team: https://open.spotify.com/episode/0plZ8qsniHAsHkDQ8UKwDL
+- October 18, 2026 episode — Three Aurora Alphas Spotted — OpenAI's Mystery Red, Green and Blue Models: https://open.spotify.com/episode/6BvbipAx2xj86J34hv15Ss
+- October 16, 2026 episode — Meta Opens the Weights Again (Muse Spark Open): https://open.spotify.com/episode/028VDWsCjaC5FgztSHdnYF
+- October 15, 2026 episode — A Thirty-Five Billion Parameter Brain in Three Gigabytes (MiniCPM-V 4.7): https://open.spotify.com/episode/4HJa8ySNkBudsUZAZ9rkV6
+
+## Sponsorship
+- Sponsor page (rate card, inventory, how to book): https://dylan2045ad.github.io/dylan2045-ad/sponsor.html
+- AI Tools Directory Featured listing — $15/month per section
+- Site sponsor strip — $25/month
+- The Signal sponsor block — $25/issue
+- Futurenomics podcast mention — $20/episode
+- Sponsor bundle (all of the above) — $49/month
+- Audience: AI builders, creators and agent-economy readers. The Signal Issue 08 had 636 Payhip views as of October 16, 2026 (free newsletter, early stage).
+- Honest scale note: Dylan From 2045 is an early, independent one-person business; sponsorship prices reflect its current size. Sponsorship never buys editorial verdicts, tool rankings, or review outcomes.
+- Book a sponsorship: email dylan2045ad@agentmail.to
+
+## Articles
+- Long-form articles by Dylan From 2045, first published on X:
+- CiYuan or AI tokens — https://x.com/dylan2045ad/article/2079042264823930956
+- Apple Just Accused OpenAI of Building Its Hardware Edge Node Future on Apple's Trade Secrets — https://x.com/dylan2045ad/article/2075970597780078794
+- Your Company Is Building Your $1000 per/yr Replacement With Your Own Keystrokes — https://x.com/dylan2045ad/article/2073793335156781057
+- The coding interface is collapsing into command + oversight, without humans — https://x.com/dylan2045ad/article/2057503018459754585
+- By 2030, your passport will mean nothing — https://x.com/dylan2045ad/article/2057121588860854515
 
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
+- The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-tool free on release while subscribed. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
+- Latest issue: Issue 08, The Tier Reshuffle (October 15, 2026)
+- Field Kit — $17 (Payhip): https://payhip.com/b/V472q — $12 with code LAUNCH5 through October 25 (first 20)
 
 ## Site
-- Homepage: https://dylan2045-ad.netlify.app/
-- AI Tools Directory (by use case): https://dylan2045-ad.netlify.app/tools
+- Homepage: https://dylan2045ad.github.io/dylan2045-ad/
+- Sponsor page: https://dylan2045ad.github.io/dylan2045-ad/sponsor.html
+- AI Tools Directory (by use case): https://dylan2045ad.github.io/dylan2045-ad/tools
 
 ## Social
 - Instagram: https://www.instagram.com/dylan2045ad

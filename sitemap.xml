@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dylan2045-ad.netlify.app/newsletter</loc>
-  </url>
-  <url>
     <loc>https://dylan2045ad.github.io/dylan2045-ad/</loc>
   </url>
   <url>
@@ -14,5 +11,17 @@
   </url>
   <url>
     <loc>https://dylan2045ad.github.io/dylan2045-ad/hub.html</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045ad.github.io/dylan2045-ad/sponsor.html</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045ad.github.io/dylan2045-ad/membership/</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045ad.github.io/dylan2045-ad/tools/</loc>
+  </url>
+  <url>
+    <loc>https://dylan2045ad.github.io/dylan2045-ad/newsletter/</loc>
   </url>
 </urlset>

@@ -7,6 +7,14 @@
   },
   "issues": [
     {
+      "number": 8,
+      "title": "The Tier Reshuffle",
+      "date": "2026-10-15",
+      "teaser": "Last week was the speed surcharge: same model, different bill. This week the bill didn't move — your limits did. Set per-project caps and write a fallback for every workflow.",
+      "cover": "",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 7,
       "title": "The Speed Surcharge",
       "date": "2026-10-08",

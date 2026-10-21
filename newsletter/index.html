@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      // GitHub Pages mirror: send visitors to the canonical Netlify site.
+      if (location.hostname === 'dylan2045ad.github.io') {
+        location.replace('https://dylan2045-ad.netlify.app' + location.pathname.replace(/^\/dylan2045-ad/, '') + location.search + location.hash);
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Get The Signal free | Dylan From 2045</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Audiowide&display=swap");
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: #05050c;
+        color: #e8eaf8;
+        font-family: Orbitron, system-ui;
+        padding: 28px 18px;
+        line-height: 1.55;
+      }
+      .wrap { max-width: 640px; margin: auto; display: flex; flex-direction: column; gap: 28px; }
+      h1 {
+        font-family: Audiowide;
+        color: #fff;
+        text-shadow: 0 0 20px #00e8ff;
+        font-size: clamp(1.8rem, 5vw, 2.6rem);
+      }
+      .tag { color: #00e8ff; text-transform: uppercase; letter-spacing: 0.22em; font-size: 0.85rem; }
+      .card { background: #0b0d1ddd; border: 1px solid #00e8ff66; border-radius: 14px; padding: 26px; }
+      .note { color: #cfd2e5; }
+      form { display: flex; flex-direction: column; gap: 16px; margin-top: 18px; }
+      label { font-size: 0.95rem; }
+      input[type="email"] {
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: 10px;
+        border: 1px solid #00e8ff66;
+        background: #05050c;
+        color: #e8eaf8;
+        font-family: inherit;
+        font-size: 1rem;
+      }
+      .consent { display: flex; gap: 10px; align-items: flex-start; color: #cfd2e5; }
+      .consent input { margin-top: 4px; }
+      .btn {
+        display: inline-block;
+        padding: 12px 22px;
+        border-radius: 10px;
+        border: 1px solid #00e8ff;
+        background: #00e8ff22;
+        color: #fff;
+        font-family: inherit;
+        font-size: 1rem;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .btn:hover { background: #00e8ff44; }
+      .micro { color: #8a8fa8; font-size: 0.8rem; }
+      .hidden-field { display: none; }
+      a { color: #4deeff; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <div>
+        <div class="tag">The Signal - free weekly brief</div>
+        <h1>Get The Signal free</h1>
+        <p class="note">
+          A concise weekly brief on the agent economy, creator systems, and the
+          decisions worth making before the crowd arrives. Latest: Issue 08, The
+          Tier Reshuffle.
+        </p>
+      </div>
+      <div class="card">
+        <form
+          name="signal-newsletter"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          action="/newsletter/thanks/"
+        >
+          <input type="hidden" name="form-name" value="signal-newsletter" />
+          <p class="hidden-field">
+            <label>Do not fill this out: <input name="bot-field" /></label>
+          </p>
+          <label for="email">Email address</label>
+          <input id="email" type="email" name="email" required placeholder="you@example.com" />
+          <label class="consent">
+            <input type="checkbox" name="consent" value="yes" required />
+            <span>Email me The Signal weekly. Unsubscribe anytime.</span>
+          </label>
+          <button class="btn" type="submit">Get The Signal free</button>
+          <p class="micro">One email a week. No spam, no selling your address.</p>
+        </form>
+      </div>
+      <p class="note">
+        Rather read first? <a href="https://payhip.com/b/4tHmb">Read Issue 08 free on Payhip</a>.
+        Back to <a href="/">the homepage</a>.
+      </p>
+    </main>
+  </body>
+</html>
