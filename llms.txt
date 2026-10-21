@@ -7,12 +7,12 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 36 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 39 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 
-## Key products (Shopify, verified 2026-10-20)
+## Key products (Shopify, verified 2026-10-21)
 - Counting Bears Around the World — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
@@ -49,10 +49,14 @@
 - The Decision Log Card — $1
 - Describe the Image, Not the Vibe: The AI Alt Text Card — $1
 - Spanish First Week — 60 Everyday Phrases (PDF) — $1
+- The Sponsor Outreach Mini-Kit — Pitch a Tiny Sponsorship Honestly — $1
+- The AI Context Budget Card: What to Paste, What to Leave Out — $1
+- Portuguese First Week — 60 Everyday Phrases (PDF) — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
 
 ## Podcast
 - Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 20, 2026 episode — One Line of Code Against the CUDA Moat — AWS TorchNeuron Opens Trainium to Every PyTorch Team: https://open.spotify.com/episode/0plZ8qsniHAsHkDQ8UKwDL
 - October 18, 2026 episode — Three Aurora Alphas Spotted — OpenAI's Mystery Red, Green and Blue Models: https://open.spotify.com/episode/6BvbipAx2xj86J34hv15Ss
 - October 16, 2026 episode — Meta Opens the Weights Again (Muse Spark Open): https://open.spotify.com/episode/028VDWsCjaC5FgztSHdnYF
 - October 15, 2026 episode — A Thirty-Five Billion Parameter Brain in Three Gigabytes (MiniCPM-V 4.7): https://open.spotify.com/episode/4HJa8ySNkBudsUZAZ9rkV6
