@@ -7,12 +7,13 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 39 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 42 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
+- AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-21)
+## Key products (Shopify, verified 2026-10-21 against products.json)
 - Counting Bears Around the World — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
@@ -39,19 +40,22 @@
 - Content Repurposing Map — Turn One Good Idea Into Five Finished Posts — $1
 - Unusual Artifacts #001 — Six Objects That Shouldn't Exist — $1
 - Unusual Artifacts #002 — Six More Objects That Shouldn't Exist — $1
-- A Khaleeji's Guide to Manhattan: New York × Dubai in English, Arabic, Hindi & Urdu (Watercolor Mini-Manga) — $1
+- A Khaleeji’s Guide to Manhattan: New York × Dubai in English, Arabic, Hindi & Urdu (Watercolor Mini-Manga) — $1
 - Maya & Arjun Learn English: A Watercolor Manga for Hindi Speakers — $1
 - False Friends ES & PT — 40 Spanish & Portuguese Lookalikes That Lie — $1
 - JEV vs CHATGPT — $1
 - PROMPT CARDS: VISUAL — $1
 - WHY YOUR AI AGENT FORGETS — $1
 - CHIEF CHARLIE DEPLOY SHEET — $1
-- The Decision Log Card — $1
+- The Decision Log Card — Decide Once, Write Why, Stop Re-Deciding — $1
 - Describe the Image, Not the Vibe: The AI Alt Text Card — $1
 - Spanish First Week — 60 Everyday Phrases (PDF) — $1
 - The Sponsor Outreach Mini-Kit — Pitch a Tiny Sponsorship Honestly — $1
 - The AI Context Budget Card: What to Paste, What to Leave Out — $1
 - Portuguese First Week — 60 Everyday Phrases (PDF) — $1
+- The Follow-Up Card — One Short Note After Silence — $1
+- The Weekly Metrics One-Pager — Track Five Numbers, Make One Decision — $1
+- Japanese First Week — 60 Everyday Phrases (PDF) — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
 
 ## Podcast
