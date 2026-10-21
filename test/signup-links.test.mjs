@@ -7,10 +7,10 @@ import { describe, it } from "node:test";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (p) => readFileSync(join(ROOT, p), "utf8");
 
-const NEWSLETTER_URL = "https://dylan2045-ad.netlify.app/newsletter";
+const NEWSLETTER_URL = "https://dylan2045ad.github.io/dylan2045-ad/newsletter/";
 
 describe("newsletter signup path", () => {
-  it("homepage signup CTA points at the canonical Netlify signup page", () => {
+  it("homepage signup CTA points at the GitHub Pages signup page", () => {
     const html = read("index.html");
     const match = html.match(
       /<a[^>]*href="([^"]+)"[^>]*>\s*Get The Signal free\s*<\/a>/i,
@@ -19,7 +19,7 @@ describe("newsletter signup path", () => {
     assert.equal(match[1], NEWSLETTER_URL);
   });
 
-  it("hub signup CTA points at the canonical Netlify signup page", () => {
+  it("hub signup CTA points at the GitHub Pages signup page", () => {
     const html = read("hub.html");
     const match = html.match(
       /<a[^>]*href="([^"]+)"[^>]*>\s*Get the next Signal free\s*<\/a>/i,
