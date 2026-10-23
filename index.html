@@ -670,7 +670,6 @@
         const title = latest.title || "";
         const prettyDate = formatDate(latest.date);
         const teaser = latest.teaser || "";
-        const kit = data.fieldKit || {};
 
         document.getElementById("issue-no").textContent = "Issue " + number;
         document.getElementById("issue-title").textContent = title;
@@ -696,11 +695,6 @@
           document.getElementById("cta-payhip"),
           latest.url || data.canonicalPayhip,
           "Also on Payhip"
-        );
-        fillLink(
-          document.getElementById("cta-kit"),
-          kit.url,
-          "Get the " + (kit.name || "Field Kit") + " — " + "$17"
         );
 
         document.title = "The Signal — Issue " + number + ": " + title + " | Dylan from 2045";
@@ -730,7 +724,7 @@
           if (Number(issue.number) === 7) {
             const wrap = document.createElement("div");
             const nippon = document.createElement("a");
-            nippon.href = "/signal-issue-07-nippon.html";
+            nippon.href = "signal-issue-07-nippon.html";
             nippon.textContent = "日本語版 (07-Nippon)";
             nippon.style.display = "inline-block";
             nippon.style.marginTop = "8px";
