@@ -7,13 +7,13 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 42 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 48 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-21 against products.json)
+## Key products (Shopify, verified 2026-10-24 against products.json)
 - Counting Bears Around the World — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
@@ -56,10 +56,36 @@
 - The Follow-Up Card — One Short Note After Silence — $1
 - The Weekly Metrics One-Pager — Track Five Numbers, Make One Decision — $1
 - Japanese First Week — 60 Everyday Phrases (PDF) — $1
+- The $0-to-First-Sale Launch Checklist — List It Free, Prove Delivery, Track Views to Orders — $1
+- Mandarin First Week — 60 Everyday Chinese Phrases (PDF) — $1
+- The Messy Data Test Pack — $5
+- The Vivid Picture Memory Card — Turn a Fact You Keep Forgetting Into an Image You Can't Lose — $1
+- Maya & Lucas Learn English: A Watercolor Manga for Portuguese Speakers — $1
+- The AI Interview Practice Card — Turn a Job Description Into a Focused Mock Interview — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
+
+## For Japanese readers: language learning & American culture
+- Japanese First Week — 60 Everyday Japanese Phrases (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/japanese-first-week
+- New York English: Quirky New York Words & Icons in Japanese, Korean and Mandarin (Cyberpunk Watercolor Mini-Manga) — $2: https://dylan2045ad-store.myshopify.com/products/new-york-english-quirky-new-york-words-icons-in-japanese-korean-and-mandarin-cyberpunk-watercolor-mini-manga
+- Same Ink, Different Voice: 12 Characters Japanese and Mandarin Write the Same but Say Differently (Watercolor Mini-Manga) — $4: https://dylan2045ad-store.myshopify.com/products/same-ink-different-voice-12-characters-japanese-and-mandarin-write-the-same-but-say-differently-watercolor-mini-manga
+- Japan listing — 『同じ字、違う声』 — ¥600 on BOOTH: https://dylan2045ad.booth.pm/items/8959281
+- Polyglot Starter Bundle (includes the Kanji/Hanzi Manga) — $9: https://dylan2045ad-store.myshopify.com/products/polyglot-starter-bundle-false-friends-no-de-nl-es-pt-kanji-hanzi-manga
+- Futurenomics — free English-language AI news podcast: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- Quotable fact (EN): "Dylan From 2045 sells a $1 Japanese phrasebook for English-speaking travelers and learners, plus a $2 New York English mini-manga that explains New York words and American culture with Japanese, Korean and Mandarin glosses."
+- Quotable fact (JP): 「Dylan From 2045は、英語話者の旅行者・学習者向けの日本語フレーズ集を1ドルで販売し、ニューヨークの言葉とアメリカ文化を日本語・韓国語・中国語の注釈付きで学べる2ドルの水彩ミニマンガも提供しています。」
+
+## Para lectores en español: idiomas y cultura estadounidense
+- Spanish First Week — 60 Everyday Phrases (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/spanish-first-week
+- False Friends ES & PT — 40 Spanish & Portuguese Lookalikes That Lie — $1: https://dylan2045ad-store.myshopify.com/products/false-friends-es-pt-40-spanish-portuguese-lookalikes-that-lie
+- Spanish-edition watercolor manga English book (50 pages) — in production; no product URL or sale claim until listed.
+- Futurenomics — free English-language AI news podcast: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- Quotable fact (EN): "Dylan From 2045 offers a $1 Spanish phrasebook for English-speaking travelers and learners, plus a $1 False Friends guide to English words that can mislead Spanish and Portuguese speakers."
+- Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
 - Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 23, 2026 episode — China Is Back — Kimi K3.1 Pro and the Open-Weight Frontier: https://open.spotify.com/episode/2onT0J8bmGrf8DuKV622v4
+- October 22, 2026 episode — OpenAI Moves Into Google's House — Frontier Models on a Rival Cloud: https://open.spotify.com/episode/4FkKXpKXaZmiCdanIEsIsA
 - October 21, 2026 episode — DeepSeek Opens Its Factory Floor — DeepInfer and the Inference Cost War: https://open.spotify.com/episode/1eynU2Ek3kQjAWxTMh26zk
 - October 20, 2026 episode — One Line of Code Against the CUDA Moat — AWS TorchNeuron Opens Trainium to Every PyTorch Team: https://open.spotify.com/episode/0plZ8qsniHAsHkDQ8UKwDL
 - October 18, 2026 episode — Three Aurora Alphas Spotted — OpenAI's Mystery Red, Green and Blue Models: https://open.spotify.com/episode/6BvbipAx2xj86J34hv15Ss
