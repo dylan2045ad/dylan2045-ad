@@ -7,13 +7,13 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 48 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 55 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-24 against products.json)
+## Key products (Shopify, verified 2026-10-25 against products.json)
 - Counting Bears Around the World — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
@@ -63,6 +63,13 @@
 - Maya & Lucas Learn English: A Watercolor Manga for Portuguese Speakers — $1
 - The AI Interview Practice Card — Turn a Job Description Into a Focused Mock Interview — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
+- The Hook Line Card — Finish the Post, Then Earn Its First Line — $1
+- The AI Video Loop Card — Make the Ending Feel Like the Beginning — $1
+- French First Week — 60 Everyday French Phrases (PDF) — $1
+- The Only 2 Legal AI Personal Assistants in the EU in Summer 2026: Cue by Manus and GrokBot — $1
+- The Long Document Card — Turn a 40-Page PDF Into a One-Page Brief You Actually Trust — $1
+- Italian First Week — 60 Everyday Italian Phrases (PDF) — $1
+- The AI FAQ Card — Answer Once, Reuse It Honestly — $1
 
 ## For Japanese readers: language learning & American culture
 - Japanese First Week — 60 Everyday Japanese Phrases (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/japanese-first-week
@@ -86,6 +93,7 @@
 - Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
 - October 23, 2026 episode — China Is Back — Kimi K3.1 Pro and the Open-Weight Frontier: https://open.spotify.com/episode/2onT0J8bmGrf8DuKV622v4
 - October 22, 2026 episode — OpenAI Moves Into Google's House — Frontier Models on a Rival Cloud: https://open.spotify.com/episode/4FkKXpKXaZmiCdanIEsIsA
+- October 23, 2026 episode — Proved, Not Just Tested — Claude's 180 Million Lines of Proof That Software Will Not Crash: https://open.spotify.com/episode/4lYf23WE5Jh6m73BRjfUnf
 - October 21, 2026 episode — DeepSeek Opens Its Factory Floor — DeepInfer and the Inference Cost War: https://open.spotify.com/episode/1eynU2Ek3kQjAWxTMh26zk
 - October 20, 2026 episode — One Line of Code Against the CUDA Moat — AWS TorchNeuron Opens Trainium to Every PyTorch Team: https://open.spotify.com/episode/0plZ8qsniHAsHkDQ8UKwDL
 - October 18, 2026 episode — Three Aurora Alphas Spotted — OpenAI's Mystery Red, Green and Blue Models: https://open.spotify.com/episode/6BvbipAx2xj86J34hv15Ss
@@ -113,7 +121,7 @@
 
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
-- The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-tool free on release while subscribed. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
+- The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-tool released while you're subscribed, delivered free with the weekly members' section. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
 - Latest issue: Issue 09, The Agent Wallet (October 21, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-09.html
 - Field Kit — $17 (Payhip): https://payhip.com/b/V472q
 
