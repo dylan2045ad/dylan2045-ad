@@ -8,7 +8,7 @@ A zero-dependency, single-file static site. Everything lives in `index.html` wit
 
 - `index.html` — the entire site: markup + all styles inline
 - `signal.html` — dedicated `/signal` page: free Signal signup (Payhip 4tHmb) + $17 Field Kit upsell (Payhip V472q)
-- `thanks.html` — email-capture confirmation page; links Signal checkout
+- `thanks.html` — email-capture confirmation page; links the free Signal (`https://payhip.com/b/4tHmb`) and the $17 Field Kit
 - `og-image.png` — social share image ("THE SIGNAL")
 - `header.jpg` — header image (swap this file to change the hero photo)
 - `netlify.toml` — publish from repo root + pretty-URL redirects for /signal and /thanks
