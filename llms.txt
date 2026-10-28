@@ -7,13 +7,13 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 55 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 59 products, all prices USD): https://dylan2045ad-store.myshopify.com
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-25 against products.json)
+## Key products (Shopify, verified 2026-10-27 against products.json)
 - Counting Bears Around the World — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
@@ -70,6 +70,10 @@
 - The Long Document Card — Turn a 40-Page PDF Into a One-Page Brief You Actually Trust — $1
 - Italian First Week — 60 Everyday Italian Phrases (PDF) — $1
 - The AI FAQ Card — Answer Once, Reuse It Honestly — $1
+- The AI Sound Effects Brief Card — Describe the Sound Before You Generate It — $1
+- Korean First Week — 60 Everyday Korean Phrases (PDF) — $1
+- The One-Page Week Card — Turn a Vague Goal Into Three Moves for This Week — $1
+- The Voice Note Card — Turn a Rambling Voice Note Into a Clean Message and a Task List — $1
 
 ## For Japanese readers: language learning & American culture
 - Japanese First Week — 60 Everyday Japanese Phrases (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/japanese-first-week
