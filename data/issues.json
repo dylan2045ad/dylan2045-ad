@@ -7,6 +7,15 @@
   },
   "issues": [
     {
+      "number": 10,
+      "title": "World Models",
+      "date": "2026-10-28",
+      "teaser": "We are awake 16 hours a day and we will spend 8 hours playing and working in these worlds.",
+      "cover": "signal-issue-10-cover.jpg",
+      "page": "signal-issue-10.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 9,
       "title": "The Agent Wallet",
       "date": "2026-10-21",
