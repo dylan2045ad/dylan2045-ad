@@ -7,14 +7,18 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 59 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 62 products, all prices USD; verified 2026-10-29): https://dylan2045ad-store.myshopify.com
+- Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-27 against products.json)
+## Key products (Shopify, verified 2026-10-29 against products.json)
 - Counting Bears Around the World — $1
+- The AI Background Music Card — Brief a Track That Leaves Room for Your Voice — $1
+- The Show Notes Card — Turn a Recording Into Notes People Actually Read — $1
+- The AI Spreadsheet Formula Card — Turn “What I Need” Into a Formula That Works — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
 - Polyglot Starter Bundle: False Friends (NO/DE/NL + ES/PT) + Kanji/Hanzi Manga — $9
@@ -95,6 +99,8 @@
 
 ## Podcast
 - Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 28, 2026 episode — Genie 4 and Interactive Worlds: https://open.spotify.com/episode/45MYgkr3tYY37oPMj1JpRN
+- October 27, 2026 episode — Half Price, Full Computer — GPT-6.1 Terra and the Cheap Agent Workforce: https://open.spotify.com/episode/7nLJhssTzL2IoIL7cIlsl6
 - October 23, 2026 episode — China Is Back — Kimi K3.1 Pro and the Open-Weight Frontier: https://open.spotify.com/episode/2onT0J8bmGrf8DuKV622v4
 - October 22, 2026 episode — OpenAI Moves Into Google's House — Frontier Models on a Rival Cloud: https://open.spotify.com/episode/4FkKXpKXaZmiCdanIEsIsA
 - October 23, 2026 episode — Proved, Not Just Tested — Claude's 180 Million Lines of Proof That Software Will Not Crash: https://open.spotify.com/episode/4lYf23WE5Jh6m73BRjfUnf
