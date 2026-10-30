@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-10-29",
-  "product_count": 62,
+  "generated_at": "2026-10-30",
+  "product_count": 64,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Subtitle Repair Card — Fix the Words Without Breaking the Timing",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-subtitle-repair-card-fix-the-words-without-breaking-the-timing",
+      "description": "Your captions turned a tool name into nonsense. Now you are fixing the same mistake twelve times. The AI Subtitle Repair Card gives you a focused prompt for cleaning up auto-generated subtitles without asking AI to rewrite your video. Ad..."
+    },
+    {
+      "title": "The One-Line Offer Card — Say What You Sell in One Line People Repeat",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-one-line-offer-card-say-what-you-sell-in-one-line-people-repeat",
+      "description": "You know what you made, but when someone asks “what is it?” you give a paragraph — and they forget the paragraph. The One-Line Offer Card fixes that with one line, built from four blanks, that a stranger could say back to you a day later..."
+    },
     {
       "title": "The AI Spreadsheet Formula Card — Turn “What I Need” Into a Formula That Works",
       "price": 1,
