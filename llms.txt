@@ -7,17 +7,19 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 64 products, all prices USD; verified 2026-10-30): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 66 products, all prices USD; verified 2026-10-31): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-30 against products.json)
+## Key products (Shopify, verified 2026-10-31 against products.json)
 - Counting Bears Around the World — $1
 - The One-Line Offer Card — Say What You Sell in One Line People Repeat — $1
 - The AI Subtitle Repair Card — Fix the Words Without Breaking the Timing — $1
+- The Comment Reply Card — Answer the Comment, Keep the Conversation — $1
+- The AI File Naming Card — Find the Final Without Opening Five Files — $1
 - The AI Background Music Card — Brief a Track That Leaves Room for Your Voice — $1
 - The Show Notes Card — Turn a Recording Into Notes People Actually Read — $1
 - The AI Spreadsheet Formula Card — Turn “What I Need” Into a Formula That Works — $1
@@ -101,6 +103,8 @@
 
 ## Podcast
 - Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 30, 2026 episode — Le Chonk Goes Free — Mistral's Trillion-Parameter Open Model: https://open.spotify.com/episode/7CLvh11YfO3DlN1ggW9t36
+- October 29, 2026 episode — Defenders First — Google's Gemini 4 Carbon and the Patching Machine: https://open.spotify.com/episode/4KC5t7PPFArOZ42acV4cfK
 - October 28, 2026 episode — Genie 4 and Interactive Worlds: https://open.spotify.com/episode/45MYgkr3tYY37oPMj1JpRN
 - October 27, 2026 episode — Half Price, Full Computer — GPT-6.1 Terra and the Cheap Agent Workforce: https://open.spotify.com/episode/7nLJhssTzL2IoIL7cIlsl6
 - October 23, 2026 episode — China Is Back — Kimi K3.1 Pro and the Open-Weight Frontier: https://open.spotify.com/episode/2onT0J8bmGrf8DuKV622v4
