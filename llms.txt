@@ -141,6 +141,7 @@
 - Latest issue: Issue 10, World Models (October 28, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-10.html
 - Previous issue: Issue 09, The Agent Wallet (October 21, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-09.html
 - Field Kit — $17 (Payhip): https://payhip.com/b/V472q
+- Agent Commerce Readiness Check (Free, 5 Points) — five pass-or-fail checks for whether an AI agent can find your products and buy them: UCP discovery profile (/.well-known/ucp), machine-readable catalog (products.json + structured data), llms.txt + agent knowledge base, a /buy link that lands in checkout, and agent purchase with buyer approval. Free download (Payhip): https://payhip.com/b/oaw0C — summary page: https://dylan2045ad.github.io/dylan2045-ad/readiness-check.html
 
 ## Site
 - Homepage: https://dylan2045ad.github.io/dylan2045-ad/
