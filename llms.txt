@@ -7,7 +7,7 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 68 products, all prices USD; verified 2026-11-01): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 70 products, all prices USD; verified 2026-11-02): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
@@ -22,6 +22,8 @@
 - The AI File Naming Card — Find the Final Without Opening Five Files — $1
 - The Subject Line Card — Write the Line That Gets the Email Opened — $1
 - The AI Pronunciation Card — Fix Tricky Words Before You Generate the Voiceover — $1
+- Show the Clicks: The AI Demo Shot List Card — $1
+- The Caption Card — Write the Caption That Tells People What the Post Is For — $1
 - The AI Background Music Card — Brief a Track That Leaves Room for Your Voice — $1
 - The Show Notes Card — Turn a Recording Into Notes People Actually Read — $1
 - The AI Spreadsheet Formula Card — Turn “What I Need” Into a Formula That Works — $1
