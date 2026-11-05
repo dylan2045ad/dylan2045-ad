@@ -1,10 +1,59 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-04",
-  "product_count": 75,
+  "generated_at": "2026-11-05",
+  "product_count": 82,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Dialogue Fit Card — Make the Words Fit the Speech Bubble",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-dialogue-fit-card-make-the-words-fit-the-speech-bubble",
+      "description": "Your panel is finished. Your character has something to say. Unfortunately, they need three speech bubbles to say it. The AI Dialogue Fit Card helps you trim AI-written dialogue to fit the space you actually have, without flattening the character or losing the joke. Set a word budget for each bubble, name what the l..."
+    },
+    {
+      "title": "The Feedback Fix Card — Turn Vague Feedback Into One Clear Change",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-feedback-fix-card-turn-vague-feedback-into-one-clear-change",
+      "description": "Someone says \"make it pop,\" \"it feels off,\" or \"can you just tighten it up?\" — and you have no idea what to change. So you rewrite everything, the next round brings a different vague note, and the work drifts further from what anyone actually wanted. The Feedback Fix Card turns that loop into a method: paste the not..."
+    },
+    {
+      "title": "Polyglot Complete Bundle — First Week Guides (Japanese, Mandarin, Korean) + Hindi, Portuguese & Spanish Manga",
+      "price": 29,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/polyglot-complete-bundle-first-week-guides-japanese-mandarin-korean-hindi-portuguese-spanish-manga",
+      "description": "The language shelf of the shop, zipped into one bundle: three First Week phrase guides, three learn-English manga books, and two bonus language guides. First Week guides — 60 everyday phrases each (PDF): Japanese First Week · Mandarin First Week · Korean First Week. Greetings, food, directions, small talk — phrases..."
+    },
+    {
+      "title": "The Agent Operator Deck — 20 AI Cards + Field Kit + Workflow Starter Pack",
+      "price": 47,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-agent-operator-deck-20-ai-cards-field-kit-workflow-starter-pack",
+      "description": "Twenty of the shop's one-job AI cards, the Field Kit template set, and the AI Workflow Starter Pack — gathered into a single deck for people who would rather open one folder than hunt through twenty listings. The 20 cards (PDF each; a copy-and-run prompt file is included where one exists): Agent Output Acceptance Ca..."
+    },
+    {
+      "title": "Synthetic Test Corpus — 100 Labeled Synthetic Customer Emails (CSV)",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/synthetic-test-corpus-100-labeled-synthetic-customer-emails-csv",
+      "description": "You cannot test a triage agent on your real inbox without risking real customers, and you cannot test it on nothing. This corpus is 100 short customer emails written from scratch for testing — billing questions, shipping problems, refund requests, bug reports, the occasional happy note — each one labeled with its ca..."
+    },
+    {
+      "title": "Support Agent Toolkit — Triage Prompt, Escalation Rules, 6 Reply Templates, QA Checklist",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/support-agent-toolkit-triage-prompt-escalation-rules-6-reply-templates-qa-checklist",
+      "description": "A support agent fails in predictable places: it answers the angry message like a routine one, it guesses instead of escalating, and nobody reviews what it sent until a customer quotes it back. This toolkit covers the whole loop — a triage prompt that sorts incoming messages by urgency and type, escalation rules that..."
+    },
+    {
+      "title": "MCP Server Pre-Install Checklist — Permissions, Secrets, Logging, Rollback",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/mcp-server-pre-install-checklist-permissions-secrets-logging-rollback",
+      "description": "Connecting an MCP server takes about ninety seconds, which is exactly the problem — the questions that matter get asked after something has already read your files or spent your credits. This checklist puts them before the install: what permissions the server actually needs, where its secrets will live, what it logs..."
+    },
     {
       "title": "The AI Tool Pick Card — Choose Between Two Tools Without a 40-Tab Spiral",
       "price": 1,
