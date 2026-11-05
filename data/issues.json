@@ -7,6 +7,15 @@
   },
   "issues": [
     {
+      "number": 11,
+      "title": "The Price of Root",
+      "date": "2026-11-05",
+      "teaser": "The exploitation window just got a price tag. And the same story is already melting the frozen aisle.",
+      "cover": "signal-issue-11-cover.jpg",
+      "page": "signal-issue-11.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 10,
       "title": "World Models",
       "date": "2026-10-28",
