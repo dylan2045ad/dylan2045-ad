@@ -28,14 +28,18 @@ it("share image tags use the latest release's existing cover", () => {
   assert.ok(Number(meta("og:image:height")) > 0);
 });
 
-it("no-JavaScript issue fallback agrees with the release index", () => {
+it("no-JavaScript hero shows the approved Signal landing copy", () => {
   assert.ok(html.includes(`id="issue-no">Issue ${number}</p>`));
-  assert.ok(html.includes(`id="issue-title">${latest.title}</h1>`));
+  assert.ok(html.includes('id="issue-title">The Signal: a clear look at what AI changes next</h1>'));
+  assert.ok(html.includes("Read the latest issue of The Signal for free. Issue 11 looks at AI agents, security, and the systems people depend on."));
   assert.ok(html.includes(`id="issue-date" datetime="${latest.date}"`));
   assert.match(html, new RegExp(`id="issue-cover"\\s+src="${latest.cover.replaceAll(".", "\\.")}"`));
   const href = html.match(/<a\b[^>]*id="cta-free"[^>]*href="([^"]+)"/i)?.[1];
-  assert.equal(href, latest.page || latest.url || data.canonicalPayhip);
+  assert.equal(href, "https://payhip.com/b/4tHmb");
   assert.ok(html.includes(`Read Issue ${number} free</a>`));
+  const kit = html.match(/<a\b[^>]*id="cta-kit"[^>]*href="([^"]+)"/i)?.[1];
+  assert.equal(kit, "https://payhip.com/b/V472q");
+  assert.ok(html.includes("Want practical tools for your own work? Explore the $17 Field Kit</a>"));
 });
 
 it("local issue pages stay within the canonical project path", () => {

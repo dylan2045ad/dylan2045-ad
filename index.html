@@ -487,7 +487,7 @@
         <div class="intro">
           <p class="kicker">The Signal</p>
           <p class="issue-no" id="issue-no">Issue 11</p>
-          <h1 id="issue-title">The Price of Root</h1>
+          <h1 id="issue-title">The Signal: a clear look at what AI changes next</h1>
           <time id="issue-date" datetime="2026-11-05">November 5, 2026</time>
         </div>
         <figure class="cover">
@@ -499,19 +499,16 @@
         </figure>
         <div class="pitch">
           <p class="teaser" id="issue-teaser">
-            The exploitation window just got a price tag. And the same story is already melting the frozen aisle.
+            Read the latest issue of The Signal for free. Issue 11 looks at AI agents, security, and the systems people depend on.
           </p>
           <div class="ctas">
-            <a class="btn-m" id="cta-kit" href="https://dylan2045ad-store.myshopify.com/products/ai-workflow-starter-pack-from-raw-research-to-a-publishable-brief"
-              target="_blank" rel="noopener">Get the AI Workflow Starter Pack — $10</a>
-            <a class="btn-m" href="field-kit.html">See it first: preview, walkthrough &amp; FAQ</a>
+            <a class="btn-m" id="cta-free" href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener">Read Issue 11 free</a>
+            <a class="btn-c" id="cta-kit" href="https://payhip.com/b/V472q" target="_blank" rel="noopener">Want practical tools for your own work? Explore the $17 Field Kit</a>
           </div>
           <section aria-labelledby="ladder-heading">
             <h2 id="ladder-heading">From the brief to your plan</h2>
             <p><a href="https://payhip.com/b/4tHmb" target="_blank" rel="noopener" style="color:#4deeff">The Signal</a> is the free weekly brief. The Field Kit is the paid set of manual planning templates: map your AI dependencies, choose fallbacks, and write down who can pause a workflow.</p>
             <p>Start free, or go straight to the kit. No free order required.</p>
-            <a class="cta-also" id="cta-free" href="signal-issue-11.html"
-              target="_blank" rel="noopener">Read Issue 11 free</a>
             <a class="cta-also" href="https://dylan2045ad.github.io/dylan2045-ad/newsletter/"
               target="_blank" rel="noopener">Get The Signal free</a>
           </section>
@@ -739,15 +736,12 @@
         const number = String(Number(latest.number)).padStart(2, "0");
         const title = latest.title || "";
         const prettyDate = formatDate(latest.date);
-        const teaser = latest.teaser || "";
 
         document.getElementById("issue-no").textContent = "Issue " + number;
-        document.getElementById("issue-title").textContent = title;
         const dateNode = document.getElementById("issue-date");
         dateNode.textContent = prettyDate;
         dateNode.dateTime = latest.date || "";
         dateNode.hidden = !prettyDate;
-        document.getElementById("issue-teaser").textContent = teaser;
 
         const cover = safeUrl(latest.cover);
         const image = document.getElementById("issue-cover");
@@ -756,11 +750,6 @@
           image.alt = "The Signal Issue " + number + " cover: " + title;
         }
 
-        fillLink(
-          document.getElementById("cta-free"),
-          safeUrl(latest.page) || latest.url || data.canonicalPayhip,
-          "Read Issue " + number + " free"
-        );
         fillLink(
           document.getElementById("cta-payhip"),
           latest.url || data.canonicalPayhip,
