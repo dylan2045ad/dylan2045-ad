@@ -7,12 +7,19 @@ const html = readFileSync("index.html", "utf8");
 const data = JSON.parse(readFileSync("data/issues.json", "utf8"));
 const script = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)]
   .map((match) => match[1]).find((text) => text.includes("function render(data)"));
-const anchor = [...html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)]
-  .find((match) => /\bid="cta-kit"/.test(match[1]));
-const primary = {
-  href: anchor[1].match(/\bhref="([^"]+)"/)[1],
-  textContent: anchor[2].replace(/<[^>]+>/g, "").trim(),
-};
+function anchorById(id) {
+  const anchor = [...html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)]
+    .find((match) => new RegExp(`\\bid="${id}"`).test(match[1]));
+  return {
+    href: anchor[1].match(/\bhref="([^"]+)"/)[1],
+    textContent: anchor[2].replace(/<[^>]+>/g, "").trim(),
+  };
+}
+
+const primary = anchorById("cta-kit");
+const freeIssue = anchorById("cta-free");
+const headline = html.match(/id="issue-title">([^<]*)<\/h1>/)[1];
+const teaser = html.match(/id="issue-teaser">\s*([^<]*?)\s*<\/p>/)[1];
 
 function element() {
   return {
@@ -36,6 +43,11 @@ function rendered() {
   Object.assign(document.getElementById("cta-kit"), primary, {
     target: "_blank", rel: "noopener",
   });
+  Object.assign(document.getElementById("cta-free"), freeIssue, {
+    target: "_blank", rel: "noopener",
+  });
+  document.getElementById("issue-title").textContent = headline;
+  document.getElementById("issue-teaser").textContent = teaser;
   const noNetwork = { then() { return this; }, catch() { return this; } };
   const context = { document, fetch: () => noNetwork };
   vm.runInNewContext(script, context, { timeout: 1000 });
@@ -61,12 +73,14 @@ it("Japanese issue archive link stays inside the Pages project", () => {
     "/dylan2045-ad/signal-issue-07-nippon.html");
 });
 
-it("release title, cover and issue destinations still follow the release index", () => {
+it("approved hero copy stays put while cover and archive follow the release index", () => {
   const { ids, document } = rendered();
   const latest = [...data.issues].sort((a, b) => Number(b.number) - Number(a.number))[0];
-  assert.equal(ids.get("issue-title").textContent, latest.title);
+  assert.equal(ids.get("issue-title").textContent, headline);
+  assert.equal(ids.get("issue-teaser").textContent, teaser);
+  assert.equal(ids.get("cta-free").href, freeIssue.href);
+  assert.equal(ids.get("cta-free").textContent, freeIssue.textContent);
   assert.equal(ids.get("issue-cover").src, latest.cover);
-  assert.equal(ids.get("cta-free").href, latest.page || latest.url || data.canonicalPayhip);
   assert.equal(ids.get("archive").children.length, data.issues.length);
   assert.ok(document.title.includes(latest.title));
 });

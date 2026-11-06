@@ -6,7 +6,7 @@ Free weekly brief from Dylan from 2045.
 - Free issue: https://payhip.com/b/4tHmb
 - Field Kit ($17): https://payhip.com/b/V472q
 
-The homepage reads [`data/issues.json`](data/issues.json) and features the highest issue number: cover, title, date, and teaser. Older issues stay in the archive. The rest of the creator hub stays at [`hub.html`](hub.html).
+The homepage reads [`data/issues.json`](data/issues.json) for the latest cover, issue number, date, and archive. The hero headline, body, and CTAs are the approved Signal landing copy in `index.html`. Older issues stay in the archive. The rest of the creator hub stays at [`hub.html`](hub.html).
 
 GitHub Pages publishes the `main` branch from the repository root. The same files are what Netlify serves.
 
