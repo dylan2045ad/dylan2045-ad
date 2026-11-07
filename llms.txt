@@ -7,14 +7,16 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 85 products, all prices USD; verified 2026-11-06): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 87 products, all prices USD; verified 2026-11-07): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-11-06 against products.json)
+## Key products (Shopify, verified 2026-11-07 against products.json)
+- The 5-File Brief & Claim-Audit Pack — Verify Every Claim Before Your Brief Goes Out — $5
+- The AI Thumbnail Test Card — Pass the 3-Second Squint Test Before You Publish — $1
 - The AI Scene Continuity Card — Keep the Cup, Jacket, and Door in the Same Place — $1
 - The Multi-Agent Bus Envelope Card — Write the Bus Message Other Agents Can Actually Act On — $1
 - How Europe can easily and cheaply protect its supermarkets and infrastructure from axis power vulnerabilities — $3
@@ -121,6 +123,7 @@
 - Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 6, 2026 episode — The Hacker on a Leash — OpenAI's GPT-6 Cyber Goes Critical: https://open.spotify.com/episode/6Yk0z8j1vzBDePB7jF6RCq
 - November 5, 2026 episode — The Biggest Brain You Can Download — Kimi K3.1 Pro Goes Open Weight: https://open.spotify.com/episode/77DuJhc6ROsDRwxUb1YIRq
 - November 4, 2026 episode — Hands, Eyes, and a Line in the Sand — Tencent's Hy4 Goes to Work: https://open.spotify.com/episode/7cT0RMkGIPayJ7jPMl6f52
 - November 3, 2026 episode — The Delivery Company Building a Marathon Agent — Meituan's LongCat 2.5: https://open.spotify.com/episode/3xMnboCrcbbMEgMJ79kzYS
