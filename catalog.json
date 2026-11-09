@@ -1,10 +1,73 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-05",
-  "product_count": 82,
+  "generated_at": "2026-11-09",
+  "product_count": 91,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Redaction Card — Keep the Context. Cut the Private Details",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-redaction-card-keep-the-context-cut-the-private-details",
+      "description": "Get useful AI help without pasting the whole client conversation. Client emails and project notes contain more than your AI needs: names, contact details, private numbers, and information that has nothing to do with the task. The AI Redaction Card gives you a repeatable way to prepare that material. Spot unnecessary..."
+    },
+    {
+      "title": "The AI Persona Brief Card — Give Your AI Assistant a Job Description It Can Actually Follow",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-persona-brief-card-give-your-ai-assistant-a-job-description-it-can-actually-follow",
+      "description": "Every fresh chat starts the same way: the AI guesses who it is supposed to be. One minute it writes like a lawyer, the next like a hype man — and you re-explain the same thing every session. The fix is not a longer prompt. It is a job description: five lines, written once, pasted at the top of every new chat, so the..."
+    },
+    {
+      "title": "The Manga Reading Order Card — Make the Next Panel Obvious",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-manga-reading-order-card-make-the-next-panel-obvious",
+      "description": "Your reader should follow the story, not solve the layout. A beautiful manga page can still send someone to the wrong speech balloon or make them skip a panel. The Manga Reading Order Card helps you spot confusing paths before you publish, without starting the whole page again. Choose your reading direction, map the..."
+    },
+    {
+      "title": "The Phishing Spot-Check Card — Read a Suspicious Message Before You Click",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-phishing-spot-check-card-read-a-suspicious-message-before-you-click",
+      "description": "You sell things online, so strangers write to you every day — brand deals, payout notices, order questions, platform warnings. Most are real. A few are bait: a fake brand deal, a fake payout email, a fake order inquiry that only wants one click or one code. The Phishing Spot-Check Card slows any suspicious message d..."
+    },
+    {
+      "title": "The AI Thumbnail Test Card — Pass the 3-Second Squint Test Before You Publish",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-thumbnail-test-card-pass-the-3-second-squint-test-before-you-publish",
+      "description": "Your thumbnail looks great full-screen on your monitor. Then it shrinks to the size of a postage stamp in a feed, next to a dozen others, and nobody can tell what it is. The AI Thumbnail Test Card gives you a 3-second squint test for any thumbnail before you publish: five checks — readable at small size, one focal p..."
+    },
+    {
+      "title": "The 5-File Brief & Claim-Audit Pack — Verify Every Claim Before Your Brief Goes Out",
+      "price": 5,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-5-file-brief-claim-audit-pack-verify-every-claim-before-your-brief-goes-out",
+      "description": "You did the research. You have the tabs, the notes, the quotes. Then you write the brief — and somewhere between the notes and the final paragraph, a number loses its date, a quote loses its speaker, and a \"best\" appears that nobody measured. The reader trusts the brief until one claim breaks. Then they trust none o..."
+    },
+    {
+      "title": "The AI Scene Continuity Card — Keep the Cup, Jacket, and Door in the Same Place",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-scene-continuity-card-keep-the-cup-jacket-and-door-in-the-same-place",
+      "description": "Your character's jacket changes color. The cup switches hands. The door moves across the room. Each AI-generated panel looks fine. Together, they tell a slightly different story. The AI Scene Continuity Card helps you record what must stay the same, what deliberately changes, and what to check before you generate th..."
+    },
+    {
+      "title": "The Multi-Agent Bus Envelope Card — Write the Bus Message Other Agents Can Actually Act On",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-multi-agent-bus-envelope-card-write-the-bus-message-other-agents-can-actually-act-on",
+      "description": "You run more than one AI agent — or one agent across more than one session — and they share a bus: a folder, a channel, a document. The messages pile up. One agent asks a question nobody answers. Another reports something done that nobody can find later. A third acts on a message meant for someone else, and two agen..."
+    },
+    {
+      "title": "How Europe can easily and cheaply protect its supermarkets and infrastructure from axis power vulnerabilities",
+      "price": 3,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/how-europe-can-easily-and-cheaply-protect-its-supermarkets-and-infrastructure-from-axis-power-vulnerabilities",
+      "description": "Europe's supermarkets run on small, old computers — the SCADA controllers that keep the fridges and freezers cold. Many were installed 10–20 years ago, still use factory passwords, and some can be reached from the open internet. Hostile groups probing European infrastructure know it. This guide is the fix — and most..."
+    },
     {
       "title": "The AI Dialogue Fit Card — Make the Words Fit the Speech Bubble",
       "price": 1,
