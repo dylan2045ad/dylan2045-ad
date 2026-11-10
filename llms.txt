@@ -7,14 +7,16 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 91 products, all prices USD; verified 2026-11-09): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 93 products, all prices USD; verified 2026-11-10): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-11-09 against products.json)
+## Key products (Shopify, verified 2026-11-10 against products.json)
+- The AI Tutorial Dry-Run Card — Catch Missing Steps Before Your Reader Does — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-tutorial-dry-run-card-catch-missing-steps-before-your-reader-does
+- The AI Meeting Agenda Card — Start With the Decisions, Not the Updates — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-meeting-agenda-card-start-with-the-decisions-not-the-updates
 - The AI Redaction Card — Keep the Context. Cut the Private Details — $1
 - The AI Persona Brief Card — Give Your AI Assistant a Job Description It Can Actually Follow — $1
 - The Manga Reading Order Card — Make the Next Panel Obvious — $1
@@ -127,6 +129,7 @@
 - Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 9, 2026 episode — An AI Just Cracked Two Black Hole Mysteries. Here's Why That Changes Everything: https://open.spotify.com/episode/1X6ZvVrulIEoB3RJ9SwCV5
 - November 6, 2026 episode — The Hacker on a Leash — OpenAI's GPT-6 Cyber Goes Critical: https://open.spotify.com/episode/6Yk0z8j1vzBDePB7jF6RCq
 - November 5, 2026 episode — The Biggest Brain You Can Download — Kimi K3.1 Pro Goes Open Weight: https://open.spotify.com/episode/77DuJhc6ROsDRwxUb1YIRq
 - November 4, 2026 episode — Hands, Eyes, and a Line in the Sand — Tencent's Hy4 Goes to Work: https://open.spotify.com/episode/7cT0RMkGIPayJ7jPMl6f52
