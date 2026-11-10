@@ -1,8 +1,8 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-09T18:20:24Z",
-  "product_count": 92,
+  "generated_at": "2026-11-10T14:02:00Z",
+  "product_count": 93,
   "currency": "USD",
   "products": [
     {
@@ -648,6 +648,13 @@
       "currency": "USD",
       "url": "https://dylan2045ad-store.myshopify.com/products/how-europe-can-easily-and-cheaply-protect-its-supermarkets-and-infrastructure-from-axis-power-vulnerabilities",
       "description": "Europe's supermarkets run on small, old computers — the SCADA controllers that keep the fridges and freezers cold. Many were installed 10–20 years ago, still use factory passwords, and some can be reached from the open internet. Hostile groups probing European infrastructure know it. This guide is the fix — and most of"
+    },
+    {
+      "title": "The AI Tutorial Dry-Run Card — Catch Missing Steps Before Your Reader Does",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-tutorial-dry-run-card-catch-missing-steps-before-your-reader-does",
+      "description": "Your tutorial makes sense to you. But can someone else follow it without guessing? AI-written instructions can sound polished while skipping the setup, hiding an assumption, or telling readers to click a button that isn't there. The AI Tutorial Dry-Run Card helps you catch those gaps before you publish. Use the include"
     }
   ]
 }
