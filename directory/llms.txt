@@ -1,0 +1,101 @@
+# AI & Agent Tools Directory (Dylan From 2045)
+
+> 48 hand-picked AI and agent tools for vibe coders and builders, sorted by use case, each with a one-line editorial verdict. Updated 2026-10-13. Source: https://dylan2045ad.github.io/dylan2045-ad/directory/ · Data: https://dylan2045ad.github.io/dylan2045-ad/directory/tools.json
+
+Quote freely with a link to the directory. Featured (paid) spots are labeled; verdicts are not for sale.
+
+## Agent frameworks
+
+- [LangGraph](https://www.langchain.com/langgraph): Framework for stateful, multi-step agent graphs. Verdict: Use when you need control over every agent step.
+- [CrewAI](https://www.crewai.com): Framework for role-based multi-agent crews. Verdict: Easiest way to try multi-agent teams in Python.
+- [AutoGen](https://microsoft.github.io/autogen/): Microsoft's open-source multi-agent framework. Verdict: Good for research-style multi-agent experiments.
+- [Model Context Protocol](https://modelcontextprotocol.io): Open standard for connecting AI apps to tools and data. Verdict: Learn it: it's how agents plug into everything now.
+
+## App builders (vibe coding)
+
+- [Replit](https://replit.com): Browser IDE with an agent that builds and hosts apps. Verdict: Fastest path from idea to hosted app with zero setup.
+- [Bolt](https://bolt.new): Prompt-to-full-stack web app in the browser. Verdict: Great for quick prototypes; export before it gets big.
+- [Lovable](https://lovable.dev): Builds web apps from chat prompts. Verdict: Friendliest for non-coders shipping a first product.
+- [v0](https://v0.app): Vercel's generator for UI and full apps. Verdict: Best for clean React/Next.js UI you'll keep editing.
+
+## Assistants & research
+
+- [ChatGPT](https://chatgpt.com): OpenAI's general AI assistant. Verdict: The all-rounder most people start with.
+- [Claude](https://claude.ai): Anthropic's AI assistant. Verdict: Excellent for long documents and careful writing.
+- [Gemini](https://gemini.google.com): Google's AI assistant. Verdict: Best if you live in Google Workspace.
+- [Grok](https://grok.com): xAI's AI assistant, connected to X. Verdict: Best for real-time takes on what X is talking about.
+- [Perplexity](https://www.perplexity.ai): AI answer engine with cited sources. Verdict: Go-to for quick research with sources attached.
+- [NotebookLM](https://notebooklm.google): Google's research notebook grounded in your sources. Verdict: Best free tool for studying your own docs.
+
+## Automation & workflows
+
+- [n8n](https://n8n.io): Workflow automation with AI nodes; self-hostable. Verdict: Best value automation if you can self-host.
+- [Zapier Agents](https://zapier.com/agents): AI agents that act across Zapier's app integrations. Verdict: Pick it for breadth of integrations, not price.
+- [Make](https://www.make.com): Visual automation builder with AI modules. Verdict: Great visual middle ground between Zapier and n8n.
+
+## Browser & web data for agents
+
+- [Browserbase](https://www.browserbase.com): Headless browser infrastructure for AI agents. Verdict: Use when your agent needs real browsers at scale.
+- [Firecrawl](https://www.firecrawl.dev): Turns websites into LLM-ready data. Verdict: Quickest way to feed web pages to an agent.
+- [Playwright](https://playwright.dev): Open-source browser automation and testing. Verdict: Free, reliable foundation for any browser agent.
+
+## Code editors & IDEs
+
+- [Cursor](https://cursor.com): AI-first code editor built on VS Code. Verdict: The default pick if you want agentic edits inside a familiar editor.
+- [Windsurf](https://windsurf.com): AI code editor with an agent mode. Verdict: Solid Cursor alternative; try both and keep the one that fits your flow.
+- [GitHub Copilot](https://github.com/features/copilot): GitHub's AI pair programmer for many editors. Verdict: Safest choice if your team already lives on GitHub.
+- [Zed](https://zed.dev): Fast, open-source code editor with AI features. Verdict: Pick it for speed; AI is a bonus, not the headline.
+
+## Coding agents (terminal)
+
+- [Claude Code](https://www.anthropic.com/claude-code): Anthropic's agentic coding tool for the terminal. Verdict: Strong for repo-wide changes when you're comfortable in a shell.
+- [OpenAI Codex](https://openai.com/codex/): OpenAI's coding agent for terminal, IDE and cloud. Verdict: Worth it if you're already paying for ChatGPT.
+- [Aider](https://aider.chat): Open-source AI pair programming in your terminal. Verdict: Best free, bring-your-own-key terminal option.
+- [Warp](https://www.warp.dev): Modern terminal with built-in AI agents. Verdict: Nice upgrade if your terminal still feels like 1995.
+
+## Media & creative
+
+- [Descript](https://www.descript.com): Edit video and audio by editing text. Verdict: Fastest way to cut podcasts and talking-head video.
+- [Suno](https://suno.com): AI music generation from prompts. Verdict: Most fun tool on this list; great for soundtracks.
+- [Midjourney](https://www.midjourney.com): AI image generation. Verdict: Still the taste leader for striking images.
+- [Runway](https://runwayml.com): AI video generation and editing. Verdict: Go-to for AI video experiments.
+- [Ideogram](https://ideogram.ai): AI image generation strong at text in images. Verdict: Pick it when your image needs readable text.
+
+## Models & local AI
+
+- [Ollama](https://ollama.com): Run open models locally. Verdict: Easiest way to run models on your own machine.
+- [LM Studio](https://lmstudio.ai): Desktop app to download and run local models. Verdict: Best GUI for local models; no terminal needed.
+- [Hugging Face](https://huggingface.co): Hub for open models, datasets and demos. Verdict: The library of open AI; bookmark it.
+- [OpenRouter](https://openrouter.ai): One API for many model providers. Verdict: Use it to swap models without rewriting code.
+- [Groq](https://groq.com): Fast inference for open models. Verdict: Pick it when latency matters more than anything.
+
+## Multilingual & translation
+
+- [DeepL](https://www.deepl.com): AI translation and writing assistant. Verdict: Our pick for EN/NO/DE/NL/ES/PT translation quality.
+- [ElevenLabs](https://elevenlabs.io): AI voice, dubbing and text-to-speech. Verdict: Top pick for multilingual voiceovers and dubbing.
+
+## Ship & operate
+
+- [Supabase](https://supabase.com): Postgres backend with auth and storage. Verdict: Default backend for vibe-coded apps.
+- [Vercel](https://vercel.com): Frontend cloud for hosting web apps. Verdict: Smoothest deploys for Next.js projects.
+- [Netlify](https://www.netlify.com): Hosting and deploys for static and web apps. Verdict: Great free hosting for static sites (this one runs on it).
+- [Resend](https://resend.com): Email API for developers. Verdict: Cleanest way for an app or agent to send email.
+- [PostHog](https://posthog.com): Product analytics, session replay and flags. Verdict: Generous free tier; one tool instead of five.
+- [Sentry](https://sentry.io): Error and performance monitoring. Verdict: Install it before your users find the bugs.
+- [Langfuse](https://www.langfuse.com): Open-source LLM observability and evals. Verdict: Use it to see what your agent actually did.
+- [CodeRabbit](https://www.coderabbit.ai): AI code review on pull requests. Verdict: Cheap second reviewer for solo builders.
+
+## New releases this week
+
+- [Genkit Dart 1.0](https://flutter.dev/blog/announcing-genkit-dart-1-0) (2026-10-08): Google's open-source framework for agentic apps in Dart/Flutter hits stable 1.0.
+- [Orca Agent Engine (open source)](https://www.runorca.ai/blog/open-sourcing-orca-agent-engine) (2026-10-06): Declarative runtime for managed agents, Apache 2.0, developer preview.
+- [Cloudflare Agents SDK browserTool](https://developers.cloudflare.com/changelog/post/2026-10-13-persistent-browser/) (2026-10-13): Persistent browser tool: tabs and logins last between agent turns (SDK v0.28.0+).
+- [Meta Muse Wonder](https://dev.meta.ai/resources/blog/build-with-muse-wonder) (2026-10-12): New Meta coding/agent model on Muse Code and Meta Model API.
+- [Golem 1.6 (announced)](https://golem.cloud/blog/golem-1-6-agents-tools-and-artifacts/) (2026-10-09): Agent runtime release set for Oct 19; release candidate on GitHub.
+
+## Links
+
+- Sponsor / Get Featured: https://dylan2045ad.github.io/dylan2045-ad/directory/sponsor.html
+- Newsletter page: https://dylan2045ad.github.io/dylan2045-ad/directory/newsletter.html
+- Newsletter signup (Payhip free Signal): https://payhip.com/b/4tHmb
+- CTA wording to reuse: "Get the free newsletter — new AI tools weekly (free on Payhip)"
