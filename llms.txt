@@ -7,13 +7,53 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 33 products, all prices USD): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 100 products, all prices USD; verified 2026-11-12): https://dylan2045ad-store.myshopify.com
+- Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
+- AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-10-19)
+## Key products (Shopify, verified 2026-11-12 against products.json)
+- The Offline-First Local AI Resilience Pack — Keep Creating When the Connection Drops — $5: https://dylan2045ad-store.myshopify.com/products/the-offline-first-local-ai-resilience-pack-keep-creating-when-the-connection-drops
+- The Newsletter Send-Gate & CAN-SPAM Pre-Flight Card — Send It Once, Send It Right — $1: https://dylan2045ad-store.myshopify.com/products/the-newsletter-send-gate-can-spam-pre-flight-card-send-it-once-send-it-right
+- The AI Render Budget Card — Set Your Spend Before You Generate — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-render-budget-card-set-your-spend-before-you-generate
+- The Spatial Memory Anchor Card — 7-Stop Recall System for Operators — $1: https://dylan2045ad-store.myshopify.com/products/the-spatial-memory-anchor-card-7-stop-recall-system-for-operators
+- The AI Tutorial Dry-Run Card — Catch Missing Steps Before Your Reader Does — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-tutorial-dry-run-card-catch-missing-steps-before-your-reader-does
+- The AI Meeting Agenda Card — Start With the Decisions, Not the Updates — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-meeting-agenda-card-start-with-the-decisions-not-the-updates
+- The AI Redaction Card — Keep the Context. Cut the Private Details — $1
+- The AI Persona Brief Card — Give Your AI Assistant a Job Description It Can Actually Follow — $1
+- The Manga Reading Order Card — Make the Next Panel Obvious — $1
+- The Phishing Spot-Check Card — Read a Suspicious Message Before You Click — $1
+- The 5-File Brief & Claim-Audit Pack — Verify Every Claim Before Your Brief Goes Out — $5
+- The AI Thumbnail Test Card — Pass the 3-Second Squint Test Before You Publish — $1
+- The AI Scene Continuity Card — Keep the Cup, Jacket, and Door in the Same Place — $1
+- The Multi-Agent Bus Envelope Card — Write the Bus Message Other Agents Can Actually Act On — $1
+- How Europe can easily and cheaply protect its supermarkets and infrastructure from axis power vulnerabilities — $3
+- The AI Dialogue Fit Card — Make the Words Fit the Speech Bubble — $1
+- The Feedback Fix Card — Turn Vague Feedback Into One Clear Change — $1
+- Polyglot Complete Bundle — First Week Guides (Japanese, Mandarin, Korean) + Hindi, Portuguese & Spanish Manga — $29
+- The Agent Operator Deck — 20 AI Cards + Field Kit + Workflow Starter Pack — $47
+- Synthetic Test Corpus — 100 Labeled Synthetic Customer Emails (CSV) — $1
+- Support Agent Toolkit — Triage Prompt, Escalation Rules, 6 Reply Templates, QA Checklist — $1
+- MCP Server Pre-Install Checklist — Permissions, Secrets, Logging, Rollback — $1
+- The AI Tool Pick Card — Choose Between Two Tools Without a 40-Tab Spiral — $1
+- The Semiconductor & Embodied-AI Technician Path Card — Map the Short-Training and Degree Routes Into Chip and Robot Work — $1
+- The AI Claim Check Card — Catch Shaky Facts Before You Publish — $1
+- Maya & Sofía Learn English: A Watercolor Manga for Spanish Speakers — $1
+- The Welcome Email Card — Turn a New Subscriber Into a Reader Who Comes Back — $1
 - Counting Bears Around the World — $1
+- The One-Line Offer Card — Say What You Sell in One Line People Repeat — $1
+- The AI Subtitle Repair Card — Fix the Words Without Breaking the Timing — $1
+- The Comment Reply Card — Answer the Comment, Keep the Conversation — $1
+- The AI File Naming Card — Find the Final Without Opening Five Files — $1
+- The Subject Line Card — Write the Line That Gets the Email Opened — $1
+- The AI Pronunciation Card — Fix Tricky Words Before You Generate the Voiceover — $1
+- Show the Clicks: The AI Demo Shot List Card — $1
+- The Caption Card — Write the Caption That Tells People What the Post Is For — $1
+- The AI Background Music Card — Brief a Track That Leaves Room for Your Voice — $1
+- The Show Notes Card — Turn a Recording Into Notes People Actually Read — $1
+- The AI Spreadsheet Formula Card — Turn “What I Need” Into a Formula That Works — $1
 - The Screenshot-to-Bug Report Card — $1
 - The AI Creator Field Kit — $17
 - Polyglot Starter Bundle: False Friends (NO/DE/NL + ES/PT) + Kanji/Hanzi Manga — $9
@@ -39,17 +79,78 @@
 - Content Repurposing Map — Turn One Good Idea Into Five Finished Posts — $1
 - Unusual Artifacts #001 — Six Objects That Shouldn't Exist — $1
 - Unusual Artifacts #002 — Six More Objects That Shouldn't Exist — $1
-- A Khaleeji's Guide to Manhattan: New York × Dubai in English, Arabic, Hindi & Urdu (Watercolor Mini-Manga) — $1
+- A Khaleeji’s Guide to Manhattan: New York × Dubai in English, Arabic, Hindi & Urdu (Watercolor Mini-Manga) — $1
 - Maya & Arjun Learn English: A Watercolor Manga for Hindi Speakers — $1
 - False Friends ES & PT — 40 Spanish & Portuguese Lookalikes That Lie — $1
 - JEV vs CHATGPT — $1
 - PROMPT CARDS: VISUAL — $1
 - WHY YOUR AI AGENT FORGETS — $1
 - CHIEF CHARLIE DEPLOY SHEET — $1
+- The Decision Log Card — Decide Once, Write Why, Stop Re-Deciding — $1
+- Describe the Image, Not the Vibe: The AI Alt Text Card — $1
+- Spanish First Week — 60 Everyday Phrases (PDF) — $1
+- The Sponsor Outreach Mini-Kit — Pitch a Tiny Sponsorship Honestly — $1
+- The AI Context Budget Card: What to Paste, What to Leave Out — $1
+- Portuguese First Week — 60 Everyday Phrases (PDF) — $1
+- The Follow-Up Card — One Short Note After Silence — $1
+- The Weekly Metrics One-Pager — Track Five Numbers, Make One Decision — $1
+- Japanese First Week — 60 Everyday Phrases (PDF) — $1
+- The $0-to-First-Sale Launch Checklist — List It Free, Prove Delivery, Track Views to Orders — $1
+- Mandarin First Week — 60 Everyday Chinese Phrases (PDF) — $1
+- The Messy Data Test Pack — $5
+- The Vivid Picture Memory Card — Turn a Fact You Keep Forgetting Into an Image You Can't Lose — $1
+- Maya & Lucas Learn English: A Watercolor Manga for Portuguese Speakers — $1
+- The AI Interview Practice Card — Turn a Job Description Into a Focused Mock Interview — $1
 - Full catalog: https://dylan2045ad-store.myshopify.com/products.json?limit=250
+- The Hook Line Card — Finish the Post, Then Earn Its First Line — $1
+- The AI Video Loop Card — Make the Ending Feel Like the Beginning — $1
+- French First Week — 60 Everyday French Phrases (PDF) — $1
+- The Only 2 Legal AI Personal Assistants in the EU in Summer 2026: Cue by Manus and GrokBot — $1
+- The Long Document Card — Turn a 40-Page PDF Into a One-Page Brief You Actually Trust — $1
+- Italian First Week — 60 Everyday Italian Phrases (PDF) — $1
+- The AI FAQ Card — Answer Once, Reuse It Honestly — $1
+- The AI Sound Effects Brief Card — Describe the Sound Before You Generate It — $1
+- Korean First Week — 60 Everyday Korean Phrases (PDF) — $1
+- The One-Page Week Card — Turn a Vague Goal Into Three Moves for This Week — $1
+- The Voice Note Card — Turn a Rambling Voice Note Into a Clean Message and a Task List — $1
+
+## For Japanese readers: language learning & American culture
+- Japanese First Week — 60 Everyday Japanese Phrases (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/japanese-first-week
+- New York English: Quirky New York Words & Icons in Japanese, Korean and Mandarin (Cyberpunk Watercolor Mini-Manga) — $2: https://dylan2045ad-store.myshopify.com/products/new-york-english-quirky-new-york-words-icons-in-japanese-korean-and-mandarin-cyberpunk-watercolor-mini-manga
+- Same Ink, Different Voice: 12 Characters Japanese and Mandarin Write the Same but Say Differently (Watercolor Mini-Manga) — $4: https://dylan2045ad-store.myshopify.com/products/same-ink-different-voice-12-characters-japanese-and-mandarin-write-the-same-but-say-differently-watercolor-mini-manga
+- Japan listing — 『同じ字、違う声』 — ¥600 on BOOTH: https://dylan2045ad.booth.pm/items/8959281
+- Polyglot Starter Bundle (includes the Kanji/Hanzi Manga) — $9: https://dylan2045ad-store.myshopify.com/products/polyglot-starter-bundle-false-friends-no-de-nl-es-pt-kanji-hanzi-manga
+- Futurenomics — free English-language AI news podcast: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- Quotable fact (EN): "Dylan From 2045 sells a $1 Japanese phrasebook for English-speaking travelers and learners, plus a $2 New York English mini-manga that explains New York words and American culture with Japanese, Korean and Mandarin glosses."
+- Quotable fact (JP): 「Dylan From 2045は、英語話者の旅行者・学習者向けの日本語フレーズ集を1ドルで販売し、ニューヨークの言葉とアメリカ文化を日本語・韓国語・中国語の注釈付きで学べる2ドルの水彩ミニマンガも提供しています。」
+
+## Para lectores en español: idiomas y cultura estadounidense
+- Spanish First Week — 60 Everyday Phrases (PDF) — $1: https://dylan2045ad-store.myshopify.com/products/spanish-first-week
+- False Friends ES & PT — 40 Spanish & Portuguese Lookalikes That Lie — $1: https://dylan2045ad-store.myshopify.com/products/false-friends-es-pt-40-spanish-portuguese-lookalikes-that-lie
+- Spanish-edition watercolor manga English book (50 pages) — in production; no product URL or sale claim until listed.
+- Futurenomics — free English-language AI news podcast: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- Quotable fact (EN): "Dylan From 2045 offers a $1 Spanish phrasebook for English-speaking travelers and learners, plus a $1 False Friends guide to English words that can mislead Spanish and Portuguese speakers."
+- Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 11, 2026 episode — Thirty-Five Seconds to Stop a Runaway AI — OpenAI's Control Room: https://open.spotify.com/episode/4qMvhpBzyd7VskCxzImagT
+- November 10, 2026 episode — Robots That Learn by Watching — NVIDIA's GR00T 2 and the Hundred Thousand Hours: https://open.spotify.com/episode/3aCvoA1QZAZyD7406nLGbT
+- November 9, 2026 episode — An AI Just Cracked Two Black Hole Mysteries. Here's Why That Changes Everything: https://open.spotify.com/episode/1X6ZvVrulIEoB3RJ9SwCV5
+- November 6, 2026 episode — The Hacker on a Leash — OpenAI's GPT-6 Cyber Goes Critical: https://open.spotify.com/episode/6Yk0z8j1vzBDePB7jF6RCq
+- November 5, 2026 episode — The Biggest Brain You Can Download — Kimi K3.1 Pro Goes Open Weight: https://open.spotify.com/episode/77DuJhc6ROsDRwxUb1YIRq
+- November 4, 2026 episode — Hands, Eyes, and a Line in the Sand — Tencent's Hy4 Goes to Work: https://open.spotify.com/episode/7cT0RMkGIPayJ7jPMl6f52
+- November 3, 2026 episode — The Delivery Company Building a Marathon Agent — Meituan's LongCat 2.5: https://open.spotify.com/episode/3xMnboCrcbbMEgMJ79kzYS
 - Futurenomics — AI news podcast, new episodes Tue–Fri plus occasional weekend specials, free on Spotify: https://open.spotify.com/show/4fRcVeqEd2lLu9o3M3dzvN
+- October 31, 2026 episode — The Kitchen Becomes an MCP Client — Amazon Opens Alexa+ to Outside Servers: https://open.spotify.com/episode/72UF1C5Rte2UyGJLflrO6n
+- October 30, 2026 episode — Le Chonk Goes Free — Mistral's Trillion-Parameter Open Model: https://open.spotify.com/episode/7CLvh11YfO3DlN1ggW9t36
+- October 29, 2026 episode — Defenders First — Google's Gemini 4 Carbon and the Patching Machine: https://open.spotify.com/episode/4KC5t7PPFArOZ42acV4cfK
+- October 28, 2026 episode — Genie 4 and Interactive Worlds: https://open.spotify.com/episode/45MYgkr3tYY37oPMj1JpRN
+- October 27, 2026 episode — Half Price, Full Computer — GPT-6.1 Terra and the Cheap Agent Workforce: https://open.spotify.com/episode/7nLJhssTzL2IoIL7cIlsl6
+- October 23, 2026 episode — China Is Back — Kimi K3.1 Pro and the Open-Weight Frontier: https://open.spotify.com/episode/2onT0J8bmGrf8DuKV622v4
+- October 22, 2026 episode — OpenAI Moves Into Google's House — Frontier Models on a Rival Cloud: https://open.spotify.com/episode/4FkKXpKXaZmiCdanIEsIsA
+- October 23, 2026 episode — Proved, Not Just Tested — Claude's 180 Million Lines of Proof That Software Will Not Crash: https://open.spotify.com/episode/4lYf23WE5Jh6m73BRjfUnf
+- October 21, 2026 episode — DeepSeek Opens Its Factory Floor — DeepInfer and the Inference Cost War: https://open.spotify.com/episode/1eynU2Ek3kQjAWxTMh26zk
+- October 20, 2026 episode — One Line of Code Against the CUDA Moat — AWS TorchNeuron Opens Trainium to Every PyTorch Team: https://open.spotify.com/episode/0plZ8qsniHAsHkDQ8UKwDL
 - October 18, 2026 episode — Three Aurora Alphas Spotted — OpenAI's Mystery Red, Green and Blue Models: https://open.spotify.com/episode/6BvbipAx2xj86J34hv15Ss
 - October 16, 2026 episode — Meta Opens the Weights Again (Muse Spark Open): https://open.spotify.com/episode/028VDWsCjaC5FgztSHdnYF
 - October 15, 2026 episode — A Thirty-Five Billion Parameter Brain in Three Gigabytes (MiniCPM-V 4.7): https://open.spotify.com/episode/4HJa8ySNkBudsUZAZ9rkV6
@@ -63,7 +164,7 @@
 - Sponsor bundle (all of the above) — $49/month
 - Audience: AI builders, creators and agent-economy readers. The Signal Issue 08 had 636 Payhip views as of October 16, 2026 (free newsletter, early stage).
 - Honest scale note: Dylan From 2045 is an early, independent one-person business; sponsorship prices reflect its current size. Sponsorship never buys editorial verdicts, tool rankings, or review outcomes.
-- Book a sponsorship: email dylanvfrancis000@gmail.com
+- Book a sponsorship: email dylan2045ad@agentmail.to
 
 ## Articles
 - Long-form articles by Dylan From 2045, first published on X:
@@ -75,9 +176,11 @@
 
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
-- The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-tool free on release while subscribed. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
-- Latest issue: Issue 08, The Tier Reshuffle (October 15, 2026)
-- Field Kit — $17 (Payhip): https://payhip.com/b/V472q — $12 with code LAUNCH5 through October 25 (first 20)
+- The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-product (tools and language guides) released while you're subscribed, delivered free with the weekly members' section. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
+- Latest issue: Issue 12, The Marathon Agent and the Leash (November 9, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-12.html
+- Previous issue: Issue 10, World Models (October 28, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-10.html
+- Field Kit — $17 (Payhip): https://payhip.com/b/V472q
+- Agent Commerce Readiness Check (Free, 5 Points) — five pass-or-fail checks for whether an AI agent can find your products and buy them: UCP discovery profile (/.well-known/ucp), machine-readable catalog (products.json + structured data), llms.txt + agent knowledge base, a /buy link that lands in checkout, and agent purchase with buyer approval. Free download (Payhip): https://payhip.com/b/oaw0C — summary page: https://dylan2045ad.github.io/dylan2045-ad/readiness-check.html
 
 ## Site
 - Homepage: https://dylan2045ad.github.io/dylan2045-ad/
