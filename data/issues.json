@@ -7,6 +7,24 @@
   },
   "issues": [
     {
+      "number": 13,
+      "title": "The Proof and the Warehouse",
+      "date": "2026-11-12",
+      "teaser": "A machine-checked proof of Signal's code, and a warehouse count no kernel can check.",
+      "cover": "signal-issue-13-cover.jpg",
+      "page": "signal-issue-13.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
+      "number": 12,
+      "title": "The Marathon Agent and the Leash",
+      "date": "2026-11-09",
+      "teaser": "Agents are getting longer-running, more embodied, more open, and more powerful — all at once.",
+      "cover": "og-image.png",
+      "page": "signal-issue-12.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 11,
       "title": "The Price of Root",
       "date": "2026-11-05",
