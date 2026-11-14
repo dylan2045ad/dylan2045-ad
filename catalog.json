@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-13T13:54:57Z",
-  "product_count": 100,
+  "generated_at": "2026-11-14T13:53:24Z",
+  "product_count": 102,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Voiceover Timing Card — Fit the Script Before You Generate the Audio",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-voiceover-timing-card-fit-the-script-before-you-generate-the-audio",
+      "description": "You record a 60-second voiceover and the script runs 76 seconds. Or the 15-second reel ends mid-sentence, the last word clipped off. The voice is fine — the script was never timed. This $1 card fits the script to the slot before you generate the audio: a 4-page printable PDF with a runtime worksheet that turns any t..."
+    },
+    {
+      "title": "The Fee-Waiver Card — Win Podcast Awards Without Paying to Enter",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-fee-waiver-card-win-podcast-awards-without-paying-to-enter",
+      "description": "Most podcast awards charge an entry fee — the NYC Podcast Awards’ is $100 — and a small independent show can spend more on entering than it earns in a year. But many of those same awards quietly offer fee waivers, scholarships, or free entry for independent creators. This $1 card is the method for finding the waiver..."
+    },
     {
       "title": "The AI Instruction Boundary Card — Keep Pasted Text From Hijacking Your Task",
       "price": 1,
