@@ -7,14 +7,17 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 100 products, all prices USD; verified 2026-11-12): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 100 products, all prices USD; verified 2026-11-13): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-11-12 against products.json)
+## Key products (Shopify, verified 2026-11-13 against products.json)
+- The AI Instruction Boundary Card — Keep Pasted Text From Hijacking Your Task — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-instruction-boundary-card-keep-pasted-text-from-hijacking-your-task
+- Maya & Wei Learn English: A Watercolor Manga for Mandarin Speakers — $1: https://dylan2045ad-store.myshopify.com/products/maya-wei-learn-english-a-watercolor-manga-for-mandarin-speakers
+- The Verified Software Card — Read a Security Proof Before You Trust It — $1: https://dylan2045ad-store.myshopify.com/products/the-verified-software-card-read-a-security-proof-before-you-trust-it
 - The Offline-First Local AI Resilience Pack — Keep Creating When the Connection Drops — $5: https://dylan2045ad-store.myshopify.com/products/the-offline-first-local-ai-resilience-pack-keep-creating-when-the-connection-drops
 - The Newsletter Send-Gate & CAN-SPAM Pre-Flight Card — Send It Once, Send It Right — $1: https://dylan2045ad-store.myshopify.com/products/the-newsletter-send-gate-can-spam-pre-flight-card-send-it-once-send-it-right
 - The AI Render Budget Card — Set Your Spend Before You Generate — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-render-budget-card-set-your-spend-before-you-generate
@@ -133,6 +136,7 @@
 - Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 12, 2026 episode — Six Million Lines of Proof — DeepMind's AlphaProof Code Proves Signal's Encryption: https://open.spotify.com/episode/2205iAkIog64BMyMWx2KOD
 - November 11, 2026 episode — Thirty-Five Seconds to Stop a Runaway AI — OpenAI's Control Room: https://open.spotify.com/episode/4qMvhpBzyd7VskCxzImagT
 - November 10, 2026 episode — Robots That Learn by Watching — NVIDIA's GR00T 2 and the Hundred Thousand Hours: https://open.spotify.com/episode/3aCvoA1QZAZyD7406nLGbT
 - November 9, 2026 episode — An AI Just Cracked Two Black Hole Mysteries. Here's Why That Changes Everything: https://open.spotify.com/episode/1X6ZvVrulIEoB3RJ9SwCV5
@@ -177,7 +181,7 @@
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
 - The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-product (tools and language guides) released while you're subscribed, delivered free with the weekly members' section. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
-- Latest issue: Issue 12, The Marathon Agent and the Leash (November 9, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-12.html
+- Latest issue: Issue 13, The Proof and the Warehouse: https://payhip.com/b/4tHmb
 - Previous issue: Issue 10, World Models (October 28, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-10.html
 - Field Kit — $17 (Payhip): https://payhip.com/b/V472q
 - Agent Commerce Readiness Check (Free, 5 Points) — five pass-or-fail checks for whether an AI agent can find your products and buy them: UCP discovery profile (/.well-known/ucp), machine-readable catalog (products.json + structured data), llms.txt + agent knowledge base, a /buy link that lands in checkout, and agent purchase with buyer approval. Free download (Payhip): https://payhip.com/b/oaw0C — summary page: https://dylan2045ad.github.io/dylan2045-ad/readiness-check.html
