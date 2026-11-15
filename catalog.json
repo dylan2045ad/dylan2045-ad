@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-14T13:53:24Z",
-  "product_count": 102,
+  "generated_at": "2026-11-15T14:03:30Z",
+  "product_count": 104,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Revision Diff Card — See What Your AI Changed Before You Keep It",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-revision-diff-card-see-what-your-ai-changed-before-you-keep-it",
+      "description": "You ask an AI to revise a script, a newsletter, a guide, or product copy — one change, clearly stated — and it hands back a version that reads fine. You keep it. Days later you notice the price changed, a warning vanished, or a sentence now says the opposite of what you meant. The AI did what you asked, and quietly..."
+    },
+    {
+      "title": "The Funnel Capture Card — Measure a Free Offer Before You Scale It",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-funnel-capture-card-measure-a-free-offer-before-you-scale-it",
+      "description": "A free offer feels like it is working because people look at it. Views are not orders — and a free newsletter, checklist, or sample can collect thousands of views and almost no sign-ups while its creator keeps buying more attention for a funnel that leaks. This $1 card is the method for measuring the one number that..."
+    },
     {
       "title": "The AI Voiceover Timing Card — Fit the Script Before You Generate the Audio",
       "price": 1,
