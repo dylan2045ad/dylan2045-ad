@@ -7,14 +7,16 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 102 products, all prices USD; verified 2026-11-14): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 104 products, all prices USD; verified 2026-11-15): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-11-14 against products.json)
+## Key products (Shopify, verified 2026-11-15 against products.json)
+- The AI Revision Diff Card — See What Your AI Changed Before You Keep It — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-revision-diff-card-see-what-your-ai-changed-before-you-keep-it
+- The Funnel Capture Card — Measure a Free Offer Before You Scale It — $1: https://dylan2045ad-store.myshopify.com/products/the-funnel-capture-card-measure-a-free-offer-before-you-scale-it
 - The AI Voiceover Timing Card — Fit the Script Before You Generate the Audio — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-voiceover-timing-card-fit-the-script-before-you-generate-the-audio
 - The Fee-Waiver Card — Win Podcast Awards Without Paying to Enter — $1: https://dylan2045ad-store.myshopify.com/products/the-fee-waiver-card-win-podcast-awards-without-paying-to-enter
 - The AI Instruction Boundary Card — Keep Pasted Text From Hijacking Your Task — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-instruction-boundary-card-keep-pasted-text-from-hijacking-your-task
@@ -138,6 +140,7 @@
 - Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 13, 2026 episode — A Hundred and Forty-Five Billion Parameters on Your Laptop — Edge0's Open-Weight Agent Machine: https://open.spotify.com/episode/1HABSWsarbTgKOHERNqoaJ
 - November 12, 2026 episode — Six Million Lines of Proof — DeepMind's AlphaProof Code Proves Signal's Encryption: https://open.spotify.com/episode/2205iAkIog64BMyMWx2KOD
 - November 11, 2026 episode — Thirty-Five Seconds to Stop a Runaway AI — OpenAI's Control Room: https://open.spotify.com/episode/4qMvhpBzyd7VskCxzImagT
 - November 10, 2026 episode — Robots That Learn by Watching — NVIDIA's GR00T 2 and the Hundred Thousand Hours: https://open.spotify.com/episode/3aCvoA1QZAZyD7406nLGbT
