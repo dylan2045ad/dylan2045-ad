@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-15T14:03:30Z",
-  "product_count": 104,
+  "generated_at": "2026-11-16T14:08:35Z",
+  "product_count": 106,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Branching Story Card — Make Every Choice Change What Happens",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-branching-story-card-make-every-choice-change-what-happens",
+      "description": "You ask an AI to write a choose-your-own-adventure story, and it gives you choices that lead to the same page, endings nobody can reach, and a dead end where the story just stops. The reader picks a door and finds the same room behind every one. You get a 4-page printable PDF: the five-move branching map method, a 1..."
+    },
+    {
+      "title": "The AI Translation Check Card — Catch the Mistake Before You Send It",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-translation-check-card-catch-the-mistake-before-you-send-it",
+      "description": "You translate a post, a sales page, or an email with AI, and it reads fine in the new language. You send it. Later a reader tells you the price is wrong, the date moved, or a sentence now promises something you never offered. The AI translated the words. It did not keep the meaning. You get a 4-page printable PDF: t..."
+    },
     {
       "title": "The AI Revision Diff Card — See What Your AI Changed Before You Keep It",
       "price": 1,
