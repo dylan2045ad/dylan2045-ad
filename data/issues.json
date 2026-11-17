@@ -7,6 +7,33 @@
   },
   "issues": [
     {
+      "number": 14,
+      "title": "The Week the Machines Got Receipts",
+      "date": "2026-11-16",
+      "teaser": "The proof is getting cheaper, the machines are getting closer, and the control is getting faster.",
+      "cover": "og-image.png",
+      "page": "signal-issue-14.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
+      "number": 13,
+      "title": "The Proof and the Warehouse",
+      "date": "2026-11-12",
+      "teaser": "The code is becoming provable faster than the hardware is.",
+      "cover": "og-image.png",
+      "page": "signal-issue-13.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
+      "number": 12,
+      "title": "The Marathon Agent and the Leash",
+      "date": "2026-11-09",
+      "teaser": "Agents are getting longer-running, more embodied, more open, and more powerful — all at once.",
+      "cover": "og-image.png",
+      "page": "signal-issue-12.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 11,
       "title": "The Price of Root",
       "date": "2026-11-05",
