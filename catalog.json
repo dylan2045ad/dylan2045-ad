@@ -1,10 +1,38 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-16T14:08:35Z",
-  "product_count": 106,
+  "generated_at": "2026-11-18T13:50:20Z",
+  "product_count": 110,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Puzzle Fairness Card — Make the Riddle Solvable, Not Just Clever",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-puzzle-fairness-card-make-the-riddle-solvable-not-just-clever",
+      "description": "Your riddle is clever — so clever that nobody can solve it. Your readers try the obvious answer, try the clever answer, and give up. A puzzle that cannot be solved is not a hard puzzle. It is a broken one. You get a 4-page printable PDF: the five-move fairness test, a 10-point checklist, a worked example that repair..."
+    },
+    {
+      "title": "The AI Character Sheet Card — Keep the Same Face in Every Panel",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-character-sheet-card-keep-the-same-face-in-every-panel",
+      "description": "Your heroine has violet hair in panel one, blue hair in panel two, and a different jacket in panel three. Your readers don't follow a stranger — they follow a character they recognise. Every AI panel starts from zero unless you give it something to hold onto. You get a 4-page printable PDF: the five-anchor character..."
+    },
+    {
+      "title": "The AI Camera Move Card — Move the Camera, Not the Whole Scene",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-camera-move-card-move-the-camera-not-the-whole-scene",
+      "description": "You ask an AI for a new angle on a scene you already like, and it rebuilds the whole scene — new face, new jacket, new street. The shot you loved is gone, and the new one has a different problem. You get a 4-page printable PDF: the five-move camera-move method, a 10-point checklist, a worked example that catches a p..."
+    },
+    {
+      "title": "The AI Prompt Audit Card — Check Your Prompt Before You Send It",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-prompt-audit-card-check-your-prompt-before-you-send-it",
+      "description": "You write a prompt, send it, and the answer comes back vague, generic, or wrong in a way you can’t quite name. You rewrite it. You send it again. The third version is closer, but the hour is gone. The prompt was never checked — it was just sent. You get a 4-page printable PDF: the five-move prompt audit, a 10-point..."
+    },
     {
       "title": "The AI Branching Story Card — Make Every Choice Change What Happens",
       "price": 1,
