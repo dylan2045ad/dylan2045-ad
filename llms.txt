@@ -148,6 +148,8 @@
 - Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 18, 2026 episode — GPT-6.2 Astra — The Model That Helps Build Better Models: https://open.spotify.com/episode/5z0lPhBCpviQlbhoudFgC4
+- November 17, 2026 episode — Alibaba's Qwen4-Max Slashes the Price of Frontier Thinking: https://open.spotify.com/episode/6ok0Cyr5xdmtMCPUNzE4lK
 - November 13, 2026 episode — A Hundred and Forty-Five Billion Parameters on Your Laptop — Edge0's Open-Weight Agent Machine: https://open.spotify.com/episode/1HABSWsarbTgKOHERNqoaJ
 - November 12, 2026 episode — Six Million Lines of Proof — DeepMind's AlphaProof Code Proves Signal's Encryption: https://open.spotify.com/episode/2205iAkIog64BMyMWx2KOD
 - November 11, 2026 episode — Thirty-Five Seconds to Stop a Runaway AI — OpenAI's Control Room: https://open.spotify.com/episode/4qMvhpBzyd7VskCxzImagT
@@ -194,8 +196,8 @@
 ## Newsletter
 - The Signal — free weekly brief. Free issue: https://payhip.com/b/4tHmb
 - The Signal: Full Transmission (Members' Edition) — paid membership, $5/month or $50/year: one members-only section each week plus every new $1 micro-product (tools and language guides) released while you're subscribed, delivered free with the weekly members' section. Join: https://payhip.com/b/vcXbV . Details and sponsor info: https://dylan2045ad.github.io/dylan2045-ad/membership/
-- Latest issue: Issue 14, The Week the Machines Got Receipts: https://dylan2045ad.github.io/dylan2045-ad/signal-issue-14.html
-- Previous issue: Issue 13, The Proof and the Warehouse (November 12, 2026): https://dylan2045ad.github.io/dylan2045-ad/signal-issue-13.html
+- Latest issue: Issue 15, The Clock and the Key (November 18, 2026): https://payhip.com/b/4tHmb
+- Previous issue: Issue 14, The Week the Machines Got Receipts: https://dylan2045ad.github.io/dylan2045-ad/signal-issue-14.html
 - Field Kit — $17 (Payhip): https://payhip.com/b/V472q
 - Agent Commerce Readiness Check (Free, 5 Points) — five pass-or-fail checks for whether an AI agent can find your products and buy them: UCP discovery profile (/.well-known/ucp), machine-readable catalog (products.json + structured data), llms.txt + agent knowledge base, a /buy link that lands in checkout, and agent purchase with buyer approval. Free download (Payhip): https://payhip.com/b/oaw0C — summary page: https://dylan2045ad.github.io/dylan2045-ad/readiness-check.html
 
