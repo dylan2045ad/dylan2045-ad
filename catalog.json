@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-18T13:50:20Z",
-  "product_count": 110,
+  "generated_at": "2026-11-19T13:53:29.105Z",
+  "product_count": 112,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Chart Honesty Card — Make the Chart Tell the Truth",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-chart-honesty-card-make-the-chart-tell-the-truth",
+      "description": "Your AI chart looks clean. Then you look close. The axis starts at 90, not zero. A bar for 102 looks three times as tall as a bar for 98. The numbers are true. The shape is not. You get a 4-page printable PDF: the five-check honesty test, a 10-point trust checklist, a worked example that fixes a false bar chart with one exact prompt change, and six copy-paste redraw prompts — plus a plain-text file with all the prompts, ready to paste into your AI chat. Why now: charts travel fast and readers trust the shape first. A chart you checked in minutes protects every chart you post after it. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
+    {
+      "title": "The AI Model Switch Card — Move Your Workflow to a New Model Without Starting Over",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-model-switch-card-move-your-workflow-to-a-new-model-without-starting-over",
+      "description": "A new model lands. It looks faster and cheaper. You paste your best prompt in, the tone shifts, one step drops out, and your workflow breaks in a new place each time you run it. You get a 4-page printable PDF: the five-step switch test, a 10-point checklist, a worked example that moves a newsletter workflow without losing its voice, and five more copy-paste prompts — plus a plain-text file with all six prompts, ready to paste into your AI chat. Why now: models change often. A workflow you can move in twenty minutes is worth more than a prompt tied to one model. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
     {
       "title": "The AI Puzzle Fairness Card — Make the Riddle Solvable, Not Just Clever",
       "price": 1,
