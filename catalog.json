@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-19T13:53:29.105Z",
-  "product_count": 112,
+  "generated_at": "2026-11-20T14:00:00.000Z",
+  "product_count": 114,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Print-Size Card — Know How Big Your Image Can Print",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-print-size-card-know-how-big-your-image-can-print",
+      "description": "Your AI image looks sharp on your phone. Then you print it large and it looks soft. The file did not change. The size did. You get a 4-page printable PDF: the simple pixel-to-print math, a common-size table at 300 DPI, a fill-in size worksheet, and a worked example that picks between print smaller, upscale, and make it again — plus a plain-text file with three copy-paste prompts, ready to paste into your AI chat. Why now: check the numbers before you pay for a print or list a printable for sale. One minute of math saves a soft print, a refund, and a bad review. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
+    {
+      "title": "The AI Session Reset Card — Start a Fresh Chat Without Losing the Thread",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-session-reset-card-start-a-fresh-chat-without-losing-the-thread",
+      "description": "Your chat is long. The AI starts to repeat old ideas. It forgets a choice you made an hour ago. You want a fresh chat, but you do not want to lose the work. You get a 4-page printable PDF: the five-move reset, a 10-point checklist, a worked example that saves a drifted story draft, and five more copy-paste prompts — plus a plain-text file with all six prompts, ready to paste into your AI chat. Why now: long chats drift. A short summary that you check before you paste it keeps the facts, the choices, and the next step — and drops the noise. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
     {
       "title": "The AI Chart Honesty Card — Make the Chart Tell the Truth",
       "price": 1,
