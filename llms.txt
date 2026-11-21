@@ -7,14 +7,16 @@
 - Tagline: AI-native creator tools, from 2045
 
 ## Stores
-- Shopify (primary, 114 products, all prices USD; verified 2026-11-20): https://dylan2045ad-store.myshopify.com
+- Shopify (primary, 116 products, all prices USD; verified 2026-11-21): https://dylan2045ad-store.myshopify.com
 - Machine-readable catalog (JSON): https://dylan2045ad.github.io/dylan2045-ad/catalog.json
 - Gumroad: https://dylan2045ad.gumroad.com
 - Ko-fi: https://ko-fi.com/dylan2045ad
 - Payhip: https://payhip.com/Dylan2045ad
 - AgentBuy (agent marketplace, Polyglot AI Board, 5 live assets, paid in USDC via Solana wallet): https://www.agentbuy.shop/marketplace/publisher/as_e2f3dwma
 
-## Key products (Shopify, verified 2026-11-20 against products.json)
+## Key products (Shopify, verified 2026-11-21 against products.json)
+- The AI Palette Role Card — Give Every Color a Job — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-palette-role-card-give-every-color-a-job
+- The AI Backup Check Card — Prove You Can Restore Before You Need It — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-backup-check-card-prove-you-can-restore-before-you-need-it
 - The AI Session Reset Card — Start a Fresh Chat Without Losing the Thread — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-session-reset-card-start-a-fresh-chat-without-losing-the-thread
 - The AI Print-Size Card — Know How Big Your Image Can Print — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-print-size-card-know-how-big-your-image-can-print
 - The AI Chart Honesty Card — Make the Chart Tell the Truth — $1: https://dylan2045ad-store.myshopify.com/products/the-ai-chart-honesty-card-make-the-chart-tell-the-truth
@@ -150,6 +152,7 @@
 - Quotable fact (ES): «Dylan From 2045 ofrece una guía de frases en español por 1 dólar para viajeros y estudiantes angloparlantes, además de una guía “False Friends” de 1 dólar sobre palabras inglesas que pueden confundir a hispanohablantes y lusófonos.»
 
 ## Podcast
+- November 20, 2026 — Worlds You Can Rent by the Second — Genie 4 Opens to Developers: https://open.spotify.com/episode/5loXhtgOy8mnvj8WqAmIAV
 - November 19, 2026 — OpenAI Models Improving AMD GPU Design — The Hardware Compounding Loop: https://open.spotify.com/episode/12xnpIEhAyjZ1nelijDCii
 - November 18, 2026 episode — GPT-6.2 Astra — The Model That Helps Build Better Models: https://open.spotify.com/episode/5z0lPhBCpviQlbhoudFgC4
 - November 17, 2026 episode — Alibaba's Qwen4-Max Slashes the Price of Frontier Thinking: https://open.spotify.com/episode/6ok0Cyr5xdmtMCPUNzE4lK
