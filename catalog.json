@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-20T14:00:00.000Z",
-  "product_count": 114,
+  "generated_at": "2026-11-21T13:51:17.666Z",
+  "product_count": 116,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Palette Role Card — Give Every Color a Job",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-palette-role-card-give-every-color-a-job",
+      "description": "Your AI images look good separately. Put them together, and they look like five different projects. You get a 4-page printable PDF: the five-role palette method (background, main text, primary subject, supporting detail, and accent), a fill-in worksheet for your exact color codes and rules, a worked carousel example, and a human-review checklist — plus a plain-text file with all six prompts, ready to paste into your AI chat. Why now: pick the roles before you generate the next set. One short brief makes a manga page, a carousel, or a printable feel like it belongs with the last one, and makes color drift easy to spot. AI can still shift colors. This card gives you a clear reference for spotting drift and making corrections. It does not promise exact color reproduction. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
+    {
+      "title": "The AI Backup Check Card — Prove You Can Restore Before You Need It",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-backup-check-card-prove-you-can-restore-before-you-need-it",
+      "description": "You made a backup. You feel safe. But a backup you have not tested is a hope, not a plan. If the file will not open, the safe feeling ends at the worst time. You get a 4-page printable PDF: the five-move restore test, a 10-point checklist, a worked example that finds a broken backup in time, and five more copy-paste prompts — plus a plain-text file with all six prompts, ready to paste into your AI chat. Why now: test one small file today. A short test shows if your backup works, where it lives, and how long a restore takes — before you need it for real. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
     {
       "title": "The AI Print-Size Card — Know How Big Your Image Can Print",
       "price": 1,
