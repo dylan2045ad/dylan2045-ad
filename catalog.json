@@ -1,10 +1,24 @@
 {
   "name": "Dylan From 2045 Shopify catalog",
   "source": "https://dylan2045ad-store.myshopify.com/products.json?limit=250",
-  "generated_at": "2026-11-21T13:51:17.666Z",
-  "product_count": 116,
+  "generated_at": "2026-11-22T18:03:12.984Z",
+  "product_count": 118,
   "currency": "USD",
   "products": [
+    {
+      "title": "The AI Seamless Tile Card — Catch the Repeat Before You Print",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-seamless-tile-card-catch-the-repeat-before-you-print",
+      "description": "A 4-page printable PDF and prompts text file for checking whether AI images repeat cleanly before they are used in backgrounds, digital papers, wrapping paper, or pattern packs. It includes a five-step repeat check, a 3x3 preview, an edge-matching worksheet, a worked example, and six copy-paste prompts. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
+    {
+      "title": "The AI Link Check Card — Test Every Link Before You Publish",
+      "price": 1,
+      "currency": "USD",
+      "url": "https://dylan2045ad-store.myshopify.com/products/the-ai-link-check-card-test-every-link-before-you-publish",
+      "description": "A 4-page printable PDF and prompts text file for testing every link before publishing. Use it to catch broken or incorrect destinations before a page, post, or product goes live. More $1 micro-products in the shop — come see what's new, you're invited."
+    },
     {
       "title": "The AI Palette Role Card — Give Every Color a Job",
       "price": 1,
