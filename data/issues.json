@@ -7,6 +7,15 @@
   },
   "issues": [
     {
+      "number": 16,
+      "title": "The Labeler and the Installer",
+      "date": "2026-11-25",
+      "teaser": "Amazon showed that AI agents found a zero-day in a medical labeling tool in about 11 minutes. Then CISA added a Drupal installer flaw that was already being used on live sites a day after the patch.",
+      "cover": "signal-issue-16-cover-og.jpg",
+      "page": "signal-issue-16.html",
+      "url": "https://payhip.com/b/4tHmb"
+    },
+    {
       "number": 14,
       "title": "The Week the Machines Got Receipts",
       "date": "2026-11-16",
